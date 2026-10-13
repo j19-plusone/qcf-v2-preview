@@ -1,0 +1,18 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#060e1b"><title>我的 ID · QCF 量子文明基金会 (Design Preview)</title><link rel="icon" href="brand/qcf-q-favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css"></head><body><main>
+<section><div class="panel">
+<div id="none" class="hide" style="text-align:center"><h2 data-zh="你还没有文明 ID" data-en="You don’t have a Civilization ID yet">你还没有文明 ID</h2><a class="btn" href="register.html" data-zh="领取文明 ID" data-en="Get your ID">x</a></div>
+<div id="has" class="hide"><div class="eyebrow" id="who"></div>
+<div class="card" style="margin-top:12px"><div class="small mute" data-zh="我的贡献值" data-en="My contribution">x</div><div class="bal"><img src="brand/qcf-q-full.svg" alt="Q"><span class="counter" id="bal">0</span><span class="gold">Q</span></div></div>
+<div class="acts"><button class="btn" id="ck"><span data-zh="每日签到" data-en="Check in">x</span><small>+1 Q</small></button><button class="btn ghost" id="sh"><span data-zh="分享链接" data-en="Share link">x</span><small id="shc">+1 Q</small></button><a class="btn ghost" href="initiatives.html#launch"><span data-zh="发起倡议" data-en="Launch initiative">x</span><small>+100 Q</small></a></div>
+<h3 data-zh="贡献记录" data-en="Contribution history">贡献记录</h3><ul class="hist" id="hist"></ul>
+<p class="note" data-zh="Q 只记录在你的文明 ID 下：不可转让、不可交易、没有货币价值。演示数据仅存于本浏览器。" data-en="Q stays with your Civilization ID: non-transferable, not tradable, no monetary value. Demo data lives only in this browser.">Q 只记录在你的文明 ID 下：不可转让、不可交易、没有货币价值。演示数据仅存于本浏览器。</p></div></div></section>
+</main><script src="assets/app.js"></script><script>
+const $=i=>document.getElementById(i),u=QCF.S.u;
+function render(){if(!(u&&u.verified)){$('none').classList.remove('hide');return}$('has').classList.remove('hide');$('who').textContent=(u.name||'Civilization Envoy')+' · ID '+u.id;QCF.roll($('bal'),QCF.bal(),900);
+const ck=localStorage.getItem('qcf_ck')===QCF.today();$('ck').disabled=ck;const sh=JSON.parse(localStorage.getItem('qcf_sh')||'{}');const n=sh.d===QCF.today()?sh.n:0;$('shc').textContent=n>=10?QCF.t('今日已满 10','Daily cap 10'):'+1 Q · '+n+'/10';$('sh').disabled=n>=10;
+$('hist').innerHTML=QCF.S.h.map(x=>`<li><div>${QCF.t(x.zh,x.en)}<time>${new Date(x.ts).toLocaleString('sv-SE',{timeZone:'Europe/Zurich'}).slice(0,16)}</time></div><b class="gold counter">+${x.n} Q</b></li>`).join('')}
+render();document.addEventListener('qcf-lang',render);
+$('ck').onclick=()=>{localStorage.setItem('qcf_ck',QCF.today());QCF.award(1,'每日签到','Daily check-in');render()};
+$('sh').onclick=async()=>{const url=location.origin+location.pathname.replace('id.html','')+'?ref='+u.id;try{if(navigator.share)await navigator.share({title:'QCF',url});else await navigator.clipboard.writeText(url)}catch(e){}
+const sh=JSON.parse(localStorage.getItem('qcf_sh')||'{}');const n=(sh.d===QCF.today()?sh.n:0)+1;localStorage.setItem('qcf_sh',JSON.stringify({d:QCF.today(),n}));QCF.award(1,'分享链接','Shared link');render()};
+</script></body></html>
