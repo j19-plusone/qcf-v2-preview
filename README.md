@@ -1,2 +1,2 @@
-# qcf-v2-preview
-QCF v2 design preview (static, noindex). Not the live site.
+# QCF v2 design preview
+Static design preview (noindex). Not the live site. Demo data in browser localStorage only.
