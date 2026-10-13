@@ -32,25 +32,35 @@ function award(n,zh,en){const h=S.h;h.unshift({n,zh,en,ts:Date.now()});S.h=h;toa
 const bal=()=>S.h.reduce((a,x)=>a+x.n,0);
 async function hash(s){if(crypto.subtle){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))>>>0;return h.toString(16).repeat(8)}
 function qr(seed){let s=parseInt(seed.slice(0,8),16)||7;const r=()=>(s=(s*1103515245+12345)>>>0)/4294967296;const n=21;let c='';for(let y=0;y<n;y++)for(let x=0;x<n;x++){const f=(x<7&&y<7)||(x>13&&y<7)||(x<7&&y>13);if(f){const a=x>13?x-14:x,b=y>13?y-14:y;if(a==0||a==6||b==0||b==6||(a>1&&a<5&&b>1&&b<5))c+=`<rect x="${x}" y="${y}" width="1" height="1"/>`}else if(r()>.55)c+=`<rect x="${x}" y="${y}" width="1" height="1"/>`}return`<svg viewBox="0 0 21 21" class="qr" fill="#071321" shape-rendering="crispEdges">${c}</svg>`}
-function globe(cv,points){const ctx=cv.getContext('2d'),D=devicePixelRatio||1;let W,R;const size=()=>{W=cv.clientWidth;cv.width=cv.height=W*D;R=W*.42};size();addEventListener('resize',size);
- const N=1400,pts=[];for(let i=0;i<N;i++){const y=1-2*(i+.5)/N,r=Math.sqrt(1-y*y),th=i*2.39996;pts.push([Math.cos(th)*r,y,Math.sin(th)*r])}
- const hot=points.map(p=>{const la=p.lat*Math.PI/180,lo=p.lon*Math.PI/180;return[Math.cos(la)*Math.sin(lo),Math.sin(la),Math.cos(la)*Math.cos(lo)]});
- let rot=-0.15;const tilt=-0.35,reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
- const prj=([x,y,z])=>{const c=Math.cos(rot),s=Math.sin(rot);let X=x*c+z*s,Z=-x*s+z*c;const ct=Math.cos(tilt),st=Math.sin(tilt);const Y=y*ct-Z*st;Z=y*st+Z*ct;return[W/2+X*R,W/2-Y*R,Z]};
- function draw(n){ctx.setTransform(D,0,0,D,0,0);ctx.clearRect(0,0,W,W);
-  const g=ctx.createRadialGradient(W/2-R*.3,W/2-R*.3,R*.1,W/2,W/2,R*1.15);g.addColorStop(0,'#16365a');g.addColorStop(1,'#030915');ctx.fillStyle=g;ctx.beginPath();ctx.arc(W/2,W/2,R,0,7);ctx.fill();
-  ctx.strokeStyle='#d5b67a33';ctx.lineWidth=1;ctx.beginPath();ctx.ellipse(W/2,W/2,R*1.18,R*.34,-.5,0,7);ctx.stroke();
-  for(const p of pts){const[x,y,z]=prj(p);if(z<0)continue;ctx.fillStyle=`rgba(182,196,213,${.12+z*.5})`;ctx.fillRect(x,y,1.3+z*.9,1.3+z*.9)}
-  const pulse=(Math.sin(n/500)+1)/2;
-  hot.forEach(h=>{const[x,y,z]=prj(h);if(z<-.1)return;const a=Math.max(.2,z);const rg=ctx.createRadialGradient(x,y,0,x,y,18+pulse*14);rg.addColorStop(0,`rgba(243,220,164,${a})`);rg.addColorStop(1,'rgba(213,182,122,0)');ctx.fillStyle=rg;ctx.beginPath();ctx.arc(x,y,32,0,7);ctx.fill();ctx.fillStyle='#fff3d2';ctx.beginPath();ctx.arc(x,y,3.2,0,7);ctx.fill()});
-  // orbiting particle
-  const a=n/2600,ox=W/2+Math.cos(a)*R*1.18,oy=W/2+Math.sin(a)*R*.34;const c=Math.cos(-.5),s=Math.sin(-.5);const px=W/2+(ox-W/2)*c-(oy-W/2)*s,py=W/2+(ox-W/2)*s+(oy-W/2)*c;ctx.fillStyle='#f3dca4';ctx.beginPath();ctx.arc(px,py,3,0,7);ctx.fill();
-  if(!reduce)rot+=.0016;requestAnimationFrame(draw)}
- let dx=null;cv.addEventListener('pointerdown',e=>dx=e.clientX);addEventListener('pointerup',()=>dx=null);cv.addEventListener('pointermove',e=>{if(dx!==null){rot+=(e.clientX-dx)*.008;dx=e.clientX}});
+function globe(cv,points){const ctx=cv.getContext('2d');const D=Math.min(2,devicePixelRatio||1);let W,R;
+ const size=()=>{W=cv.clientWidth;cv.width=cv.height=Math.round(W*D);R=W*.44};size();addEventListener('resize',size);
+ const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;let LX,LI,GX,ready=false;
+ const xyz=(la,lo)=>{la*=Math.PI/1800;lo*=Math.PI/1800;return[Math.cos(la)*Math.sin(lo),Math.sin(la),Math.cos(la)*Math.cos(lo)]};
+ fetch('data/earth.json').then(r=>r.json()).then(d=>{const l=d.lights,n=l.length/3;LX=new Float32Array(n*3);LI=new Uint8Array(n);for(let i=0;i<n;i++){const p=xyz(l[i*3],l[i*3+1]);LX.set(p,i*3);LI[i]=l[i*3+2]}
+  const g=d.land,m=g.length/2;GX=new Float32Array(m*3);for(let i=0;i<m;i++)GX.set(xyz(g[i*2],g[i*2+1]),i*3);ready=true});
+ const hot=points.map(p=>xyz(p.lat*10,p.lon*10));
+ let rot=-0.35;const tilt=0.62,ct=Math.cos(tilt),st=Math.sin(tilt);let last=0;
+ function draw(n){if(n-last<30&&!reduce){requestAnimationFrame(draw);return}last=n;
+  ctx.setTransform(D,0,0,D,0,0);ctx.clearRect(0,0,W,W);const c0=W/2;
+  const at=ctx.createRadialGradient(c0,c0,R*.96,c0,c0,R*1.12);at.addColorStop(0,'rgba(150,200,255,.55)');at.addColorStop(.25,'rgba(90,150,230,.22)');at.addColorStop(1,'rgba(40,80,160,0)');ctx.fillStyle=at;ctx.beginPath();ctx.arc(c0,c0,R*1.12,0,7);ctx.fill();
+  const g=ctx.createRadialGradient(c0-R*.35,c0-R*.4,R*.05,c0,c0,R);g.addColorStop(0,'#112a49');g.addColorStop(.75,'#071629');g.addColorStop(1,'#030a16');ctx.fillStyle=g;ctx.beginPath();ctx.arc(c0,c0,R,0,7);ctx.fill();
+  const cr=Math.cos(rot),sr=Math.sin(rot);
+  if(ready){ctx.fillStyle='rgba(70,110,160,.22)';for(let i=0;i<GX.length;i+=3){const x=GX[i],y=GX[i+1],z=GX[i+2];const X=x*cr+z*sr,Z0=-x*sr+z*cr,Z=y*st+Z0*ct;if(Z<0)continue;const Y=y*ct-Z0*st;ctx.fillRect(c0+X*R-1,c0-Y*R-1,2.2*Z+.4,2.2*Z+.4)}
+   ctx.globalCompositeOperation='lighter';const tw=n/700;
+   for(let i=0,k=0;k<LI.length;i+=3,k++){const x=LX[i],y=LX[i+1],z=LX[i+2];const X=x*cr+z*sr,Z0=-x*sr+z*cr,Z=y*st+Z0*ct;if(Z<.02)continue;const Y=y*ct-Z0*st;const v=LI[k];
+    let a=(.18+v*.09)*Math.min(1,Z*2.2);if(v<6&&!reduce)a*=.65+.35*Math.sin(tw+k*1.7);const s=v>6?2.2:v>3?1.5:1.1;
+    ctx.fillStyle=`rgba(242,207,107,${a.toFixed(2)})`;ctx.fillRect(c0+X*R-s/2,c0-Y*R-s/2,s,s)}
+   ctx.globalCompositeOperation='source-over'}
+  const pulse=reduce?.5:(Math.sin(n/600)+1)/2;
+  hot.forEach(([x,y,z])=>{const X=x*cr+z*sr,Z0=-x*sr+z*cr,Z=y*st+Z0*ct;if(Z<0)return;const Y=y*ct-Z0*st,px=c0+X*R,py=c0-Y*R;const rg=ctx.createRadialGradient(px,py,0,px,py,14+pulse*12);rg.addColorStop(0,'rgba(255,240,200,.95)');rg.addColorStop(1,'rgba(242,207,107,0)');ctx.fillStyle=rg;ctx.beginPath();ctx.arc(px,py,28,0,7);ctx.fill();ctx.fillStyle='#fff6dc';ctx.beginPath();ctx.arc(px,py,2.6,0,7);ctx.fill()});
+  if(!reduce)rot-=.0012;requestAnimationFrame(draw)}
+ let dx=null;cv.addEventListener('pointerdown',e=>dx=e.clientX);addEventListener('pointerup',()=>dx=null);cv.addEventListener('pointermove',e=>{if(dx!==null){rot-=(e.clientX-dx)*.006;dx=e.clientX}});
  requestAnimationFrame(draw)}
+function odo(el,str){if(!el.children.length||el.children.length!==str.length){el.innerHTML=[...str].map(()=>'<span class="od"><span>'+[0,1,2,3,4,5,6,7,8,9].map(d=>'<i>'+d+'</i>').join('')+'</span></span>').join('')}
+ [...str].forEach((c,i)=>{const s=el.children[i].firstChild;setTimeout(()=>s.style.transform='translateY(-'+(+c)+'em)',60*i)})}
 // ID rule: 4-digit wave prefix + 6-digit sequence. Wave 2026 = #1..999999, then wave 2029 starts at 2029000001.
 const WAVES=[2026,2029];
 function idFor(n){const w=Math.floor((n-1)/999999),seq=(n-1)%999999+1;const pre=WAVES[w]||(WAVES[WAVES.length-1]+3*(w-WAVES.length+1));return pre+String(seq).padStart(6,'0')}
 const localRegs=()=>localStorage.getItem('qcf_regs')?1:0;
 document.addEventListener('DOMContentLoaded',chrome);
-return{idFor,localRegs,t,L,Q,roll,toast,S,award,bal,hash,qr,globe,today,apply};})();
+return{odo,idFor,localRegs,t,L,Q,roll,toast,S,award,bal,hash,qr,globe,today,apply};})();
