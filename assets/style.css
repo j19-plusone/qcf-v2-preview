@@ -65,3 +65,28 @@ footer{padding:44px 7vw 60px;color:#aab8c8;border-top:1px solid var(--line);font
 .civhead{text-align:center;margin-bottom:10px}.civhead img{width:84px}.civhead div{font-size:11px;letter-spacing:.24em;color:#F2CF6B;margin-top:6px}
 .idcard .fp{position:absolute;right:18px;top:18px;width:46px;opacity:.9}
 @media(prefers-reduced-motion:reduce){.od>span{transition:none}}
+
+/* donate */
+.amts{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 6px}
+.amts button{appearance:none;background:rgba(255,255,255,.04);border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:10px 16px;font:inherit;cursor:pointer;letter-spacing:.02em}
+.amts button.on,.amts button:hover{border-color:var(--gold);color:var(--gold);background:rgba(242,207,107,.08)}
+.amts .custom{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 16px;background:rgba(255,255,255,.03)}
+.amts .custom span{color:#8191a6;font-size:13px}
+.amts .custom input{width:110px;background:transparent;border:0;color:var(--ink);font:inherit;outline:none}
+.pay-group{margin:22px 0}
+.pay-group h3{margin:0 0 12px;font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:#c9b07a}
+.pay-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media(max-width:700px){.pay-grid{grid-template-columns:repeat(2,1fr)}}
+.pay-badge{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.03);min-height:52px}
+.pay-badge.soon{opacity:.55}
+.pay-badge .ico{width:34px;height:34px;border-radius:8px;background:linear-gradient(145deg,#1a2a40,#0c1626);border:1px solid #2a3d5a;display:grid;place-items:center;flex-shrink:0;color:var(--gold);font-size:11px;font-weight:700;letter-spacing:.04em}
+.pay-badge .lab{font-size:14px;line-height:1.25}
+.pay-badge .lab small{display:block;color:#8191a6;font-size:11px;margin-top:2px}
+.pay-note{font-size:13px;color:#8191a6;margin:8px 0 0}
+.partners{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
+@media(max-width:860px){.partners{grid-template-columns:repeat(2,1fr)}}
+.partner-slot{border:1px dashed #3a4d66;border-radius:12px;min-height:84px;display:grid;place-items:center;text-align:center;padding:14px;color:#8191a6;font-size:13px;background:rgba(255,255,255,.02)}
+.partner-slot b{display:block;color:#c9b07a;font-weight:600;margin-bottom:4px}
+.donate-cta{margin-top:22px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.countdown-box{border:1px solid var(--line);border-radius:16px;padding:22px 24px;background:linear-gradient(180deg,rgba(242,207,107,.07),rgba(255,255,255,.02));margin:18px 0 8px}
+.countdown-box .big{font-size:clamp(28px,5vw,42px);margin:6px 0 4px}
