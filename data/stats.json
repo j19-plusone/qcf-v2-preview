@@ -1,0 +1,13 @@
+{
+  "_note": "Single source of truth for homepage counters. Replace with API later. Honest starting values: founder ID only.",
+  "updated": "2026-10-13T20:00:00+02:00",
+  "registered_ids": 1,
+  "verified_ids": 1,
+  "q_issued_today": 0,
+  "q_issued_total": 5,
+  "donations_chf": 0,
+  "goal_donations_chf": 100000000,
+  "goal_ids": 1000000,
+  "initiatives_live": 1,
+  "points": [{"city": "Zürich", "lat": 47.37, "lon": 8.54, "label": "2026000001 · Genesis"}]
+}
