@@ -3,7 +3,6 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 -apple-system,system-ui,"PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif;overflow-x:hidden}
 a{color:inherit;text-decoration:none}img,svg,canvas{max-width:100%}
 .serif,h1,h2{font-family:"Songti SC","Noto Serif SC",Georgia,"Times New Roman",serif;font-weight:600;letter-spacing:.01em}
-.preview{background:#d5b67a;color:#08121f;font-size:12px;text-align:center;padding:5px 12px;line-height:1.4}
 header{position:sticky;top:0;z-index:50;background:#071321ee;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .bar{display:flex;align-items:center;justify-content:space-between;padding:10px 5vw;gap:12px}
 .brand{display:flex;align-items:center;gap:10px;font-size:11px;letter-spacing:.14em;line-height:1.3}.brand img{width:38px;height:38px}

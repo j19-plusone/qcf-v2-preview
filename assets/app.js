@@ -7,8 +7,7 @@ const NAV=[['index.html','首页','Home'],['register.html','注册文明 ID','Ge
 function chrome(){
   const here=location.pathname.split('/').pop()||'index.html';
   const links=NAV.map(([h,z,e])=>`<a href="${h}" class="${h===here?'on':''}" data-zh="${z}" data-en="${e}">${z}</a>`).join('');
-  document.body.insertAdjacentHTML('afterbegin',`<div class="preview" data-zh="设计预览 v2 · 演示数据仅保存在本机浏览器 · 非正式上线网站" data-en="Design preview v2 · demo data stays in this browser · not the live site">设计预览 v2</div>
-<header><div class="bar"><a class="brand" href="index.html"><img src="brand/qcf-q-full.svg" alt="QCF"><span>QUANTUM CIVILIZATION<br>FOUNDATION · 量子文明基金会</span></a>
+  document.body.insertAdjacentHTML('afterbegin',`<header><div class="bar"><a class="brand" href="index.html"><img src="brand/qcf-q-full.svg" alt="QCF"><span>QUANTUM CIVILIZATION<br>FOUNDATION · 量子文明基金会</span></a>
 <nav class="main">${links}</nav><div class="tools"><a class="btn sm reg" href="register.html" data-zh="领取文明 ID" data-en="Get your ID">领取文明 ID</a><button class="btn sm ghost" id="lang">EN</button><button class="burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button></div></div>
 <nav class="drawer" id="drawer">${links}<a href="impressum.html" class="small mute">Impressum · Privacy · Terms</a></nav></header>`);
   document.body.insertAdjacentHTML('beforeend',`<footer><div class="serif" style="font-size:17px;color:#f7f5ef">QCF · Quantum Civilization Foundation · 量子文明基金会</div>
