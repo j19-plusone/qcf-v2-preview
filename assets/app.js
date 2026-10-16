@@ -7,14 +7,14 @@ const NAV=[['index.html','首页','Home'],['register.html','注册文明 ID','Ge
 function chrome(){
   const here=location.pathname.split('/').pop()||'index.html';
   const links=NAV.map(([h,z,e])=>`<a href="${h}" class="${h===here?'on':''}" data-zh="${z}" data-en="${e}">${z}</a>`).join('');
-  document.body.insertAdjacentHTML('afterbegin',`<header><div class="bar"><a class="brand" href="index.html"><img src="brand/qcf-q-full.svg" alt="QCF"><span>QUANTUM CIVILIZATION<br>FOUNDATION · 量子文明基金会</span></a>
+  document.body.insertAdjacentHTML('afterbegin',`<header><div class="bar"><a class="brand" href="index.html"><img src="brand/qcf-official-logo.svg" alt="QCF"><span>QUANTUM CIVILIZATION<br>FOUNDATION · 量子文明基金会</span></a>
 <nav class="main">${links}</nav><div class="tools"><a class="btn sm reg" href="register.html" data-zh="领取文明 ID" data-en="Get your ID">领取文明 ID</a><button class="btn sm ghost" id="lang">EN</button><button class="burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button></div></div>
 <nav class="drawer" id="drawer">${links}<a href="impressum.html" class="small mute">Impressum · Privacy · Terms</a></nav></header>`);
   document.body.insertAdjacentHTML('beforeend',`<footer><div class="serif" style="font-size:17px;color:#f7f5ef">QCF · Quantum Civilization Foundation · 量子文明基金会</div>
 <p data-zh="筹建阶段网站。基金会拟于瑞士楚格州设立，尚未完成商业登记；共建者基建费与捐赠将在正式登记后开放。Q 为不可转让的贡献值，不是加密货币，无货币价值，不可交易。本网站不对任何捐赠作出免税承诺。" data-en="Preparatory-stage website. The foundation is to be established in Zug, Switzerland and is not yet registered; co-builder fees and donations open after formal registration. Q is a non-transferable contribution point — not a cryptocurrency, with no monetary value, and not tradable. No tax-deductibility is claimed.">x</p>
 <p data-zh="倡议编号 QCF-INIT-CB-20261003-001 · 全球文明共建者倡议" data-en="Initiative QCF-INIT-CB-20261003-001 · Global Civilization Co-builders Initiative">x</p>
 <div class="links"><a href="impressum.html">Impressum</a><a href="privacy.html" data-zh="隐私政策" data-en="Privacy">隐私政策</a><a href="terms.html" data-zh="使用条款" data-en="Terms">使用条款</a><a href="about.html" data-zh="关于我们" data-en="About">关于我们</a></div>
-<div class="small" data-zh="本网站不表示与联合国存在从属、认可或授权关系。" data-en="No affiliation with or endorsement by the United Nations is implied.">x</div></footer><div class="toast" id="toast"><img src="brand/qcf-q-full.svg" alt=""><div><b id="tb"></b><span id="ts"></span></div></div>`);
+<div class="small" data-zh="本网站不表示与联合国存在从属、认可或授权关系。" data-en="No affiliation with or endorsement by the United Nations is implied.">x</div></footer><div class="toast" id="toast"><img src="brand/qcf-official-logo.svg" alt=""><div><b id="tb"></b><span id="ts"></span></div></div>`);
   const b=document.getElementById('burger'),d=document.getElementById('drawer');
   b.onclick=()=>{d.classList.toggle('open');b.setAttribute('aria-expanded',d.classList.contains('open'));b.textContent=d.classList.contains('open')?'✕':'☰'};
   document.getElementById('lang').onclick=()=>{localStorage.setItem('qcf_lang',L()==='zh'?'en':'zh');apply();document.dispatchEvent(new Event('qcf-lang'))};
