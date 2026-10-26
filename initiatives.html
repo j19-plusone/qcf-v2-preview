@@ -14,6 +14,6 @@
 <div class="prog"><div class="row"><span data-zh="捐赠" data-en="Donations">捐赠</span><span class="counter">CHF 0 · <span data-zh="登记后开放" data-en="opens after registration">登记后开放</span></span></div><div class="track"><div class="fill" style="width:.4%"></div></div></div>
 <button class="btn ghost" disabled data-zh="支持（即将开放）" data-en="Support (opening soon)">x</button></div></section>
 <section class="alt" id="launch" style="text-align:center"><h2 data-zh="准备发起你的倡议？" data-en="Ready to launch yours?">准备发起你的倡议？</h2><p class="mute" style="margin:0 auto 18px" data-zh="演示：点击即可体验发起倡议获得 100 Q。" data-en="Demo: tap to try launching an initiative and receive 100 Q.">x</p><button class="btn" id="lb" data-zh="发起文明倡议（演示）" data-en="Launch initiative (demo)">x</button></section>
-</main><script src="assets/app.js"></script><script>
+</main><script src="assets/app.js?v=20261026"></script><script>
 document.getElementById('lb').onclick=()=>{const u=QCF.S.u;if(!(u&&u.verified)){location.href='register.html';return}if(QCF.S.h.some(x=>x.n===100)){QCF.toast(QCF.t('演示中已发起过倡议','Already launched in this demo'));return}QCF.award(100,'发起文明倡议','Launched a Civilization Initiative')};
 </script></body></html>

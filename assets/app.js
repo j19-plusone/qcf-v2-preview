@@ -11,7 +11,7 @@ function chrome(){
 <nav class="main">${links}</nav><div class="tools"><a class="btn sm reg" href="register.html" data-zh="领取文明 ID" data-en="Get your ID">领取文明 ID</a><button class="btn sm ghost" id="lang">EN</button><button class="burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button></div></div>
 <nav class="drawer" id="drawer">${links}<a href="impressum.html" class="small mute">Impressum · Privacy · Terms</a></nav></header>`);
   document.body.insertAdjacentHTML('beforeend',`<footer><div class="serif" style="font-size:17px;color:#f7f5ef">QCF · Quantum Civilization Foundation · 量子文明基金会</div>
-<p data-zh="筹建阶段网站。基金会拟于瑞士楚格州设立，尚未完成商业登记；共建者基建费与捐赠将在正式登记后开放。Q 为不可转让的贡献值，不是加密货币，无货币价值，不可交易。本网站不对任何捐赠作出免税承诺。" data-en="Preparatory-stage website. The foundation is to be established in Zug, Switzerland and is not yet registered; co-builder fees and donations open after formal registration. Q is a non-transferable contribution point — not a cryptocurrency, with no monetary value, and not tradable. No tax-deductibility is claimed.">x</p>
+<p data-zh="筹建阶段网站。基金会拟于瑞士楚格州设立，尚未完成商业登记；正式登记前，已开放的网站功能均免费测试；正式登记后启动订阅制度与捐赠，测试不会自动转为付费。Q 为不可转让的贡献值，不是加密货币，无货币价值，不可交易。本网站不对任何捐赠作出免税承诺。" data-en="Preparatory-stage website. The foundation is to be established in Zug, Switzerland and is not yet registered; available website features are free to test before registration. Subscriptions and donations open after formal registration; testing never converts automatically to a paid plan. Q is a non-transferable contribution point — not a cryptocurrency, with no monetary value, and not tradable. No tax-deductibility is claimed.">x</p>
 <p data-zh="倡议编号 QCF-INIT-CB-20261003-001 · 全球文明共建者倡议" data-en="Initiative QCF-INIT-CB-20261003-001 · Global Civilization Co-builders Initiative">x</p>
 <div class="links"><a href="impressum.html">Impressum</a><a href="privacy.html" data-zh="隐私政策" data-en="Privacy">隐私政策</a><a href="terms.html" data-zh="使用条款" data-en="Terms">使用条款</a><a href="about.html" data-zh="关于我们" data-en="About">关于我们</a></div>
 <div class="small" data-zh="本网站不表示与联合国存在从属、认可或授权关系。" data-en="No affiliation with or endorsement by the United Nations is implied.">x</div></footer><div class="toast" id="toast"><img src="brand/qcf-official-logo.svg" alt=""><div><b id="tb"></b><span id="ts"></span></div></div>`);
@@ -26,7 +26,8 @@ function toast(b,s){const T=document.getElementById('toast');document.getElement
 // demo store
 const S={get u(){return JSON.parse(localStorage.getItem('qcf_user')||'null')},set u(v){localStorage.setItem('qcf_user',JSON.stringify(v))},
  get h(){return JSON.parse(localStorage.getItem('qcf_hist')||'[]')},set h(v){localStorage.setItem('qcf_hist',JSON.stringify(v))}};
-const today=()=>new Date().toISOString().slice(0,10);
+const today=()=>new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Zurich'});
+const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function award(n,zh,en){const h=S.h;h.unshift({n,zh,en,ts:Date.now()});S.h=h;toast(t(`你获得了 ${n} Q`,`You received ${n} Q`),t(zh,en))}
 const bal=()=>S.h.reduce((a,x)=>a+x.n,0);
 async function hash(s){if(crypto.subtle){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}let h=0;for(const c of s)h=(h*31+c.charCodeAt(0))>>>0;return h.toString(16).repeat(8)}
@@ -62,4 +63,4 @@ const WAVES=[2026,2029];
 function idFor(n){const w=Math.floor((n-1)/999999),seq=(n-1)%999999+1;const pre=WAVES[w]||(WAVES[WAVES.length-1]+3*(w-WAVES.length+1));return pre+String(seq).padStart(6,'0')}
 const localRegs=()=>localStorage.getItem('qcf_regs')?1:0;
 document.addEventListener('DOMContentLoaded',chrome);
-return{odo,idFor,localRegs,t,L,Q,roll,toast,S,award,bal,hash,qr,globe,today,apply};})();
+return{escape,odo,idFor,localRegs,t,L,Q,roll,toast,S,award,bal,hash,qr,globe,today,apply};})();
