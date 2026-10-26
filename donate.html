@@ -47,7 +47,7 @@
 <p class="note" data-zh="席位为占位展示。正式合作须完成尽职调查与书面协议。联系邮箱待基金会正式开通。" data-en="Seats are placeholders. Formal partnerships require due diligence and a written agreement. Contact email pending foundation go-live.">席位为占位展示。正式合作须完成尽职调查与书面协议。联系邮箱待基金会正式开通。</p>
 </section>
 
-</main><script src="assets/app.js"></script><script>
+</main><script src="assets/app.js?v=20261026"></script><script>
 fetch('data/stats.json',{cache:'no-store'}).then(r=>r.json()).then(s=>{const g=s.goal_donations_chf,rem=Math.max(0,g-s.donations_chf);
 setTimeout(()=>{QCF.roll(document.getElementById('d-rem'),rem,2400);QCF.roll(document.getElementById('d-don'),s.donations_chf);
 document.getElementById('d-fill').style.width=Math.max(0.4,100*s.donations_chf/g)+'%'},200)});
