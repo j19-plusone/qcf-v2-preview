@@ -89,3 +89,15 @@ footer{padding:44px 7vw 60px;color:#aab8c8;border-top:1px solid var(--line);font
 .donate-cta{margin-top:22px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 .countdown-box{border:1px solid var(--line);border-radius:16px;padding:22px 24px;background:linear-gradient(180deg,rgba(242,207,107,.07),rgba(255,255,255,.02));margin:18px 0 8px}
 .countdown-box .big{font-size:clamp(28px,5vw,42px);margin:6px 0 4px}
+
+/* 2026-10-26 · Free testing, contributions and genomic-data initiative */
+.action-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:22px 0}
+.reading-width{max-width:900px;margin:0 auto}.reading-width p{max-width:none}
+.dna-hero{background:radial-gradient(ellipse at 100% 0,#24425c66,transparent 65%),var(--deep);border-bottom:1px solid var(--line)}
+.lead{font-size:clamp(20px,2.6vw,28px);line-height:1.6;color:var(--gold2)}
+.status-line{font-size:13px;color:var(--mute);border-top:1px solid var(--line);padding-top:18px;margin-top:30px}
+.dna-quote{font-size:clamp(20px,2.4vw,27px);border-left:3px solid var(--gold);padding:12px 0 12px 22px;color:var(--gold2)}
+.sources li{padding:8px 0;color:var(--gold2);overflow-wrap:anywhere}
+#research-publications{scroll-margin-top:90px}#principles{scroll-margin-top:70px}
+.btn:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid var(--gold2);outline-offset:4px}
+@media(max-width:500px){.action-row{align-items:stretch}.action-row .btn{flex:1 1 100%;padding:14px 20px}.dna-hero{padding-top:44px}.reading-width .grid{gap:16px}}
