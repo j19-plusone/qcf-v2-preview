@@ -26,3 +26,11 @@ Implementation status: leaderboard UI and strict public projection validator pre
 5. Backend rejects non-committee users even when client role or Q is modified.
 6. Duplicate imported award is rejected; leaderboard contains only confirmed public rows and no private data.
 7. Cross-device recovery and missing passkey flows are tested without loss of ID.
+
+## Account-centre UI added in this branch
+- Unified My ID page with a black/gold certificate design matching the user-supplied visual. The explicit founder preview is unsigned and does not create an authenticated session. No fake QR/signature or issued date is shown.
+- One screen includes binding, password, passkey/remember-device choices, privacy, notifications, subscriptions, renewals, payments, help, Q and monetary reward sections. Backend-dependent controls are disabled, not falsely successful.
+- Seven complete interface dictionaries: zh/en/de/fr/it/es/pt. Native language labels appear at the top. Language preference currently persists only in this browser. Cross-device settings require the future authenticated account endpoint.
+- No funds, subscription charges, award balances, membership or admin roles changed.
+- Six automated tests passed: public-field minimisation, rejection of invalid/duplicate/unready rows, deterministic ranking, seven-language coverage, storage failure/locale fallback, explicit non-authenticating preview.
+- UI visual review and authenticated integration still required. Do not merge as a completed identity system.
