@@ -1,0 +1,10 @@
+/* Population estimate entrance animation · 2026-11-02 */
+.population-reel{display:flex;align-items:center;gap:.18em;color:#d5b67a;font-size:clamp(23px,4.8vw,54px);font-weight:600;line-height:1.25;font-variant-numeric:tabular-nums;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;white-space:nowrap;margin:10px 0 16px}
+.population-approx{font-size:.65em;opacity:.7}
+.population-digits{display:inline-flex;align-items:center}
+.population-slot{display:inline-block;height:1.25em;width:.65em;overflow:hidden;position:relative;border-radius:.12em;background:linear-gradient(180deg,#d5b67a0d,#d5b67a05);box-shadow:inset 0 -1px #d5b67a22;margin:0 .015em}
+.population-strip{display:block;will-change:transform}
+.population-strip span{display:block;height:1.25em;line-height:1.25em;text-align:center}
+.population-comma{width:.35em;text-align:center;opacity:.65}
+.population-reel.is-settled .population-strip{will-change:auto}
+@media(prefers-reduced-motion:reduce){.population-strip{will-change:auto}}

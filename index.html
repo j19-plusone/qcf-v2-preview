@@ -18,6 +18,7 @@
 <meta name="twitter:description" content="QCF量子文明基金会（筹建中）｜共建文明，守护生命。第一阶段聚焦生命科学国际合作、基因健康公益研究与辐射损伤医学防护。">
 <link rel="icon" href="brand/qcf-official-logo.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/style.css?v=20261102">
+<link rel="stylesheet" href="assets/population-reel.css?v=20261102-1">
 </head><body><main>
 <div class="hero"><div>
 <div class="eyebrow" data-zh="全球文明共建者倡议 · 筹建阶段" data-en="Global Civilization Co-builders Initiative · Preparatory stage">全球文明共建者倡议 · 筹建阶段</div>
@@ -26,7 +27,7 @@
 <section id="humanity" aria-label="Humanity and life" style="padding:22px 0">
 <div class="eyebrow" data-zh="共建文明，守护生命" data-en="Co-creating civilization. Cherishing every life.">共建文明，守护生命</div>
 <div class="small mute" data-zh="全球人口 · 2026年年中估算" data-en="World population · mid-2026 estimate">全球人口 · 2026年年中估算</div>
-<div class="big counter" style="font-size:clamp(30px,6vw,64px)">≈ 8,300,000,000</div>
+<div class="population-reel" id="population-reel" role="img" aria-label="≈ 8,300,000,000" data-population="8300000000"><span class="population-approx" aria-hidden="true">≈</span><span class="population-digits" aria-hidden="true">8,300,000,000</span></div>
 <div class="grid g2" style="margin-top:16px">
 <div class="card"><div class="eyebrow" data-zh="每日新生 · 估算" data-en="Daily births · estimate">每日新生 · 估算</div><b class="counter" style="font-size:30px">≈ 363,000</b><p data-zh="每一个新生命，都值得被温柔迎接。" data-en="Every new life deserves a gentle welcome.">每一个新生命，都值得被温柔迎接。</p></div>
 <div class="card"><div class="eyebrow" data-zh="每日离世 · 估算" data-en="Daily deaths · estimate">每日离世 · 估算</div><b class="counter" style="font-size:30px">≈ 174,000</b><p data-zh="每一段生命，都值得被尊重与铭记。" data-en="Every life deserves dignity and remembrance.">每一段生命，都值得被尊重与铭记。</p></div>
@@ -84,4 +85,4 @@ QCF.roll(document.getElementById('c-reg'),reg);QCF.roll(document.getElementById(
 document.getElementById('c-next').textContent=QCF.idFor(reg+1);document.getElementById('c-next2').textContent=QCF.idFor(reg+1);const od=document.getElementById('odo');QCF.odo(od,'2026000000');setTimeout(()=>QCF.odo(od,QCF.idFor(reg)),200);
 document.getElementById('f-ids').style.width=Math.max(0.4,100*reg/s.goal_ids)+'%';
 const d=new Date(s.updated).toLocaleString('zh-CN',{timeZone:'Europe/Zurich',hour12:false});document.getElementById('stamp').textContent=QCF.t('登记快照 · 更新于 '+d+'（苏黎世时间）· 捐赠将在基金会登记后开放','Registry snapshot · updated '+d+' (Zurich) · donations open after registration')};setTimeout(go,300);document.addEventListener('qcf-lang',go);QCF.globe(document.getElementById('globe'),s.points)});
-</script></body></html>
+</script><script src="assets/population-reel.js?v=20261102-1"></script></body></html>

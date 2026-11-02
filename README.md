@@ -15,3 +15,5 @@ See docs/QCF_Website_Update_20261102.md for scope, validation and rollback.
 Evidence update (2026-11-02): added Weiwen Deng research dossier, genomic collaboration history, and HeLa / Civilization ID governance context in Chinese and English. See docs/QCF_Evidence_Update_20261102.md.
 
 Life remembrance update: **2026-11-02 (Europe/Zurich)**. Homepage links to war-remembrance.html (9 source records) and disease-remembrance.html (10 WHO records). No all-time death total is claimed. Source dataset: data/life-remembrance-20261102.json.
+
+Population reel update: **2026-11-02 (Europe/Zurich)**. Ten digits roll on first visibility, settling on the existing 8,300,000,000 estimate in about 3 seconds. Static fallback and reduced-motion support; no live population claim.
