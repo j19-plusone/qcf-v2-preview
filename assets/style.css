@@ -101,3 +101,7 @@ footer{padding:44px 7vw 60px;color:#aab8c8;border-top:1px solid var(--line);font
 #research-publications{scroll-margin-top:90px}#principles{scroll-margin-top:70px}
 .btn:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid var(--gold2);outline-offset:4px}
 @media(max-width:500px){.action-row{align-items:stretch}.action-row .btn{flex:1 1 100%;padding:14px 20px}.dna-hero{padding-top:44px}.reading-width .grid{gap:16px}}
+
+/* 2026-11-02 · expanded navigation */
+nav.main a,.tools .btn{white-space:nowrap}.brand{flex-shrink:0}.tools{flex-shrink:0}
+@media(max-width:1200px){nav.main{display:none}.burger{display:block}.drawer.open{display:block;border-top:1px solid var(--line);padding:6px 6vw 18px}.drawer a{display:block;padding:13px 0;border-bottom:1px solid var(--line);font-size:16px}}

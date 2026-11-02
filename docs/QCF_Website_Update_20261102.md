@@ -24,3 +24,5 @@ Rollback baseline: 8b38e319dfd3745687348ba306a2617da63c14b7
 
 ## Rollback
 Restore changed paths from the baseline commit and redeploy; preserve any newer unrelated changes. Do not rename production repository or modify CNAME.
+
+Live verification: programme loaded successfully at qcf.org.cn, Chinese/English toggle verified in Safari. Expanded navigation collapses below 1200px to prevent wrapped labels.
