@@ -1,0 +1,209 @@
+{
+  "reviewed": "2026-11-02",
+  "version": "1.0",
+  "sumPermitted": false,
+  "columns": [
+    "period",
+    "title_zh",
+    "title_en",
+    "deaths_display",
+    "scope_zh",
+    "scope_en",
+    "source",
+    "url"
+  ],
+  "war": [
+    [
+      "1914–1918",
+      "第一次世界大战 · 全球军人",
+      "First World War · global military",
+      "> 9,000,000",
+      "加拿大战争博物馆概述；仅军人与服役人员，不含完整平民死亡。下列国家分项与此重叠。",
+      "Canadian War Museum overview; military/service personnel only, not all civilian deaths. National entries below overlap.",
+      "Canadian War Museum",
+      "https://www.warmuseum.ca/your-stories/researching-military-personnel/canadas-war-dead-and-missing"
+    ],
+    [
+      "1914–1918",
+      "第一次世界大战 · 英国军人",
+      "First World War · British military",
+      "≈ 886,000",
+      "英国国家档案馆研究指南所列历史概数；不是全球总数。",
+      "Historical figure in the UK National Archives research guide; not a worldwide total.",
+      "The National Archives (UK)",
+      "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/deaths-first-and-second-world-wars/"
+    ],
+    [
+      "1914–1921",
+      "第一次世界大战 · 加拿大与纽芬兰",
+      "First World War · Canada and Newfoundland",
+      "> 66,000",
+      "服役死亡，含因伤病等死亡；纪念口径延至1921年8月31日。",
+      "Service deaths, including wounds and illness; commemorative cut-off extends to 31 August 1921.",
+      "Veterans Affairs Canada / Canadian War Museum",
+      "https://www.veterans.gc.ca/en/remembrance/military-history/first-world-war"
+    ],
+    [
+      "1914–1921",
+      "第一次世界大战 · 澳大利亚",
+      "First World War · Australia",
+      "61,514",
+      "荣誉名录口径，延至1921年3月31日；1914年8月4日至1918年11月11日另列59,357，二者不可相加。",
+      "Roll of Honour through 31 March 1921; the narrower 4 August 1914–11 November 1918 figure is 59,357. Do not add them.",
+      "Australian War Memorial",
+      "https://www.awm.gov.au/articles/encyclopedia/enlistment/ww1"
+    ],
+    [
+      "1931–1945",
+      "第二次世界大战 · 全球估计",
+      "Second World War · global estimate",
+      "≈ 60,000,000",
+      "美国能源部历史资料采用1931—1945年范围；估计并非统一名册统计。其他机构口径与估值不同。以下二战国家与事件分项不可再次相加。",
+      "US Department of Energy historical account, covering 1931–1945; an estimate, not a unified register. Other institutions differ. WWII country/event entries below must not be added again.",
+      "US Department of Energy",
+      "https://www.osti.gov/opennet/manhattan-project-history/Events/1945/retrospect.htm"
+    ],
+    [
+      "1937–1938",
+      "南京大屠杀 · 中国",
+      "Nanjing Massacre · China",
+      "> 300,000",
+      "国家档案局公布南京市档案馆1946年2月调查报告所载“30余万”。这是历史调查记载；属于侵华战争死亡的一部分。",
+      "The State Archives Administration presents a February 1946 Nanjing archival investigation recording over 300,000. Historical investigation; a subset of deaths during the war in China.",
+      "中国国家档案局 / 南京市档案馆",
+      "https://www.saac.gov.cn/daj/njdtxdlj3/zt_njdtx_lmtt.shtml"
+    ],
+    [
+      "1939–1945",
+      "第二次世界大战 · 加拿大与纽芬兰",
+      "Second World War · Canada and Newfoundland",
+      "> 45,000",
+      "加拿大退伍军人事务部服役人员概数；不含其他国家。",
+      "Veterans Affairs Canada figure for service personnel; excludes other countries.",
+      "Veterans Affairs Canada",
+      "https://www.veterans.gc.ca/en/remembrance/military-history/second-world-war"
+    ],
+    [
+      "1945-08-06 → 1945-12-31",
+      "广岛原子弹爆炸 · 日本",
+      "Atomic bombing of Hiroshima · Japan",
+      "≈ 140,000",
+      "广岛市估计至1945年底死亡人数；包含爆炸、热辐射与电离辐射等综合伤害，并非全部为辐射单独致死，不含完整长期死亡。",
+      "City estimate through end-1945; combined blast, thermal and radiation effects, not radiation-only deaths or the full long-term toll.",
+      "City of Hiroshima",
+      "https://www.city.hiroshima.lg.jp/english/peace/1029867/1033035/1009888.html"
+    ],
+    [
+      "1956–2006",
+      "越南战争相关 · 美国军人档案",
+      "Vietnam War-related · US military records",
+      "58,220",
+      "NARA保存的2008年4月29日档案版本；记录的事件或死亡日期跨1956—2006年，非战争起止日期，含敌对与非敌对死亡，不代表越南战争全部死者。",
+      "NARA extract as of 29 April 2008. Recorded incident/death dates span 1956–2006, not the war’s duration. Hostile and non-hostile deaths; not the entire war toll.",
+      "US National Archives (NARA)",
+      "https://www.archives.gov/research/military/vietnam-war/casualty-statistics"
+    ]
+  ],
+  "disease": [
+    [
+      "14世纪 / 14th century",
+      "黑死病 · 欧洲",
+      "Black Death · Europe",
+      "> 50,000,000",
+      "WHO所引历史估计，仅欧洲；不是当时逐例登记。原文未给出精确起止日。",
+      "Historical estimate cited by WHO, Europe only; not contemporary case registration. No exact start/end dates in this source.",
+      "WHO · Plague",
+      "https://www.who.int/news-room/fact-sheets/detail/plague"
+    ],
+    [
+      "1918–1919",
+      "甲型H1N1流感大流行 · 全球",
+      "A(H1N1) influenza pandemic · global",
+      "20,000,000–50,000,000",
+      "WHO历史回顾所列估计范围；不同出版物估计有差异。",
+      "Estimate range in WHO historical review; estimates vary between publications.",
+      "WHO · Past pandemics",
+      "https://www.who.int/europe/news-room/fact-sheets/item/evaluation-of-the-response-to-pandemic-%28h1n1%29-2009-in-the-european-region"
+    ],
+    [
+      "1957–1958",
+      "甲型H2N2流感大流行 · 全球",
+      "A(H2N2) influenza pandemic · global",
+      "1,000,000–4,000,000",
+      "WHO历史估计，非逐例报告数。",
+      "WHO historical estimate, not individual reported deaths.",
+      "WHO · Past pandemics",
+      "https://www.who.int/europe/news-room/fact-sheets/item/evaluation-of-the-response-to-pandemic-%28h1n1%29-2009-in-the-european-region"
+    ],
+    [
+      "1968–1969",
+      "甲型H3N2流感大流行 · 全球",
+      "A(H3N2) influenza pandemic · global",
+      "1,000,000–4,000,000",
+      "WHO历史回顾估计范围。",
+      "Estimate range in WHO historical review.",
+      "WHO · Influenza burden",
+      "https://www.who.int/news-room/feature-stories/detail/the-burden-of-influenza"
+    ],
+    [
+      "流行开始至2024年底 / Epidemic start–end 2024",
+      "HIV相关死亡 · 全球累计",
+      "HIV-related deaths · global cumulative",
+      "≈ 44,100,000",
+      "WHO 2024数据：估计区间3,760万—5,340万。长期累计；可能与结核等疾病条目重叠。",
+      "WHO 2024 data: estimate interval 37.6–53.4 million. Long-term cumulative figure; overlaps with conditions such as TB.",
+      "WHO · Global Health Observatory",
+      "https://www.who.int/data/gho/data/themes/hiv-aids/GHO/hiv-aids"
+    ],
+    [
+      "2002-11-01 → 2003-07-31",
+      "SARS · 全球",
+      "SARS · global",
+      "774",
+      "WHO可能病例汇总中的死亡报告；日期为发病期范围。",
+      "Deaths in WHO’s probable-case summary; dates refer to the onset-of-illness period.",
+      "WHO · SARS summary",
+      "https://www.who.int/publications/m/item/summary-of-probable-sars-cases-with-onset-of-illness-from-1-november-2002-to-31-july-2003"
+    ],
+    [
+      "2009–2010",
+      "甲型H1N1流感大流行 · 全球",
+      "A(H1N1) influenza pandemic · global",
+      "100,000–400,000",
+      "WHO欧洲区回顾：第一年估计；其他模型与截止期不同，不作全年代总数。",
+      "WHO Europe review: first-year estimate; other models/cut-offs differ. Not an all-time total.",
+      "WHO · Past pandemics",
+      "https://www.who.int/europe/news-room/fact-sheets/item/evaluation-of-the-response-to-pandemic-%28h1n1%29-2009-in-the-european-region"
+    ],
+    [
+      "2014–2016",
+      "西非埃博拉疫情及外溢国家",
+      "West African Ebola outbreak and affected countries",
+      "11,325",
+      "WHO疫情页面的整场疫情报告数，含西非以外传播国家；2016年6月结束。",
+      "WHO outbreak-page reported total including affected countries outside West Africa; outbreak ended June 2016.",
+      "WHO · Ebola outbreak",
+      "https://www.who.int/emergencies/situations/ebola-outbreak-2014-2016-West-Africa"
+    ],
+    [
+      "2020-01-01 → 2021-12-31",
+      "COVID-19相关超额死亡 · 全球",
+      "COVID-19-associated excess mortality · global",
+      "≈ 14,900,000",
+      "WHO估计区间1,330万—1,660万；包括疫情直接与间接影响，不等同确诊死亡或疫情全部年份。",
+      "WHO estimate interval 13.3–16.6 million; direct and indirect pandemic effects, not confirmed deaths or all pandemic years.",
+      "WHO · Excess mortality",
+      "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-covid-19-pandemic-in-2020-and-2021"
+    ],
+    [
+      "2024",
+      "结核病 · 全球年度",
+      "Tuberculosis · global annual",
+      "≈ 1,230,000",
+      "WHO 2024年度估计，含15万HIV感染者；不是历史累计，与HIV条目有重叠。",
+      "WHO 2024 annual estimate, including 150,000 people with HIV; not cumulative and overlaps the HIV entry.",
+      "WHO · Tuberculosis",
+      "https://www.who.int/news-room/fact-sheets/detail/tuberculosis"
+    ]
+  ]
+}
