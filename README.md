@@ -1,2 +1,13 @@
-# QCF v2 design preview
-Static design preview (noindex). Not the live site. Demo data in browser localStorage only.
+# QCF Website
+
+Production: https://qcf.org.cn/
+Repository: j19-plusone/qcf-v2-preview
+Deployment: main → GitHub Pages
+Owner: j19.plusone@gmail.com / j19-plusone
+
+Last updated: **2026-11-02 (Europe/Zurich)**
+Release: **QCF_Website_Life_Sciences_V1_20261102**
+
+Phase-one life-sciences redesign preserves Civilization ID, Quantum Q, the globe, and existing publications. Adds programme and governance pages in Chinese and English. Donations remain disabled; CHF 100 million is a proposed request, not funds received.
+
+See docs/QCF_Website_Update_20261102.md for scope, validation and rollback.

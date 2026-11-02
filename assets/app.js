@@ -1,9 +1,9 @@
 /* QCF v2 design preview — front-end demo only. No backend, no payments. */
 const QCF=(()=>{
-const L=()=>localStorage.getItem('qcf_lang')||(new URLSearchParams(location.search).get('lang')==='en'?'en':'zh');
+const L=()=>{const requested=new URLSearchParams(location.search).get('lang');if(['zh','en'].includes(requested))return requested;const saved=localStorage.getItem('qcf_lang');return ['zh','en'].includes(saved)?saved:'zh'};
 const t=(zh,en)=>L()==='en'?en:zh;
 const Q='<img class="qi" src="brand/qcf-q-glyph.svg" alt="Q">';
-const NAV=[['index.html','首页','Home'],['register.html','注册文明 ID','Get Civilization ID'],['id.html','我的 ID','My ID'],['initiatives.html','文明倡议','Initiatives'],['about.html','关于我们','About']];
+const NAV=[['index.html','首页','Home'],['life-sciences.html','生命守护','Life Sciences'],['register.html','注册文明 ID','Get Civilization ID'],['id.html','我的 ID','My ID'],['initiatives.html','文明倡议','Initiatives'],['about.html','关于我们','About'],['governance.html','治理','Governance']];
 function chrome(){
   const here=location.pathname.split('/').pop()||'index.html';
   const links=NAV.map(([h,z,e])=>`<a href="${h}" class="${h===here?'on':''}" data-zh="${z}" data-en="${e}">${z}</a>`).join('');
@@ -17,7 +17,7 @@ function chrome(){
 <div class="small" data-zh="本网站不表示与联合国存在从属、认可或授权关系。" data-en="No affiliation with or endorsement by the United Nations is implied.">x</div></footer><div class="toast" id="toast"><img src="brand/qcf-official-logo.svg" alt=""><div><b id="tb"></b><span id="ts"></span></div></div>`);
   const b=document.getElementById('burger'),d=document.getElementById('drawer');
   b.onclick=()=>{d.classList.toggle('open');b.setAttribute('aria-expanded',d.classList.contains('open'));b.textContent=d.classList.contains('open')?'✕':'☰'};
-  document.getElementById('lang').onclick=()=>{localStorage.setItem('qcf_lang',L()==='zh'?'en':'zh');apply();document.dispatchEvent(new Event('qcf-lang'))};
+  document.getElementById('lang').onclick=()=>{const next=L()==='zh'?'en':'zh';localStorage.setItem('qcf_lang',next);const url=new URL(location.href);url.searchParams.delete('lang');history.replaceState(null,'',url);apply();document.dispatchEvent(new Event('qcf-lang'))};
   apply();
 }
 function apply(){const l=L();document.documentElement.lang=l==='en'?'en':'zh-CN';document.querySelectorAll('[data-zh]').forEach(e=>e.innerHTML=(e.dataset[l]||e.dataset.zh).replace(/\{Q\}/g,Q));const b=document.getElementById('lang');if(b)b.textContent=l==='zh'?'EN':'中文'}
