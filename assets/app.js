@@ -1,12 +1,12 @@
 /* QCF v2 design preview — front-end demo only. No backend, no payments. */
 const QCF=(()=>{
-const L=()=>{const requested=new URLSearchParams(location.search).get('lang');if(['zh','en'].includes(requested))return requested;const saved=localStorage.getItem('qcf_lang');return ['zh','en'].includes(saved)?saved:'zh'};
+const L=()=>{const requested=new URLSearchParams(location.search).get('lang');if(['zh','en'].includes(requested))return requested;let saved;try{saved=localStorage.getItem('qcf_lang')}catch{}return ['zh','en'].includes(saved)?saved:'en'};
 const t=(zh,en)=>L()==='en'?en:zh;
 const Q='<img class="qi" src="brand/qcf-q-glyph.svg" alt="Q">';
 const NAV=[['index.html','首页','Home'],['life-sciences.html','生命守护','Life Sciences'],['register.html','注册文明 ID','Get Civilization ID'],['id.html','我的 ID','My ID'],['initiatives.html','文明倡议','Initiatives'],['about.html','关于我们','About'],['governance.html','治理','Governance']];
 function chrome(){
   const here=location.pathname.split('/').pop()||'index.html';
-  const links=NAV.map(([h,z,e])=>`<a href="${h}" class="${h===here?'on':''}" data-zh="${z}" data-en="${e}">${z}</a>`).join('');
+  const links=NAV.map(([h,z,e])=>`<a href="${h}" class="${h===here?'on':''}" data-zh="${z}" data-en="${e}">${e}</a>`).join('');
   document.body.insertAdjacentHTML('afterbegin',`<header><div class="bar"><a class="brand" href="index.html"><img src="brand/qcf-official-logo.svg" alt="QCF"><span>QUANTUM CIVILIZATION<br>FOUNDATION · 量子文明基金会</span></a>
 <nav class="main">${links}</nav><div class="tools"><a class="btn sm reg" href="register.html" data-zh="领取文明 ID" data-en="Get your ID">领取文明 ID</a><button class="btn sm ghost" id="lang">EN</button><button class="burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button></div></div>
 <nav class="drawer" id="drawer">${links}<a href="impressum.html" class="small mute">Impressum · Privacy · Terms</a></nav></header>`);
