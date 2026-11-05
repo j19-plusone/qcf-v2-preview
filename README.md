@@ -17,3 +17,5 @@ Evidence update (2026-11-02): added Weiwen Deng research dossier, genomic collab
 Life remembrance update: **2026-11-02 (Europe/Zurich)**. Homepage links to war-remembrance.html (9 source records) and disease-remembrance.html (10 WHO records). No all-time death total is claimed. Source dataset: data/life-remembrance-20261102.json.
 
 Population reel update: **2026-11-02 (Europe/Zurich)**. Ten digits roll on first visibility, settling on the existing 8,300,000,000 estimate in about 3 seconds. Static fallback and reduced-motion support; no live population claim.
+
+News update: **2026-11-05 (Europe/Zurich)** — Nature ancient-DNA brief published under Civilisation Architect Jessica Sage. See `docs/EDITORIAL_POLICY.md` for the weekly life-sciences publishing policy.
