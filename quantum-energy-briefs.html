@@ -36,6 +36,83 @@
 <section class="alt"><div class="eyebrow">QCF-E · SCIENTIFIC BOUNDARY</div><h2 data-zh="以同行评审与可验证证据为边界" data-en="Bounded by peer-reviewed and verifiable evidence">Bounded by peer-reviewed and verifiable evidence</h2><p class="mute" data-zh="QCF-E 不宣传未经验证的“量子能量”概念。实验结果、原型、企业公告与推测分别标识；量子技术只有在具体场景通过可复现实验后，才进入QCF技术能力描述。" data-en="QCF-E does not promote unverified 'quantum energy' claims. Experiments, prototypes, company announcements and speculation are distinguished; quantum technologies enter QCF capability statements only after reproducible validation in a defined use case.">QCF-E does not promote unverified quantum-energy claims.</p></section>
 </main><script src="assets/app.js?v=20261109-qcfe"></script><script>
 function gateState(){const u=QCF.S.u,ok=!!(u&&u.verified),txt=document.getElementById('gateText'),action=document.getElementById('gateAction');txt.className=ok?'gate-ok':'gate-warn';txt.textContent=ok?QCF.t('本机文明ID测试身份已解锁PDF下载。','Local Civilization ID test record has unlocked PDF downloads.'):QCF.t('注册文明共建者 / 文明ID 后可解锁双语PDF。','Register as a Civilization Co-builder / Civilization ID holder to unlock bilingual PDFs.');action.innerHTML=ok?'<span class="qe-tag">'+QCF.t('已解锁 · TEST ACCESS','Unlocked · TEST ACCESS')+'</span>':'<a class="btn" href="register.html">'+QCF.t('注册文明ID · 免费测试','Get Civilization ID · free testing')+'</a>';document.querySelectorAll('.pdf-download').forEach(b=>b.disabled=!ok)}
-async function downloadPdf(btn){if(!(QCF.S.u&&QCF.S.u.verified)){location.href='register.html';return}btn.disabled=true;const old=btn.textContent;btn.textContent=QCF.t('正在准备PDF…','Preparing PDF…');try{const r=await fetch(btn.dataset.b64,{cache:'no-store'});if(!r.ok)throw new Error('archive');const b64=(await r.text()).replace(/\s/g,'');const bin=atob(b64),bytes=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)bytes[i]=bin.charCodeAt(i);const url=URL.createObjectURL(new Blob([bytes],{type:'application/pdf'})),a=document.createElement('a');a.href=url;a.download=btn.dataset.filename;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),2500)}catch(e){QCF.toast(QCF.t('PDF暂时无法读取','PDF temporarily unavailable'),QCF.t('请稍后重试','Please try again'))}finally{btn.disabled=false;btn.textContent=old}}
+async function downloadPdf(btn){
+  if(!(QCF.S.u&&QCF.S.u.verified)){location.href='register.html';return}
+  btn.disabled=true;const old=btn.textContent;btn.textContent=QCF.t('正在生成双语PDF…','Generating bilingual PDF…');
+  try{
+    const card=btn.closest('.qe-card');
+    const issue=card.querySelector('.qe-tag').textContent.trim();
+    const date=card.querySelector('time').textContent.trim();
+    const titleEl=card.querySelector('h2');
+    const lis=[...card.querySelectorAll('li')];
+    const langData=(lang)=>({
+      title:titleEl.dataset[lang]||titleEl.textContent.trim(),
+      items:lis.map(li=>li.dataset[lang]||li.textContent.trim())
+    });
+    const W=1240,H=1754;
+    function wrap(ctx,text,maxWidth){
+      const out=[]; let line='';
+      const isZh=/[\u3400-\u9fff]/.test(text);
+      const tokens=isZh?[...text]:text.split(/\s+/);
+      for(const token of tokens){
+        const test=isZh?line+token:(line?line+' ':'')+token;
+        if(ctx.measureText(test).width>maxWidth&&line){out.push(line);line=token}else line=test;
+      }
+      if(line)out.push(line);return out;
+    }
+    function page(lang){
+      const d=langData(lang),cv=document.createElement('canvas');cv.width=W;cv.height=H;
+      const ctx=cv.getContext('2d');ctx.fillStyle='#061425';ctx.fillRect(0,0,W,H);
+      ctx.fillStyle='#d5b67a';ctx.fillRect(92,95,245,8);
+      ctx.fillStyle='#f7f5ef';ctx.font='700 58px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif';
+      const main=lang==='zh'?'QCF 量子科技赋能地球能源':'QCF Quantum Technology for Earth\\'s Energy';
+      wrap(ctx,main,1040).forEach((t,i)=>ctx.fillText(t,92,180+i*70));
+      ctx.fillStyle='#d5b67a';ctx.font='700 28px Arial,sans-serif';ctx.fillText(issue+'  |  '+date,92,300);
+      ctx.fillStyle='#aebccd';ctx.font='24px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif';
+      ctx.fillText(lang==='zh'?'QCF-E · 全球量子科技与量子能生态部署简报 · 中英双语档案':'QCF-E · Global Quantum Technology & Energy Ecosystem Brief · Bilingual Archive',92,350);
+      ctx.strokeStyle='#2b4965';ctx.lineWidth=2;ctx.strokeRect(92,405,1056,245);
+      ctx.fillStyle='#82d9f4';ctx.font='700 35px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif';
+      const tlines=wrap(ctx,d.title,970);tlines.forEach((t,i)=>ctx.fillText(t,125,470+i*48));
+      let y=700;
+      ctx.font='28px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif';
+      for(let i=0;i<d.items.length;i++){
+        ctx.fillStyle='#d5b67a';ctx.font='700 25px Arial,sans-serif';ctx.fillText(String(i+1).padStart(2,'0'),100,y);
+        ctx.fillStyle='#f2f5f8';ctx.font='28px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif';
+        const lines=wrap(ctx,d.items[i],950);for(const line of lines){ctx.fillText(line,155,y);y+=42}
+        y+=28;
+      }
+      ctx.fillStyle='#8193a7';ctx.font='22px -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif';
+      const note=lang==='zh'?'研究档案说明：网页公开新闻标题与概要；完整双语PDF向文明共建者 / 文明ID开放。实验成果、原型、企业公告与推测分别标识。':'Archive note: headlines and summaries are public; bilingual PDFs are available to Civilization Co-builders / Civilization ID holders. Experiments, prototypes, company announcements and speculation are distinguished.';
+      let ny=1540;for(const line of wrap(ctx,note,1040)){ctx.fillText(line,92,ny);ny+=34}
+      ctx.fillStyle='#d5b67a';ctx.font='700 22px Arial,sans-serif';ctx.fillText('QCF Research Archive · Jessica Sage · qcf.org.cn',92,1680);
+      return cv;
+    }
+    function jpegBytes(cv){
+      const b64=cv.toDataURL('image/jpeg',0.92).split(',')[1],bin=atob(b64),u=new Uint8Array(bin.length);
+      for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);return u;
+    }
+    const img1=jpegBytes(page('zh')),img2=jpegBytes(page('en')),enc=new TextEncoder();
+    const parts=[];let offset=0,offs=[0];
+    const push=(x)=>{const u=typeof x==='string'?enc.encode(x):x;parts.push(u);offset+=u.length};
+    push('%PDF-1.4\\n%QCF\\n');
+    function obj(n,head,bin,tail='\\nendobj\\n'){offs[n]=offset;push(n+' 0 obj\\n'+head);if(bin)push(bin);push(tail)}
+    obj(1,'<< /Type /Catalog /Pages 2 0 R >>\\n');
+    obj(2,'<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>\\n');
+    obj(3,'<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /XObject << /Im1 5 0 R >> >> /Contents 7 0 R >>\\n');
+    obj(4,'<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /XObject << /Im2 6 0 R >> >> /Contents 8 0 R >>\\n');
+    obj(5,'<< /Type /XObject /Subtype /Image /Width '+W+' /Height '+H+' /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length '+img1.length+' >>\\nstream\\n',img1,'\\nendstream\\nendobj\\n');
+    obj(6,'<< /Type /XObject /Subtype /Image /Width '+W+' /Height '+H+' /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length '+img2.length+' >>\\nstream\\n',img2,'\\nendstream\\nendobj\\n');
+    const c1='q\\n595 0 0 842 0 0 cm\\n/Im1 Do\\nQ\\n',c2='q\\n595 0 0 842 0 0 cm\\n/Im2 Do\\nQ\\n';
+    obj(7,'<< /Length '+enc.encode(c1).length+' >>\\nstream\\n'+c1+'endstream\\n');
+    obj(8,'<< /Length '+enc.encode(c2).length+' >>\\nstream\\n'+c2+'endstream\\n');
+    const xref=offset;push('xref\\n0 9\\n0000000000 65535 f \\n');
+    for(let i=1;i<=8;i++)push(String(offs[i]).padStart(10,'0')+' 00000 n \\n');
+    push('trailer\\n<< /Size 9 /Root 1 0 R >>\\nstartxref\\n'+xref+'\\n%%EOF');
+    const all=new Uint8Array(parts.reduce((a,p)=>a+p.length,0));let pos=0;for(const p of parts){all.set(p,pos);pos+=p.length}
+    const url=URL.createObjectURL(new Blob([all],{type:'application/pdf'})),a=document.createElement('a');
+    a.href=url;a.download='QCF_Quantum_Energy_Brief_'+issue.replace('No.','')+'_Bilingual.pdf';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),4000);
+  }catch(e){console.error(e);QCF.toast(QCF.t('PDF生成失败','PDF generation failed'),QCF.t('请稍后重试','Please try again'))}
+  finally{btn.disabled=false;btn.textContent=old}
+}
 document.addEventListener('DOMContentLoaded',()=>{setTimeout(gateState,80);document.querySelectorAll('.pdf-download').forEach(b=>b.addEventListener('click',()=>downloadPdf(b))) });document.addEventListener('qcf-lang',gateState);
 </script></body></html>
