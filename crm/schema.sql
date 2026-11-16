@@ -20,3 +20,11 @@ CREATE INDEX IF NOT EXISTS idx_people_status ON people(status,created_at);
 CREATE INDEX IF NOT EXISTS idx_deliveries_campaign ON campaign_deliveries(campaign_id,status);
 CREATE INDEX IF NOT EXISTS idx_donations_person ON donations(person_id,donated_at);
 CREATE INDEX IF NOT EXISTS idx_audit_entity ON audit_log(entity_type,entity_id,created_at);
+
+CREATE TABLE IF NOT EXISTS email_verifications(id INTEGER PRIMARY KEY AUTOINCREMENT,person_id TEXT NOT NULL,token_hash TEXT UNIQUE NOT NULL,expires_at INTEGER NOT NULL,used_at INTEGER,created_at INTEGER NOT NULL,FOREIGN KEY(person_id) REFERENCES people(id) ON DELETE CASCADE);
+INSERT OR IGNORE INTO interest_topics(id,code,name_zh,name_en) VALUES
+('topic-qcfe','qcf-e','QCF-E｜量子科技与能源','QCF-E | Quantum Technology & Energy'),
+('topic-qcfl','qcf-l','QCF-L｜生命科学','QCF-L | Life Sciences'),
+('topic-qcfu','qcf-u','QCF-U｜文明研究','QCF-U | Civilization Research'),
+('topic-act','activities','QCF公益活动通知','QCF Public-Interest Activities'),
+('topic-vote','votes-initiatives','QCF文明投票与倡议','QCF Civilization Votes & Initiatives');
