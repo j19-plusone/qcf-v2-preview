@@ -28,3 +28,66 @@ INSERT OR IGNORE INTO interest_topics(id,code,name_zh,name_en) VALUES
 ('topic-qcfu','qcf-u','QCF-U｜文明研究','QCF-U | Civilization Research'),
 ('topic-act','activities','QCF公益活动通知','QCF Public-Interest Activities'),
 ('topic-vote','votes-initiatives','QCF文明投票与倡议','QCF Civilization Votes & Initiatives');
+
+
+-- Civilization ID v1.0 · secure identity bindings
+CREATE TABLE IF NOT EXISTS contact_methods(
+  id TEXT PRIMARY KEY,
+  person_id TEXT NOT NULL,
+  type TEXT NOT NULL,
+  value_normalized TEXT NOT NULL,
+  verified_at INTEGER,
+  is_primary INTEGER NOT NULL DEFAULT 0,
+  created_at INTEGER NOT NULL,
+  updated_at INTEGER NOT NULL,
+  UNIQUE(type,value_normalized),
+  FOREIGN KEY(person_id) REFERENCES people(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS identity_bindings(
+  id TEXT PRIMARY KEY,
+  person_id TEXT NOT NULL,
+  binding_type TEXT NOT NULL,
+  provider TEXT,
+  provider_subject TEXT,
+  credential_id TEXT,
+  public_key_cose TEXT,
+  aaguid TEXT,
+  sign_count INTEGER NOT NULL DEFAULT 0,
+  device_label TEXT,
+  status TEXT NOT NULL DEFAULT 'active',
+  verified_at INTEGER,
+  created_at INTEGER NOT NULL,
+  updated_at INTEGER NOT NULL,
+  UNIQUE(person_id,binding_type,provider,credential_id),
+  FOREIGN KEY(person_id) REFERENCES people(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS dna_credentials(
+  id TEXT PRIMARY KEY,
+  person_id TEXT NOT NULL,
+  issuer TEXT,
+  credential_hash TEXT NOT NULL,
+  proof_uri TEXT,
+  consent_version TEXT NOT NULL,
+  status TEXT NOT NULL DEFAULT 'active',
+  verified_at INTEGER,
+  created_at INTEGER NOT NULL,
+  updated_at INTEGER NOT NULL,
+  UNIQUE(person_id,credential_hash),
+  FOREIGN KEY(person_id) REFERENCES people(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS identity_recovery_methods(
+  id TEXT PRIMARY KEY,
+  person_id TEXT NOT NULL,
+  method_type TEXT NOT NULL,
+  destination_masked TEXT,
+  status TEXT NOT NULL DEFAULT 'active',
+  created_at INTEGER NOT NULL,
+  FOREIGN KEY(person_id) REFERENCES people(id) ON DELETE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS idx_identity_bindings_person ON identity_bindings(person_id,status);
+CREATE INDEX IF NOT EXISTS idx_contact_methods_person ON contact_methods(person_id,type,verified_at);
+CREATE INDEX IF NOT EXISTS idx_dna_credentials_person ON dna_credentials(person_id,status);
