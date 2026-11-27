@@ -1,0 +1,78 @@
+{
+ "coverage": "Global developments from 13 to 20 November 2026",
+ "summary": "International education this week has four main threads. First, annual US data landed: IIE's Open Doors 2026 (16 November) shows 1,146,163 international students in the United States in 2025/26, down about 3% year on year, with new students down 18% and master's students down 22%, while doctoral students rose 3%. A fall 2026 snapshot from more than 800 institutions shows a further 9% drop in the total. In the same week a federal judge issued a preliminary injunction against two DHS memoranda tightening CPT internships. Second, global mobility is \"shifting east, shrinking in the west\": a joint Studyportals/NAFSA/Oxford Test of English survey found that 62% of universities in the \"big four\" destinations saw a drop in international graduate enrolment, against only 27% elsewhere, with Asia and continental Europe benefiting; Ireland, meanwhile, has lost more than €8 million in tuition revenue because of more visa refusals. Third, AI and quantum have become central to university organisation and resource allocation: ETH Zurich has decided that from 2027 seven centres, including the ETH AI Center and the Quantum Center, will be upgraded to \"Strategic ETH Centres\"; FIU has signed with IonQ to deploy a 256-qubit trapped-ion quantum computer on campus; Caltech received $67.5 million to name its computing and mathematical sciences department, and Penn State received $75 million in cumulative pledges. Fourth, interdisciplinarity and Asia's rise: in THE Interdisciplinary Science Rankings 2027 (18 November), NUS rose to 2nd and the University of Hong Kong to joint 7th, with three Asian universities in the top ten for the first time; Beihang University's global partner summit in Hangzhou inaugurated three international research platforms; Qatar, with Scale AI and Qatar University, launched national education-AI projects.",
+ "trends": [
+  "US international education is seeing \"taught master's programmes contract, doctorates and STEM remain stable\". Policy and legal tug-of-war over work pathways (OPT/CPT) will continue to shape student choice.",
+  "The centre of gravity of global mobility is shifting east: international enrolment at universities in Asia and continental Europe is improving, but visa policy inside Europe is also diverging (for example, rising refusals in Ireland).",
+  "AI and quantum are being upgraded from faculty projects to university-level strategic bodies and campus infrastructure (ETH strategic centres, an on-campus quantum computer at FIU), integrating teaching with industrial transfer.",
+  "Interdisciplinary capacity is becoming a new dimension of rankings and competition, and Asian universities are rising quickly. Incentive mechanisms for interdisciplinary scholars remain a widespread weakness.",
+  "State-led education AI (Qatar) and a Chinese university model of internationalisation through jointly built physical platforms are advancing in parallel. Large gifts continue to concentrate in AI and computing."
+ ],
+ "footer": "All facts and figures in this brief come from the public sources listed (publication dates are given in each item). Compiled by QCF's chief development officer (008 QCF COO) for internal decision-making reference; this does not constitute investment or legal advice.",
+ "items": [
+  {
+   "region": "United States",
+   "tag": "Study-abroad data / annual report",
+   "title": "Open Doors 2026: about 1.146 million international students in the US, down 3%, new students down 18%; a further 9% drop in the autumn snapshot; a court pauses tightening of CPT",
+   "what": "The Institute of International Education (IIE) released Open Doors 2026 on 16 November: 1,146,163 international students were in the United States in 2025/26, down about 3% year on year. Graduate students fell 13% (master's −22%, doctoral +3%); undergraduates, at 356,165, were essentially flat (−0.3%); first-time new enrolments fell 18% to 228,123; OPT participants rose 14% to 335,785. India remains the largest source country (339,435, −6%), China 254,458 (−4%); nine source countries including Bangladesh, Vietnam and Italy hit historic highs. US students earning credit abroad numbered 313,824 in 2024/25 (+5%), with Switzerland among destinations at a historic high. A fall 2026 snapshot from more than 800 institutions shows a further 9% drop in the international-student total and a 15% drop in new students. According to Inside Higher Ed on 20 November, federal judge Julia Kobick on Tuesday 17 November issued a preliminary injunction against two August DHS memoranda restricting curricular practical training (CPT) for international students, in a suit brought by four higher-education groups including the Association of American Universities (AAU).",
+   "why": "This is one of the world's most authoritative annual benchmarks of study-abroad flows. The data show a clear contraction in the US taught-master's market, while doctoral and STEM research talent is still growing. Uncertainty in visa and work-pathway policy (OPT/CPT) is directly affecting students' choice of institution.",
+   "src": "Institute of International Education (IIE) Open Doors; Inside Higher Ed"
+  },
+  {
+   "region": "Global / Europe",
+   "tag": "Study-abroad flows / destination pattern",
+   "title": "A global enrolment-benchmark survey: graduate enrolment is generally down in the \"big four\" destinations, with Asia and continental Europe benefiting; visa refusals cost Ireland more than €8 million",
+   "what": "Studyportals, with NAFSA and the Oxford Test of English, released a 2026 global enrolment-benchmark survey (reported by ICEF Monitor and THE on 12 November, covering 437 universities in 63 countries): 62% of universities in the \"big four\" destinations of Australia, Canada, the UK and the US saw a drop in international graduate enrolment in August–October 2026, against only 27% elsewhere; 79% of UK universities saw a drop in international graduate enrolment. Visas and restrictive policy were seen as the \"greatest obstacle\" to enrolment; Asian universities were the most optimistic about 2027, followed by Europe. According to RTÉ on 15 November, Irish universities have already lost more than €8 million in tuition revenue this academic year because of a rise in international-student visa-refusal rates, and the Technological Universities Association (TUA) expects losses in the technological-university sector of more than €5 million in 2027.",
+   "why": "Global student flows are shifting from the English-speaking \"big four\" toward continental Europe and Asia, but Europe itself is not uniformly open (for example, tighter visas in Ireland). Policy stability is becoming a core competitive factor in international education.",
+   "src": "ICEF Monitor; Times Higher Education; RTÉ News"
+  },
+  {
+   "region": "Switzerland",
+   "tag": "AI × quantum / university governance",
+   "title": "ETH Zurich establishes seven \"Strategic ETH Centres\"; the AI Center and Quantum Center come under unified governance from 2027",
+   "what": "The ETH Zurich Executive Board decided at a mid-November meeting (published on ETH Staffnet on 16 November) that from 1 January 2027 it would establish seven \"Strategic ETH Centres\", integrating education, research and knowledge/technology transfer: the Albert Einstein School of Public Policy, the Materials and Processes Center (MaP), the robotics centre (RobotX), the Energy Science Center, the ETH AI Center, the Quantum Center and the World Food System Center. Each centre will report to the Vice President for Research or the Vice President for Knowledge Transfer and Corporate Relations, under a unified governance and budget framework. Vice President for Research Annette Oxenius said the move is intended to strengthen, over the long term, interdisciplinary fields of critical importance to science and society. In addition, master's students in quantum science and engineering at EPFL are working with FHNW on the \"Schiiq\" project, developing a low-cost, open-source benchtop NMR quantum computer for teaching, aimed at schools in Switzerland and in low-income countries.",
+   "why": "A leading Swiss technical university is raising AI and quantum from the project level to university-wide strategic bodies, and connecting education, research and industrial transfer. Quantum education is also beginning to move toward low-cost popularisation.",
+   "src": "ETH Zurich Staffnet; EPFL News"
+  },
+  {
+   "region": "Global / Asia",
+   "tag": "Rankings / interdisciplinary science",
+   "title": "THE Interdisciplinary Science Rankings 2027: MIT wins a third year in a row, NUS rises to 2nd, HKU jumps to joint 7th, and three Asian universities appear in the top ten for the first time",
+   "what": "Times Higher Education (THE), with Schmidt Science Fellows, released the Interdisciplinary Science Rankings (ISR) 2027 on 18 November: MIT is first for a third consecutive year; the National University of Singapore rose from 8th to 2nd, Nanyang Technological University is joint 7th, and the University of Hong Kong jumped from joint 32nd to joint 7th. In Europe, only Wageningen University in the Netherlands (9th) entered the top ten. The United States has 6 of the top 10, and Asia has 7 of the top 20 (5 last year). The top three universities in mainland China jumped substantially into the top 50. This edition covers 1,058 institutions in 102 countries/territories (911 last year), with 10 countries including Qatar appearing for the first time. THE notes that investment in facilities for interdisciplinary research is rising, but that evaluation and promotion incentives for interdisciplinary scholars remain insufficient.",
+   "why": "Interdisciplinary capacity is becoming a new dimension for measuring a university's future competitiveness. Asian universities are rising quickly on this dimension, and reform of evaluation systems (promotion and incentives) is the next key step.",
+   "src": "Times Higher Education"
+  },
+  {
+   "region": "China",
+   "tag": "International cooperation / research platforms",
+   "title": "The 2026 Beihang Global Partner Summit is held in Hangzhou: institutions from more than 40 countries take part, and three international research platforms are inaugurated",
+   "what": "According to Hangzhou.com on 18 November, the 2026 Beihang Global Partner Summit was held at Beihang University's Hangzhou international campus, with more than 300 experts from more than 160 education and research institutions in more than 40 countries and regions, as a Beihang sub-forum of the 24th Conference on International Exchange of Professionals. The summit inaugurated three international research platforms: an International Joint Laboratory on Aerospace Intelligent Resilient Networks, a Beihang Jean Monnet Centre of Excellence in European Studies, and a Beihang–Brazilian Centre for Physics Research joint laboratory on spintronics. Beihang signed a memorandum with International University of Rabat in Morocco and companies to jointly build a China–Africa College of Excellent Engineers, and signed an agreement with Brazilian universities on a China–Brazil medical centre (focused on engineering medicine and digital-intelligent health). The secretary-general of the T.I.M.E. Association (60 engineering universities in 27 countries) attended.",
+   "why": "Chinese universities are expanding cooperation with the Global South and Europe through a model of \"international campus + joint laboratory + industry–education college\", and internationalisation is moving from student exchange toward jointly built physical platforms.",
+   "src": "Hangzhou.com"
+  },
+  {
+   "region": "Middle East",
+   "tag": "AI education / national programmes",
+   "title": "Qatar, with Scale AI and Qatar University, launches two national education-AI programmes",
+   "what": "According to The Peninsula (Qatar News Agency copy) on 17 November, Qatar's Ministry of Communications and Information Technology, the Ministry of Education and Higher Education and Qatar University, with technical cooperation from Scale AI, launched two national education-AI programmes: a \"Smart Assistant\" for primary and secondary teachers and students, based on the national curriculum, and an \"Academic Adviser Assistant\" developed with Qatar University to improve university academic-advising services.",
+   "why": "Gulf countries are systematically embedding AI in the education chain from primary school to university in the form of national programmes, and a three-way partnership of government, university and technology company has become the mainstream model.",
+   "src": "The Peninsula Qatar (QNA)"
+  },
+  {
+   "region": "United States",
+   "tag": "Quantum education / infrastructure",
+   "title": "FIU partners with IonQ: Florida's first on-campus full-stack trapped-ion quantum computer (256 qubits) will arrive in 2027",
+   "what": "The dean of Florida International University's (FIU) College of Engineering and Computing announced on 17 November that FIU had reached an agreement with IonQ to become the company's flagship academic partner in Florida. IonQ's next-generation Superion 256 system (a 256-qubit trapped-ion machine) is expected to be installed on the FIU campus in mid-to-late 2027, making FIU the first university in Florida with a full-stack trapped-ion quantum computer. The college already has an NSF research-training programme and two DOE-funded research projects, covering quantum materials, quantum AI, energy quantum algorithms, post-quantum encryption and quantum sensing.",
+   "why": "Quantum computing is moving from cloud access toward university-owned equipment, becoming core infrastructure for attracting talent, training students and serving regional industry (including smart grids and energy).",
+   "src": "FIU College of Engineering & Computing"
+  },
+  {
+   "region": "United States",
+   "tag": "University philanthropy",
+   "title": "Caltech receives $67.5 million to name its computing and mathematical sciences department; Penn State receives $75 million in cumulative pledges",
+   "what": "The California Institute of Technology (Caltech) announced on 18 November that alumnus William \"Bill\" Coughran and his wife Bridget Coughran had pledged $67.5 million to name and endow in perpetuity the Bridget and William Coughran Department of Computing and Mathematical Sciences, supporting fundamental research in computing and information. President Ray Jayawardhana said AI and computing would play a critical role across all of science and engineering. Penn State announced on 13 November that honorary trustee Ira Lubert and Pam Estadt had made cumulative pledges of $75 million in the current campaign, becoming the university's second-largest donors, supporting academic and student programmes.",
+   "why": "Large philanthropic gifts continue to flow to frontier fields such as AI and computing, and lock in long-term investment in the form of a named department plus a perpetual fund — the mainstream structure of university fundraising.",
+   "src": "Caltech News; Penn State News"
+  }
+ ]
+}

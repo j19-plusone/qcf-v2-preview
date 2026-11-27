@@ -1,0 +1,46 @@
+{
+ "items": [
+  {
+   "region": "USA / Canada",
+   "tag": "",
+   "title": "Venter and SickKids teams assemble a near-complete diploid human genome, HuRef2.0, using nanopore sequencing alone",
+   "what": "Published online in PNAS on 2026-10-23: the J. Craig Venter Institute and The Centre for Applied Genomics (TCAG) at the Hospital for Sick Children in Toronto re-assembled HuRef, the first personal diploid genome from 2007, using Oxford Nanopore simplex reads and the hifiasm assembler. Three flow cells (about 103× coverage) produced 26 contigs with gap-free assemblies of 23 chromosomes; after two gaps in the Y chromosome were locally closed it became a T2T assembly, with base accuracy above Q60.34. Even a single flow cell (about 35×) gave better contiguity than the GRCh38.p14 reference genome.",
+   "why": "T2T assembly previously required ultra-long-read DNA plus several sequencing and scaffolding technologies, making it costly and complex. This work uses only standard blood DNA and a single platform, paving the way for large-scale, low-cost pangenome references for different populations, which matters greatly for population genome programmes and clinical variant detection.",
+   "src": "PNAS, DOI 10.1073/pnas.2616836123 (online 2026-10-23)"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Cancer Cell: AI tool iPhenMap integrates multi-omic and single-cell data from about 2,000 colorectal cancers to find repurposable drug combinations",
+   "what": "Led by RCSI University of Medicine and Health Sciences in Ireland and The Institute of Cancer Research, London, with European partners including the Vall d'Hebron Institute of Oncology in Barcelona, the study was published in Cancer Cell (online 2026-10-22, reported by GEN on 10-23). The team integrated genomic, epigenomic, proteomic, metabolomic, single-cell/single-nucleus RNA-seq and clinical data from about 2,000 microsatellite-stable (MSS) colorectal tumours (including more than 300 previously unanalysed samples), built the machine-learning tool iPhenMap to map tumour biology, and validated in animal models that the approved drug trametinib combined with other drugs significantly suppressed tumour growth and prolonged survival.",
+   "why": "MSS tumours make up most colorectal cancers and respond poorly to new therapies. This is a rare example of integrating all omics, single-cell and clinical phenotype data, showing AI's practical value in finding drug-repurposing routes for multi-omic precision medicine. The results are still preclinical.",
+   "src": "Cancer Cell, DOI 10.1016/j.ccell.2026.09.014; GEN (2026-10-23)"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "UK Biobank launches immune single-cell profiling of 80,000 blood samples, with more than 100 million data points per sample",
+   "what": "R&D World reported on 2026-10-23 that London immune-profiling company IMU Biosciences, working with Waters instruments and Ultima Genomics sequencing, will profile 80,000 UK Biobank blood samples (40,000 fresh and 40,000 frozen); the project was announced on 10-19. Spectral flow cytometry measures 59 markers and distinguishes up to 2,500 immune cell types, combined with single-cell transcriptomics. The first 10,000 samples, partly funded by the UK Sovereign AI fund, will receive both analyses, with the aim of extending to all 500,000 participants; the data will be available to approved researchers through UK Biobank procedures.",
+   "why": "Linking immune-cell data with genetics and long-term health records can reveal immune patterns that predict future disease; frozen samples also allow researchers to look back at immune states years before disease onset, a rare data resource for predicting ageing and chronic disease.",
+   "src": "R&D World (2026-10-23)"
+  },
+  {
+   "region": "China",
+   "tag": "",
+   "title": "Cell Metabolism: bone \"sensing force\" delays whole-body ageing and extends the lifespan of old mice by 9.4%",
+   "what": "Teams led by Bai Xiaochun (Southern Medical University), Lu Di (Kunming Medical University) and Lu Sheng (Kunming University of Science and Technology) published in Cell Metabolism on 2026-10-23. Loss of the mechanosensitive ion channel Piezo1 in osteocytes accelerates whole-body ageing and shortens lifespan. Four months of dynamic tibial axial loading (DTAL, mimicking the mechanical stimulus exercise gives bone) in 20-month-old mice improved cognition and motor coordination, extended total lifespan by 9.4% (79.5 days) and reversed bone-marrow immune ageing. The team identified pigment epithelium-derived factor (PEDF) as a mechanically responsive anti-ageing factor associated with healthy human ageing.",
+   "why": "The first direct link between skeletal mechanosensing and whole-body ageing and lifespan, suggesting a non-drug, controllable anti-ageing approach for older people who cannot exercise and for disabled or bedridden people, and proposing PEDF as a new candidate biomarker. This is an animal study.",
+   "src": "Cell Metabolism, DOI 10.1016/j.cmet.2026.09.020; The Paper (2026-10-26)"
+  },
+  {
+   "region": "International / other",
+   "tag": "",
+   "title": "ESMO 2026: Genialis's \"biology-first\" AI accurately predicts treatment response in cohorts of fewer than 70 patients",
+   "what": "Genialis (based in Houston, Boston and Ljubljana) announced on 2026-10-23 that it would present data at ESMO 2026 in Madrid. Its \"Supermodel\", trained on hundreds of thousands of transcriptome samples, converts expression of about 20,000 genes into \"biological modules\" and outperformed gene-expression models in three small cohorts: melanoma (n=41), gastric cancer (n=45) and KRAS G12C non-small-cell lung cancer (n=66). In lung cancer its AUROC for predicting response to sotorasib was 0.8 (0.6 for the comparison model). The company also retrospectively analysed four tumour RNA-seq samples taken over 25 months from GitLab co-founder Sid Sijbrandij's osteosarcoma.",
+   "why": "Small sample sizes in early clinical trials have long held back biomarker development for precision medicine. Compressing data into interpretable biological features before modelling lets small cohorts, even single patients (N-of-1), yield usable conclusions. The data come from company conference abstracts and have not been peer reviewed.",
+   "src": "Genialis / BusinessWire (2026-10-23)"
+  }
+ ],
+ "coverage": "Global developments on 23–26 October 2026",
+ "summary": "This edition (Monday, covering last Friday to today) has five items centred on reading genomes more cheaply and using AI to integrate multi-omics. Genome-sequencing pioneer Craig Venter's team assembled a near telomere-to-telomere (T2T) diploid genome using nanopore sequencing alone; a European team used AI in Cancer Cell to integrate multi-omic and single-cell data from about 2,000 colorectal cancers and identify combination therapies; UK Biobank launched immune single-cell profiling of 80,000 blood samples; a Chinese team reported in Cell Metabolism that mechanical loading of bone delays whole-body ageing and extended the lifespan of old mice by 9.4%; and at ESMO 2026 a \"biology-first\" AI predicted treatment response better than conventional models in cohorts of fewer than 70 patients."
+}

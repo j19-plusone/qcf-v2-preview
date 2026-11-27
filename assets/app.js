@@ -7,7 +7,7 @@ const supported=l=>Object.hasOwn(LANGUAGES,l);
 const L=()=>{const requested=new URLSearchParams(location.search).get('lang');if(supported(requested))return requested;let saved;try{saved=localStorage.getItem('qcf_lang')}catch{}if(supported(saved))return saved;return (navigator.languages||[navigator.language||'en']).map(l=>l.toLowerCase().split('-')[0]).find(supported)||'en'};
 const t=(zh,en)=>L()==='zh'?zh:(TRANSLATIONS[L()]?.[en]||en);
 const Q='<img class="qi" src="brand/qcf-q-glyph.svg" alt="Q">';
-const NAV=[['index.html','首页','Home'],['life-sciences.html','生命守护','Life Sciences'],['register.html','注册文明 ID','Get Civilization ID'],['id.html','我的 ID','My ID'],['initiatives.html','文明倡议','Initiatives'],['about.html','关于我们','About'],['governance.html','治理','Governance']];
+const NAV=[['index.html','首页','Home'],['life-sciences.html','生命守护','Life Sciences'],['briefs.html','简报','Briefs'],['register.html','注册文明 ID','Get Civilization ID'],['id.html','我的 ID','My ID'],['initiatives.html','文明倡议','Initiatives'],['about.html','关于我们','About'],['governance.html','治理','Governance']];
 function chrome(){
   const here=location.pathname.split('/').pop()||'index.html';
   const links=NAV.map(([h,z,e])=>`<a href="${h}" class="${h===here?'on':''}" data-zh="${z}" data-en="${e}">${e}</a>`).join('');

@@ -1,0 +1,63 @@
+{
+ "date_cn": "2026年11月06日",
+ "coverage": "覆盖 2026年10月30日–11月06日 全球进展",
+ "summary": "本周七条要闻贯穿“人群基因组与调控图谱扩容”和“编辑疗法/衰老干预落地”。德国基尔大学团队在 Nature Genetics 发布基于 490,319 名 UK Biobank 参与者的单倍型参考面板，东亚与南亚填补精度提升最大；葡萄牙 i3S 与罗切斯特大学在 Nature Communications 报道 KIF2C 小分子激动剂可增强 DNA 双链断裂修复并延长早衰小鼠健康寿命与寿命；英国 MHRA 将 CRISPR 疗法 Casgevy 适用年龄下调至 5 岁。卡塔尔生物银行在 Nature Genetics 发布中东近亲婚配人群转录组 QTL 目录（1,882 人）；斯坦福/Enable Medicine 团队发布空间多组学整合模型 CORAL；耶鲁团队在 Nature Methods 推出可保留三维基因组结构的单细胞表观成像技术 Epi-PHR；中科院上海营养与健康所 XChrom 用 AI 跨细胞预测染色质可及性。",
+ "items": [
+  {
+   "region": "欧洲",
+   "title": "Nature Genetics：49 万人 UK Biobank 全基因组单倍型参考面板发布，东亚、南亚人群填补精度提升最大",
+   "what": "德国基尔大学（Kiel University）Lars Wienbrandt、Andre Franke 等 2026-10-30 在 Nature Genetics 发表开放获取论文，利用 490,319 名 UK Biobank 参与者的全基因组测序数据构建基因型填补参考面板，并通过 EagleImp 与 UK Biobank 研究分析平台上的 EagleImp-RAP 提供独立及云端相位推断与填补。与 TOPMed r3 面板（133,597 人）相比，新面板在除 AMR 外的所有全球超级人群、以及 26 个千人基因组亚人群中的 25 个上相位切换错误率更低；对次等位基因频率低至 0.01% 的变异，东亚与南亚人群填补准确度增益最大。",
+   "why": "填补参考面板是全球 GWAS 与多基因风险评分的底层基础设施；49 万人规模且对亚洲人群提升最明显，意味着低成本芯片基因分型可更准确推断全基因组信息。",
+   "src": "Nature Genetics（2026-10-30，开放获取）",
+   "url": "https://www.nature.com/articles/s41588-026-02819-0"
+  },
+  {
+   "region": "欧洲",
+   "title": "Nature Communications：KIF2C 小分子激动剂增强 DNA 双链断裂修复，延长早衰症小鼠健康寿命与寿命",
+   "what": "葡萄牙波尔图大学 i3S 研究所 Elsa Logarinho 团队联合美国罗切斯特大学 Vera Gorbunova、Andrei Seluanov 等 2026-11-01 在 Nature Communications 发表开放获取论文。团队显示 KIF2C 小分子激动剂可在早衰症（HGPS）和唐氏综合征患者来源细胞及衰老细胞中，通过恢复胞质微管驱动的核膜内陷组装来改善 DNA 双链断裂修复，并改善核结构与转录特征。早衰症小鼠皮下给药后衰老表型减轻，健康寿命与寿命均延长。研究获瑞士 Maximon Longevity Prize 2022 及 ERC Synergy Grant 等资助。",
+   "why": "以药理学手段增强基因组稳定性来延缓衰老，为“DNA 损伤是衰老核心驱动因素”提供可干预证据；目前仍为细胞与早衰小鼠模型结果，尚未进入人体。",
+   "src": "Nature Communications（2026-11-01，开放获取）",
+   "url": "https://www.nature.com/articles/s41467-026-79165-6"
+  },
+  {
+   "region": "欧洲",
+   "title": "英国 MHRA 将 CRISPR 疗法 Casgevy 适用年龄下调至 5 岁",
+   "what": "英国药品和保健品管理局（MHRA）2026-10-30 宣布，批准扩展 Casgevy（exagamglogene autotemcel）在英国的授权，允许 5 岁及以上、符合条件的重度镰状细胞病和输血依赖型 β-地中海贫血儿童接受治疗；此前仅限 12 岁及以上。授权扩展于 2026-10-29 授予 Vertex Pharmaceuticals (Europe) Ltd。英国 NICE 同日更新指南，将人群扩展至 5 岁及以上，并维持管理准入安排。MHRA 称英国约有 15,000 名镰状细胞病患者。",
+   "why": "全球首个获批的 CRISPR 疗法正式扩展到儿童，标志基因编辑从成人罕见病治疗向更早期干预推进；治疗仍需干细胞采集与清髓预处理，安全与可及性仍是关键。",
+   "src": "GOV.UK / MHRA（2026-10-30）；NICE TA1003（2026-10-30 更新）",
+   "url": "https://www.gov.uk/government/news/mhra-approves-gene-editing-treatment-for-children-aged-five-and-over-with-serious-inherited-blood-disorders"
+  },
+  {
+   "region": "中国",
+   "title": "中科院上海营养与健康所发布 XChrom：融合基因组序列与单细胞状态，跨细胞预测染色质可及性",
+   "what": "中国科学院上海营养与健康研究所人工智能与数字健康部王振研究员团队（第一作者苗园园）2026-10-28 在 Advanced Science 在线发表 XChrom 深度学习框架（研究所相关新闻约 10-31 发布）。模型将基因组序列嵌入与单细胞 RNA 测序得到的细胞嵌入结合，预测不同细胞的染色质可及性并推断转录因子活性。在五组人类和小鼠公开配对数据上，跨细胞预测在多项指标上优于 Seurat、MultiVI 等模型，并可同时预测未见过的区域和细胞；跨人、小鼠、猕猴、狨猴运动皮层数据的分析显示其能捕捉进化保守的调控规律。团队已将 XChrom 开源发布于 GitHub。",
+   "why": "配对的单细胞多组学数据稀缺，XChrom 让海量现有单细胞转录组数据可以推算调控层信息，降低多组学研究成本。",
+   "src": "中国科学院上海营养与健康研究所 / 生物通（约 2026-10-31）；Advanced Science（2026-10-28 在线）",
+   "url": "https://www.ebiotrade.com/newsf/2026-10/20261031083016192.htm"
+  },
+  {
+   "region": "国际其他",
+   "title": "Nature Genetics：卡塔尔生物银行发布中东近亲婚配人群转录组遗传调控目录",
+   "what": "卡塔尔生物银行（Qatar Biobank）/卡塔尔基因组计划团队 Younes Mokrab 等 2026-11-02 在 Nature Genetics 发表开放获取论文，对 1,882 名主要为健康的卡塔尔生物银行参与者整合全血 RNA 测序、全基因组测序与 45 项临床相关表型，编目约 700 万个显著 QTL（含短变异与结构变异），影响基因表达、异构体使用、剪接与等位基因特异性表达，发现 1,379 个此前未报告的 eGene；精细定位得到 29,953 个高置信独立因果位点，其中约 24% 此前未报告。利用升高的纯合性，发现因果变异在纯合片段中耗竭，符合纯化选择，近期近亲婚配增加纯合调控变异负担；共定位分析揭示 58 个因果变异作用于 20 项临床相关表型。",
+   "why": "这是迄今规模最大的中东人群转录组调控表征之一，填补 GTEx/eQTLGen 等欧洲主导资源对中东遗传背景的覆盖缺口，对基因组医学与变异解读具有直接价值。",
+   "src": "Nature Genetics（2026-11-02，开放获取）",
+   "url": "https://www.nature.com/articles/s41588-026-02785-7"
+  },
+  {
+   "region": "美国",
+   "title": "Nature Genetics：CORAL 深度生成模型实现跨尺度空间多组学整合",
+   "what": "斯坦福大学 James Zou、Siyu He 等与 Enable Medicine、MD Anderson 等合作 2026-11-05 在 Nature Genetics 发表 CORAL（Cross-scale spatial Omics Registration and Analysis via graph Learning）。该概率深度生成模型利用图注意力整合不同空间分辨率的空间转录组、蛋白组、代谢组与表观组数据，联合建模高分辨率但分子覆盖有限的数据与低分辨率全基因组数据，生成兼具广分子覆盖与高空间分辨率的统一表征。在合成与多组织多平台实验数据上，CORAL 可识别空间结构域、预测高分辨率分子谱、检测空间可变基因并推断细胞间相互作用；应用于免疫治疗前/后肝细胞癌患者的空间转录组与蛋白组数据时，识别与治疗抵抗相关的免疫细胞亚群与信号通路。代码已开源。",
+   "why": "空间多组学平台分辨率与分子覆盖不一致是临床转化瓶颈；跨尺度整合可把肿瘤微环境解析推进到可指导免疫治疗的层次。",
+   "src": "Nature Genetics（2026-11-05）",
+   "url": "https://www.nature.com/articles/s41588-026-02821-6"
+  },
+  {
+   "region": "美国",
+   "title": "Nature Methods：Epi-PHR 实现保留三维基因组的单细胞组合表观标记成像",
+   "what": "耶鲁大学 Siyuan Wang、Andrew Z. Xiao 等 2026-11-05 在 Nature Methods 发表开放获取论文，报告表观接近杂交反应技术 Epi-PHR。该方法在单细胞中原位检测数百个基因靶点上的多种表观标记组合，同时保留三维基因组组织结构；与染色质追踪及等位基因特异性 FISH 结合后，可在印记基因簇的单个染色质拷贝水平上揭示亲本来源等位基因的表观富集与染色质折叠关联。相较破坏三维结构或一次只能测一种标记的既有成像方法，Epi-PHR 在异染色质标记检测与多标记并行方面表现更优。",
+   "why": "把表观状态与三维折叠在同一单拷贝上联测，是理解印记、衰老表观重编程与疾病非编码机制的关键技术缺口。",
+   "src": "Nature Methods（2026-11-05，开放获取）",
+   "url": "https://www.nature.com/articles/s41592-026-03253-0"
+  }
+ ]
+}

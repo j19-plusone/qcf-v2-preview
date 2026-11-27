@@ -1,0 +1,47 @@
+{
+ "date_cn": "2026年10月26日",
+ "coverage": "覆盖 2026年10月23日–26日 全球进展",
+ "summary": "本期（周一，覆盖上周五至今）五条要闻集中在“更便宜地读懂基因组”和“用 AI 整合多组学”。人类基因组测序先驱 Venter 团队仅用纳米孔单一技术组装出接近端粒到端粒（T2T）的完整二倍体基因组；欧洲团队在 Cancer Cell 用 AI 整合约 2000 例结直肠癌的多组学与单细胞数据找到联合用药方向；英国生物样本库启动 8 万份血样的免疫单细胞画像；中国团队在 Cell Metabolism 发现骨骼受力可延缓全身衰老、让老年小鼠寿命延长 9.4%；ESMO 2026 上，“生物学优先”AI 在不足 70 例的小队列中预测疗效优于传统模型。",
+ "items": [
+  {
+   "region": "美国/加拿大",
+   "title": "Venter 与 SickKids 团队：仅用纳米孔测序组装近乎完整的人类二倍体基因组 HuRef2.0",
+   "what": "PNAS 2026-10-23 在线发表：J. Craig Venter 研究所与多伦多病童医院应用基因组中心（TCAG）合作，用 Oxford Nanopore 单链（Simplex）读长和 hifiasm 组装器，重新组装了 2007 年首个个人二倍体基因组 HuRef。三张流动槽（约 103× 覆盖）得到 26 个 contig，23 条染色体无缺口组装，Y 染色体两处缺口局部补齐后成为 T2T 组装，碱基准确度高于 Q60.34；单张流动槽（约 35×）组装的连续性也优于参考基因组 GRCh38.p14。",
+   "why": "以往 T2T 组装需超长读长 DNA、多种测序和支架技术叠加，成本高、流程复杂。该工作只用标准血液 DNA 和单一平台，为大规模、低成本生成不同人群的泛基因组参考铺路，对人群基因组计划和临床变异检测意义重大。",
+   "src": "PNAS, DOI 10.1073/pnas.2616836123（2026-10-23 在线）",
+   "url": "https://www.pnas.org/doi/10.1073/pnas.2616836123"
+  },
+  {
+   "region": "欧洲",
+   "title": "Cancer Cell：AI 工具 iPhenMap 整合约 2000 例结直肠癌多组学与单细胞数据，找到可重新利用的联合用药",
+   "what": "爱尔兰皇家外科医学院（RCSI）与伦敦癌症研究所领衔、联合巴塞罗那 Vall d'Hebron 肿瘤研究所等欧洲伙伴，在 Cancer Cell 发表研究（2026-10-22 在线，GEN 10-23 报道）。团队整合约 2000 例微卫星稳定型（MSS）结直肠癌肿瘤的基因组、表观组、蛋白组、代谢组、单细胞/单核 RNA 测序与临床数据（含 300 多例此前未分析的样本），开发机器学习工具 iPhenMap 绘制肿瘤生物学图谱，并在动物模型中验证：已获批药物曲美替尼与其他药物联用可显著抑制肿瘤生长、延长生存。",
+   "why": "MSS 型占结直肠癌的大多数且对新疗法反应有限。这是迄今少见的“全组学 + 单细胞 + 临床表型”一体化整合，展示了 AI 在多组学精准医学中“找到药物重定位路径”的实际价值。目前仍为临床前结果。",
+   "src": "Cancer Cell, DOI 10.1016/j.ccell.2026.09.014；GEN（2026-10-23）",
+   "url": "https://www.genengnews.com/topics/cancer/multiomic-study-of-mss-crc-identifies-vulnerabilities-pointing-to-therapeutic-possibilities/"
+  },
+  {
+   "region": "欧洲",
+   "title": "英国生物样本库启动 8 万份血样免疫单细胞画像，每份样本超 1 亿个数据点",
+   "what": "R&D World 2026-10-23 报道：伦敦免疫画像公司 IMU Biosciences 联合 Waters 仪器与 Ultima Genomics 测序，对 UK Biobank 的 8 万份血样（4 万新鲜、4 万冻存）做免疫画像，项目于 10-19 宣布。光谱流式可测 59 个标志物、区分多达 2500 种免疫细胞类型，并结合单细胞转录组；首批 1 万份部分由英国主权 AI 基金资助，同时做两类分析，目标是扩展到全部 50 万名参与者，数据将按 UK Biobank 程序向获批研究者开放。",
+   "why": "把免疫细胞层面的数据与遗传信息、长期健康记录关联，可用于找出预示未来疾病的免疫模式；冻存样本还能回溯“发病前多年”的免疫状态，是衰老与慢病预测的稀缺数据资源。",
+   "src": "R&D World（2026-10-23）",
+   "url": "https://www.rdworldonline.com/100-million-data-points-per-blood-sample-how-imu-will-profile-immunity-across-80000-uk-biobank-donors/"
+  },
+  {
+   "region": "中国",
+   "title": "Cell Metabolism：骨骼“感受力量”可延缓全身衰老，老年小鼠寿命延长 9.4%",
+   "what": "南方医科大学白晓春、昆明医科大学陆地、昆明理工大学陆声团队于 2026-10-23 在 Cell Metabolism 发表研究。骨细胞中机械敏感离子通道 Piezo1 缺失会加速全身衰老、缩短寿命；对 20 月龄老年小鼠进行 4 个月动态胫骨轴向加载（DTAL，模拟运动对骨的力学刺激），可改善认知与运动协调，总寿命延长 9.4%（79.5 天），并逆转骨髓免疫衰老。团队鉴定出色素上皮衍生因子 PEDF 为与人类健康老龄化相关的力学响应型抗衰老因子。",
+   "why": "首次把“骨骼力学感知”与全身衰老和寿命直接关联，为无法运动的老年人、残障和卧床人群提供“非药物、可控”的抗衰老思路，也提出了新的候选生物标志物 PEDF。目前为动物实验。",
+   "src": "Cell Metabolism, DOI 10.1016/j.cmet.2026.09.020；澎湃新闻（2026-10-26）",
+   "url": "https://www.cell.com/cell-metabolism/fulltext/S1550-4131(26)00433-X"
+  },
+  {
+   "region": "国际其他",
+   "title": "ESMO 2026：Genialis“生物学优先”AI 在不足 70 例的小队列中准确预测疗效",
+   "what": "Genialis（总部位于休斯敦、波士顿和卢布尔雅那）2026-10-23 宣布将在马德里 ESMO 2026 展示数据：其在数十万转录组样本上训练的“Supermodel”把约 2 万个基因表达转化为“生物模块”，在黑色素瘤（n=41）、胃癌（n=45）和 KRAS G12C 非小细胞肺癌（n=66）三个小队列中均优于基因表达模型；肺癌中预测 sotorasib 应答的 AUROC 为 0.8（对照模型 0.6）。公司还回顾分析了 GitLab 联合创始人 Sid Sijbrandij 骨肉瘤 25 个月内的 4 份肿瘤 RNA 测序样本。",
+   "why": "早期临床试验样本量小，是精准医学生物标志物开发的长期瓶颈。“先压缩成可解释的生物学特征再建模”的思路，让小样本甚至单个患者（N-of-1）的分子数据也能产出可用结论。数据来自公司会议摘要，尚未经同行评审。",
+   "src": "Genialis / BusinessWire（2026-10-23）",
+   "url": "https://www.genialis.com/2026/10/23/from-small-clinical-trials-to-a-single-patient-genialis-demonstrates-the-power-of-biology-first-ai-in-cancer-research/"
+  }
+ ]
+}

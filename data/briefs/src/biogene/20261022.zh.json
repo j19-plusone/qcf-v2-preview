@@ -1,0 +1,13 @@
+{
+ "date_cn": "2026年10月22日",
+ "coverage": "覆盖 2026年10月21日 全球进展",
+ "summary": "过去 24 小时，基因编辑从临床到早期研发都有重要进展：中国瑞风生物 RM001 地中海贫血基因编辑疗法 II 期 28 名受试者全部脱离输血；中国抗衰老新药公司瑞炬完成数亿元 A 轮融资。欧洲方面，IQM 54 量子比特处理器联合 NVIDIA GPU 完成百万原子级蛋白质自剪切量子-经典模拟，Nature Genetics 发布 7 万余人肝脏甘油三酯 GWAS。美国 OpenAI、PerturbAI 与 Scripps 用数千个 AI 智能体挖掘全脑 CRISPR 图谱。整体信号是基因编辑走向规模化临床，量子计算与 AI 开始进入真实生物学问题。",
+ "footer": "所有条目均来自公开来源，数字均引自原文。RM001 为在研疗法，尚未获批；第 3 条为研究团队公布的模拟结果，以原始论文为准。",
+ "items": [
+  {"region": "中国", "title": "瑞风生物 RM001 β-地中海贫血基因编辑疗法 II 期取得重大进展（中国·广州）", "what": "瑞风生物宣布，自主研发的 HBG 启动子靶向基因编辑疗法 RM001 关键 II 期研究中 28 名输血依赖型 β-地贫受试者全部实现脱离输血，且随访均超过一年。项目累计 47 人用药，全部持续脱离输血，最长随访 5 年，中位停止输血时间约 18 天，截至目前未报告与 RM001 相关的严重不良事件。该疗法尚未获批上市。", "why": "这是公开报道中规模最大的 HBG 启动子靶向基因编辑临床数据集，中国基因编辑疗法正在与 Casgevy 等国际产品正面竞争。", "src": "Reforgene Medicine, 2026-10-21", "url": "https://www.reforgene.com/en/news/136/"},
+  {"region": "中国", "title": "瑞炬生物完成数亿元 A 轮融资，加速首创抗衰老药物临床（中国·南京）", "what": "南京瑞炬生物完成超额认购的数亿元人民币 A 轮融资，由凯辉基金（Cathay Capital）、复星健康资本、倚锋资本和南京华泰金斯瑞生物医药基金联合投资。公司以“衰老本身”为药物靶点，搭建清除、激活、重编程衰老细胞三大平台；2026 年 3 月两条管线同时获得中国 NMPA 和美国 FDA 的 IND 批准，正在推进 I 期临床。", "why": "抗衰老药物已从概念进入中美双报的临床阶段，头部资本开始押注“以衰老为适应症”的赛道。", "src": "VCBeat（动脉网）, 2026-10-21", "url": "https://www.vcbeathealth.com/article/63807"},
+  {"region": "欧洲", "title": "54 量子比特 IQM 处理器联合 NVIDIA GPU 模拟 ADGRG1 受体自剪切（欧洲·德国）", "what": "QMatter、慕尼黑工业大学、伦敦大学学院、莱布尼茨超算中心、慕尼黑大学、NVIDIA 与 IQM 组成的团队，把 54 量子比特 IQM 处理器（Euro-Q-Exa）与最多 1,200 块 NVIDIA H100 GPU 耦合，在百万原子级内质网膜环境中模拟 ADGRG1 受体的自剪切过程。量子核心问题为 26 个电子、26 个轨道，映射到 52 个量子比特。ADGRG1 与脑发育障碍和三阴性乳腺癌相关。", "why": "这是量子计算进入真实蛋白质-药物靶点问题的具体案例，展示了“量子 + 超算 + GPU”混合流水线的可行路径。", "src": "Quantum Zeitgeist, 2026-10-21", "url": "https://quantumzeitgeist.com/nvidia-adgrg1-simulation-quantum-receptor-cleavage/"},
+  {"region": "欧洲 / 国际", "title": "Nature Genetics：全基因组分析发现 60 个肝脏甘油三酯相关位点", "what": "Stefano Romeo、Luca Valenti 等团队对 UK Biobank 71,488 名参与者的 MRI 肝脏甘油三酯数据进行 GWAS 荟萃分析，发现 60 个独立位点（31 个为首次报道），SNP 遗传力约 25%。多基因风险评分最高十分位人群与最低十分位相比，肝硬化几率高 2.71 倍，肝细胞癌几率高 7.47 倍。", "why": "样本量约为以往研究的两倍，把基因组风险直接与肝硬化、肝癌等硬终点挂钩，是多基因风险评分走向临床的有力证据。（已存入永久档案）", "src": "Nature Genetics, 2026-10-21, DOI 10.1038/s41588-026-02794-6", "url": "https://www.nature.com/articles/s41588-026-02794-6"},
+  {"region": "美国", "title": "OpenAI、PerturbAI 与 Scripps 用数千个 AI 智能体挖掘全脑 CRISPR 图谱", "what": "OpenAI、PerturbAI 和 Scripps Research 用数千个由 GPT-Rosalind 驱动的 AI 智能体并行分析数百万个脑细胞的现有实验数据，把基因扰动、细胞效应与已有文献联系起来，为阿尔茨海默病、帕金森病等研究生成可检验的假设。", "why": "AI 正从“预测模型”升级为“大规模并行科研助手”，可能把海量单细胞与基因扰动数据的解读周期从几个月缩短到几分钟。", "src": "OpenAI, 2026-10-21; PR Newswire, 2026-10-21", "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data"}
+ ]
+}

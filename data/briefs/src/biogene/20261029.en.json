@@ -1,0 +1,46 @@
+{
+ "coverage": "Global developments on 28–29 October 2026",
+ "summary": "This edition has five items focused on population-scale genomics placing disease risk in specific cells, and on next-generation editing tools and AI capital. A Nature paper reports the largest multi-ancestry Alzheimer's GWAS to date (led by Vrije Universiteit Amsterdam), adding 48 risk loci and raising the SNP-heritability estimate to 16%. Australia's Garvan Institute and partners released phase 1 of TenK10K, mapping common and rare variant regulation at single-cell resolution in 1,925 people and 5.4 million immune cells. The University of Michigan published in Nature Genetics a single-nucleus multi-omic genetic-regulation atlas from 287 human skeletal-muscle biopsies. A Nankai University team reported in Nature Methods the MARRS RNA-editing system, which reaches up to 84% editing efficiency in mice without an exogenous enzyme. Beijing AI drug company BioGeometry has raised more than $100 million in cumulative Series A funding.",
+ "items": [
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Nature: the largest multi-ancestry Alzheimer's GWAS to date adds 48 risk loci and nearly triples the heritability estimate",
+   "what": "Emil Uffelmann, Danielle Posthuma and colleagues at Vrije Universiteit Amsterdam (VU Amsterdam) published an open-access paper in Nature on 2026-10-28. The study pooled 109,479 cases, 74,141 proxy cases (parental disease), 2,131,799 controls and 499,708 proxy controls. Multi-ancestry analysis identified 118 loci, plus 9 ancestry-specific loci, of which 48 were new. SNP heritability was estimated at 16%, about three times previous estimates. Genes up-regulated in microglia and down-regulated in neurons in cases were enriched for genetic risk, and potential drug targets were proposed. Summary statistics have been made public.",
+   "why": "The result suggests that the contribution of common variants to Alzheimer's disease has been badly underestimated. Large multi-ancestry samples can keep revealing new targets and improving polygenic risk prediction, and they provide a public data base for early screening and drug development.",
+   "src": "Nature (2026-10-28); VU Amsterdam press release"
+  },
+  {
+   "region": "International / other",
+   "tag": "",
+   "title": "Nature: TenK10K phase 1 maps single-cell regulation of common and rare variants in 5.4 million immune cells",
+   "what": "The Garvan Institute of Medical Research in Australia and partners published phase 1 results of TenK10K (a target of 10,000 people and 10,000 cells each) in Nature on 2026-10-28. They carried out whole-genome sequencing of 1,925 individuals of European ancestry and single-cell RNA sequencing of more than 5.4 million cells across 28 immune cell types. Candidate common regulatory variants were found for 83% of 21,404 tested genes, and cumulative rare-variant signals for 47%, amounting to more than 150,000 common-variant effects and more than 30,000 rare-variant effects; about half of the effects appeared in only one or a few cell types. The same issue of Nature also published two companion papers on chromatin-accessibility QTLs and tandem-repeat variation based on the same resource.",
+   "why": "This is the first systematic, population-scale quantification of rare-variant effects on gene expression at single-cell resolution, placing disease-risk variants in specific immune cell types. It is an important public resource for precision immunology and multi-omics research.",
+   "src": "Nature (2026-10-28); Garvan Institute news"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Nature Genetics: a single-nucleus multi-omic atlas of 287 human skeletal-muscle biopsies assigns cellular homes to nearly 3,500 metabolic GWAS signals",
+   "what": "Stephen Parker's team at the University of Michigan, with Francis Collins and colleagues at the US National Human Genome Research Institute (NHGRI) and Finland's FUSION cohort, published in Nature Genetics on 2026-10-28. Using genetic multiplexing, they performed single-nucleus ATAC-seq and single-nucleus RNA-seq on 287 frozen skeletal-muscle biopsies, identifying 13 cell types, more than 7,000 expression QTLs and more than 100,000 chromatin-accessibility QTLs. Nearly 3,500 GWAS signals from 38 related traits colocalised with these QTLs, and most colocalised only with chromatin-accessibility QTLs rather than expression QTLs.",
+   "why": "Skeletal muscle is a key tissue in type 2 diabetes, insulin resistance and other metabolic diseases. The study shows that population-scale chromatin maps are a crucial complement for interpreting GWAS signals and offer cell-level clues to metabolic and ageing-related targets.",
+   "src": "Nature Genetics (2026-10-28)"
+  },
+  {
+   "region": "China",
+   "tag": "",
+   "title": "Nature Methods: Nankai University's MARRS system recruits endogenous ADAR1, with RNA-editing efficiency up to 100% in vitro and 84% in mice",
+   "what": "A joint team including Shulin Liu and Daiwen Pang at Nankai University published MARRS (a multivalent ADAR1-recruiting RNA-editing system) in Nature Methods on 2026-10-28. The system embeds optimised multivalent RNA aptamers targeting the ADAR1 p150 Zα domain in a circular RNA backbone, recruiting the cell's own ADAR1 to carry out A-to-I editing without an exogenous enzyme. Editing efficiency reached up to 100% in cultured cells and up to 84% in mouse models, with applicability across multiple target transcripts and low off-target effects.",
+   "why": "RNA editing modifies only the transcript and does not permanently change the genome, a clear safety advantage; efficiency has long been its weakness. MARRS pushes efficiency close to complete editing and may become a more controllable therapeutic route alongside in vivo gene editing.",
+   "src": "Nature Methods (2026-10-28)"
+  },
+  {
+   "region": "China",
+   "tag": "",
+   "title": "BioGeometry's Series A rounds exceed $100 million in total, backing molecular- and cellular-scale \"biological world models\"",
+   "what": "On 2026-10-28 the Beijing AI-native biopharmaceutical company BioGeometry announced completion of a Series A+ round, taking cumulative Series A funding past $100 million. This round was led by China Life Capital, with a follow-on from existing shareholder the Shanghai Biomedical Industry Equity Investment Fund and participation from CDB Technology Venture Capital and others; Index Capital (Huaxing) acted as exclusive financial adviser. Funds will go to the molecular-scale model GeoFlow and the cell-scale model GeoCell, expansion of an automated high-throughput laboratory, and advancement of an in-house pipeline. According to Ventureburn, its bispecific-antibody programme is expected to file an IND in 2027.",
+   "why": "Chinese state and industrial capital is doubling down on \"AI biological world models\", a sign that AI drug design is moving from molecular generation to modelling the cell biology of disease, and that investors prefer a closed loop of models, automated wet-lab experiments and an in-house pipeline.",
+   "src": "BioGeometry website news (2026-10-28); Ventureburn (2026-10-28)"
+  }
+ ]
+}

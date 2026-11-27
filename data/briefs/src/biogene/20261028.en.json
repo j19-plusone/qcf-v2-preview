@@ -1,0 +1,46 @@
+{
+ "coverage": "Global developments on 27–28 October 2026",
+ "summary": "This edition has five items focused on the risks and regulation of in vivo gene editing, and on AI and multi-omics reshaping R&D and ageing assessment. HuidaGene published in Cell the first-in-human trial of HG302, an in vivo gene-editing therapy for Duchenne muscular dystrophy: editing and dystrophin expression were observed in four children, but one child in the high-dose group died of treatment-related acute respiratory distress syndrome. On the same day, the US FDA issued a draft BLA guidance for individualised genome-editing products, allowing a new patient-specific variant within an \"individualised feature space\" to be added without a new clinical trial. Switzerland's Atlas Bio came out of stealth with $12.5 million in total funding, using an AI model trained on about 2 million human RNA datasets to run virtual clinical trials. A Geromedicine study found 17 plasma proteins associated with all-cause mortality and organ biological age in older people. Korea's Jeju Genome Project released a genomic and phenotypic cohort of 5,307 people.",
+ "items": [
+  {
+   "region": "China",
+   "tag": "",
+   "title": "Cell: HuidaGene's first-in-human HG302 trial — in vivo gene editing shows efficacy signals, but one child died",
+   "what": "On 2026-10-27 HuidaGene (Shanghai / Delaware, United States) announced that results of the investigator-initiated first-in-human study HG302-01 had been published in Cell. HG302 is a CRISPR/Cas in vivo gene-editing therapy delivered systemically by AAV for Duchenne muscular dystrophy (DMD). Four independently ambulatory boys received a single intravenous infusion of 5.0×10¹³ or 1.0×10¹⁴ vg/kg. Muscle biopsies showed on-target editing and dystrophin expression; the two participants who completed 12 months of follow-up improved by 8 and 10 points on the NSAA score and by 106 and 162 metres on the 6-minute walk distance. The fourth participant (high dose) developed treatment-related fatal acute respiratory distress syndrome in the setting of marked complement activation and systemic inflammation. A Nature news article the same day said the efficacy was limited and noted that earlier safety studies in monkeys used only four animals, too few to detect this kind of rare severe reaction.",
+   "why": "This is a rare case of a Chinese team fully disclosing a fatal in vivo editing event in a leading journal. It shows that the immunotoxicity of systemic high-dose AAV delivery remains the biggest bottleneck for in vivo gene editing, and it will also affect global regulatory requirements for dose and safety monitoring.",
+   "src": "HuidaGene press release (2026-10-27); Cell paper; Nature News (2026-10-27)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "FDA issues draft BLA guidance for individualised genome-editing products: new patient-specific variants can be added under the same licence without a new clinical trial",
+   "what": "On 2026-10-27 the US HHS/FDA issued a draft guidance, Individualized Human Genome Editing Products: Considerations for BLA Submission and Postapproval Management. The core idea is an \"individualised feature space\" (IFS): the range within which a genome-editing product may vary between patients is defined in advance. A new variant that falls within that range and whose testing shows adequate safety and activity can be included in the same BLA on the basis of the original clinical trial and in vitro data, without a separate clinical trial. The guidance also covers manufacturing, safety testing for off-target and other unintended genetic changes, and product naming and labelling.",
+   "why": "Mutations in rare diseases differ from person to person, and \"one therapy per patient\" gene editing has been hard to take through standard approval. This framework offers a scalable regulatory path for individualised gene editing and may attract more capital into rare-disease editing.",
+   "src": "HHS press release (2026-10-27); FDA guidance page"
+  },
+  {
+   "region": "Europe (Switzerland)",
+   "tag": "",
+   "title": "Switzerland's Atlas Bio raises $12.5 million to run drug trials on virtual patients with an AI foundation model",
+   "what": "On 2026-10-27 the Swiss tech-bio company Atlas Bio came out of stealth, announcing a $10 million seed round led by Creandum and disclosing an earlier $2.5 million pre-seed led by First Momentum Ventures and LEA Partners, for total funding of $12.5 million. Its AI foundation model, trained on about 2 million human-tissue RNA reads, simulates drug efficacy and safety signals in virtual patient cohorts, with the aim of reducing risk before phase II, improving trial design, compressing the related work into a simulation project of about 12 weeks, and comparing multiple therapies on the same patient profiles. The company was co-founded by former Google employees and experts in AI and pharmaceuticals.",
+   "why": "The company says phase II trials cost more than $100 million and that about 70% of drugs fail at this stage. Using human transcriptome data for \"virtual trials\" in place of some animal studies and early clinical work is consistent with a European regulatory shift toward evidence closer to humans, and it also shows that early-stage financing for AI plus life sciences remains active in Switzerland.",
+   "src": "Tech.eu (2026-10-27); Reuters / The Economic Times (2026-10-27)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Geromedicine: 17 plasma proteins are associated with all-cause mortality in older people, and several also reflect organ biological age",
+   "what": "A study published in Geromedicine (reported by News-Medical on 2026-10-27) measured 4,265 proteins in blood samples from 1,025 older participants in the LonGenity study, with a mean follow-up of 8.05 years, and independently validated the findings in 1,124 people from the Baltimore Longitudinal Study of Aging. Seventeen proteins were significantly associated with all-cause mortality: higher levels of ERBB1 (EGFR) and ANTXR2 were associated with lower mortality risk and younger multi-organ biological age; higher MIC-1/GDF15, HE4 and IGFBP-2 were associated with higher mortality risk and older biological age. The authors stress that these are statistical associations, not proof of causation, and not a clinical test that can be used to predict an individual's lifespan.",
+   "why": "Linking \"mortality-risk proteins\" with organ-specific proteomic biological age, and reproducing the findings in an independent cohort, provides a candidate list for blood biomarkers in longevity medicine.",
+   "src": "News-Medical / Science Exploration Press (2026-10-27); Geromedicine"
+  },
+  {
+   "region": "International / other (Korea)",
+   "tag": "",
+   "title": "Scientific Reports: Korea's Jeju Genome Project releases a genomic and phenotypic cohort of 5,307 people",
+   "what": "A team including Jeju National University Hospital published an open-access paper in Scientific Reports on 2026-10-27 introducing the Jeju Genome Project (JGP). The cohort has 5,307 people (2,999 from the community and 2,308 from hospitals, enriched for neurological, oncological, rheumatic and ophthalmic disease), integrating whole-genome sequencing, a custom genotyping array and detailed clinical and lifestyle phenotypes, with blood and stool samples banked. Whole-genome sequencing data are available for 3,466 people, array data for 3,002, and both for 1,161. The aims are to find population-specific variants and to build polygenic risk scores and individualised prediction models. The project is funded by the Korea Health Industry Development Institute and Invites Genomics.",
+   "why": "A regional genomic cohort of an ageing population that tracks real disease burden is important infrastructure for East Asian precision medicine and for localising polygenic risk scores. The model of a government partnering with a genomics company is also worth watching.",
+   "src": "Scientific Reports, DOI 10.1038/s41598-026-77032-4 (2026-10-27)"
+  }
+ ]
+}

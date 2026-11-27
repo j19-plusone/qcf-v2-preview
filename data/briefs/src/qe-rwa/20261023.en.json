@@ -1,0 +1,78 @@
+{
+ "coverage": "Global developments from 16 to 23 October 2026",
+ "summary": "This week quantum energy entered a phase of government funding plus industrial validation: NEDO's second round in Japan selected Sharp and QunaSys to use quantum computing to assess all-solid-state battery materials, and Swinburne in Australia received A$2.2 million to develop a grid quantum clock with QuantX Labs and Siemens. Two new preprints (on solid-oxide electrolysis/fuel-cell materials and fusion-plasma simulation) set out roadmaps, while also acknowledging that a practical quantum advantage has not yet been demonstrated. On the RWA side, infrastructure is moving into production: Luxembourg issued Europe's first government DLT-native benchmark bond (€1.7 billion), DTCC published launch details for its tokenization service (an initial 25 securities), and a solar plant in El Salvador is raising funds with a token on residual cash-flow rights, for up to $20 million. In fusion, the Max Planck Institute for Plasma Physics and Columbia University have established a $13.3 million transatlantic research centre, with several fusion companies taking part.",
+ "trends": [
+  "Quantum-energy applications are being pulled by government programmes with industrial partners: Japan's NEDO Season 2 (Sharp × QunaSys, all-solid-state battery materials) and Australia's CTCP (Swinburne × QuantX Labs × Siemens, a grid quantum clock) both had new developments this week, and in both cases the funder is a government science and technology programme.",
+  "The academic tone is more pragmatic: two preprints this week (SOFC/SOEC materials screening and fusion-plasma simulation) both stress benchmarking against the best classical methods and include resource estimates; the fusion review states clearly that a practical quantum advantage has not yet been demonstrated.",
+  "RWA infrastructure is entering production: Luxembourg's €1.7 billion DLT-native sovereign benchmark bond has settled and can serve as Eurosystem collateral; DTCC's tokenization service is planned to go live at the end of October, starting with 25 securities.",
+  "Market size (from One Asset's 2026-10-19 weekly, citing RWA.xyz): on-chain distributed RWA assets stood at $39.23 billion, up 1.21% over 30 days; holder addresses rose 15.31% to 5.31 million. The number of holders is growing clearly faster than asset size, suggesting a widening participant base and relatively steady asset growth.",
+  "Energy RWAs often use a structure based on rights to a project's cash-flow residual, and are issued under registration in a particular jurisdiction (for example El Salvador's CNAD). No major regulator (FINMA, the EU's MiCA/ESMA, Hong Kong, Singapore or the China Securities Regulatory Commission) issued new rules specifically on energy RWAs this week."
+ ],
+ "footer": "All facts and figures in this brief are taken from the public sources listed; preprints have not been peer reviewed, and the original texts prevail. Time window: 2026-10-16 to 2026-10-23 (Zurich time). This edition has no peer-reviewed papers, annual reports or Nature/Science-level results, and no permanent record was created.",
+ "items": [
+  {
+   "region": "Japan",
+   "tag": "Quantum × battery materials",
+   "title": "Sharp × QunaSys selected for NEDO Quantum Challenge Season 2: using quantum computing to assess all-solid-state battery materials",
+   "what": "On 22 October, Sharp and quantum-software company QunaSys announced that their project \"assessing all-solid-state battery materials with a quantum computer\" had been selected for Season 2 of the New Energy and Industrial Technology Development Organization (NEDO) Quantum Challenge. In Season 1 the two sides used quantum computing to assess the energy required for ions to migrate in a solid electrolyte, and validated the work on a quantum computer. Season 2 will combine classical and quantum computing to assess materials with more atoms and more complex structures, and to raise computational accuracy, so as to distinguish how easily ions migrate in different materials and to support candidate screening and design.",
+   "why": "This is a government-funded application of quantum chemistry to a concrete industrial problem (ion conduction in solid electrolytes). The division of labour is clear: Sharp defines the properties to be assessed and the required accuracy; QunaSys implements the algorithms. The two sides say Season 1 already confirmed that quantum computing can assess such materials more accurately and efficiently; the eventual aim is for the results to serve materials synthesis and sample evaluation.",
+   "src": "Sharp press release / IBTimes JP"
+  },
+  {
+   "region": "Australia",
+   "tag": "Quantum × power grid",
+   "title": "Swinburne receives A$2.2 million to develop a grid \"quantum clock\" with QuantX Labs and Siemens",
+   "what": "On 23 October, Swinburne University of Technology announced that, as the lead university partner, it had received A$2.2 million (the original text says $2.2 million) from the Australian Government's Critical Technologies Challenge Program (CTCP). The project is led by QuantX Labs, with partners including Siemens and the Siemens Swinburne Energy Transition Centre, and aims to develop an advanced quantum clock that can keep the grid synchronised without relying on external signals such as GPS. The project will deliver a network-connectable prototype and test it in a live operating environment.",
+   "why": "Renewables and distributed connections make grid protection, control and measurement ever more dependent on high-precision timing, while satellite timing is vulnerable to interference or signal loss. Quantum timing is a \"quantum sensing\" application that can be deployed earlier than quantum computing, and it bears directly on the security and resilience of the grid.",
+   "src": "Swinburne University of Technology"
+  },
+  {
+   "region": "International",
+   "tag": "Quantum × hydrogen / electrolysis",
+   "title": "Preprint: an end-to-end framework for using quantum simulation to screen oxygen-electrode materials for solid-oxide cells (SOFC/SOEC)",
+   "what": "arXiv preprint 2610.31591 (submitted 22 October; authors include Ouns El Harzli, Yudong Cao, François Jamet and nine others, 12 in total) proposes an end-to-end framework to assess the value of quantum computing on an industrial materials problem: screening strongly correlated oxygen-electrode materials for solid-oxide fuel cells (SOFC) and electrolysis cells (SOEC). The framework takes oxygen-vacancy formation energy, the vacancy-migration barrier and electronic conductivity as target quantities, uses a GW-based embedding method (GW+DMFT or SEET), and has a quantum impurity solver supply the required Green's functions. The paper gives indicative logical-qubit counts and, combined with electrolyser-deployment data, estimates the global potential commercial value of improved electrode materials.",
+   "why": "SOEC is one of the key routes to green hydrogen. The paper does not merely invoke a \"quantum advantage\"; it specifies the need to benchmark against the best classical solvers and to cost the resources, a model for how industry can assess the return on quantum investment. Note: this is a preprint that has not been peer reviewed.",
+   "src": "arXiv:2610.31591 (preprint)"
+  },
+  {
+   "region": "China / Germany",
+   "tag": "Quantum × nuclear fusion",
+   "title": "Peking University × Forschungszentrum Jülich review: the state of play and a roadmap for quantum computing in magnetic-confinement fusion-plasma simulation",
+   "what": "arXiv preprint 2610.25885 (submitted 19 October) is a collaboration among authors at Peking University, Forschungszentrum Jülich in Germany and the Institute of Applied Physics and Computational Mathematics in Beijing. The paper systematically reviews research on using quantum computing for fusion-plasma problems including kinetics, wave interactions, equilibrium and macroscopic stability. Its conclusion is that existing work is mostly limited to linearised equations, simplified models or isolated subroutines, remains far from realistic fusion simulation, and that a practical quantum advantage has not yet been demonstrated. The authors offer a staged roadmap: in the near term (for example within five years), develop simplified linear models, stochastic-differential-equation formulations and hybrid quantum-classical methods; in the longer term, rely on fault-tolerant quantum hardware to support high-fidelity predictive simulation and real-time plasma prediction and control.",
+   "why": "This is a sober assessment of \"quantum + fusion\" by a joint China–Europe team, and it helps separate conceptual promotion from real progress. The problem features the authors list as most likely to show a quantum advantage (high dimensionality, structured dynamics, modest measurement needs) can guide where to invest. This is a preprint and has not been peer reviewed.",
+   "src": "arXiv:2610.25885 (preprint)"
+  },
+  {
+   "region": "Europe / United States",
+   "tag": "Fusion collaboration",
+   "title": "The Max Planck Institute for Plasma Physics (IPP) and Columbia University establish a transatlantic fusion research centre",
+   "what": "According to the American Nuclear Society's Nuclear Newswire on 21 October, Germany's Max Planck Institute for Plasma Physics (IPP) and Columbia University have established a virtual joint research centre, the Max Planck Columbia Center, on the theme \"optimising symmetry in fusion plasmas\", with a budget of $13.3 million over five years, starting in 2027. Funding comes from IPP, Columbia University, the US Department of Energy's Office of Fusion Energy Sciences and Simons Foundation International. Private fusion companies including Commonwealth Fusion Systems, Proxima Fusion, Thea Energy and Type One Energy will also take part. Researchers will have access to the Wendelstein 7-X stellarator and the ASDEX Upgrade tokamak; the six work packages include simulation of transients and non-planar superconducting magnets.",
+   "why": "This is a model of multi-party collaboration among a public research institute, a university, a philanthropic foundation and private companies, with a charitable foundation (Simons) directly funding frontier energy research. Fusion R&D is shifting from single national laboratories toward an international, industry–academia network.",
+   "src": "ANS Nuclear Newswire"
+  },
+  {
+   "region": "Europe",
+   "tag": "RWA / sovereign DLT bond",
+   "title": "Luxembourg issues Europe's first government DLT-native benchmark bond: €1.7 billion, 10-year tenor",
+   "what": "The Luxembourg Treasury completed the placement on 14 October and settled a DLT-native tokenised benchmark bond on 21 October, with a face value of €1.7 billion and a tenor of 10 years. LuxCSD announced this on 22 October, calling it the first DLT-native benchmark bond issued by a European government. The issue was completed through LuxCSD on Clearstream's D7 DLT platform, can be distributed internationally via the Bridge between Clearstream and Euroclear, and is eligible collateral for Eurosystem credit operations. Spuerkeess acted as joint lead manager, with Citi, BGL BNP Paribas, Barclays and CACIB in the syndicate.",
+   "why": "Sovereign status, benchmark scale and eligibility as ECB-quality collateral show that tokenised bonds have been connected to the euro area's core financial infrastructure and are no longer merely a pilot. This offers a compliance channel that can be reused for future tokenisation of green bonds and energy-infrastructure financing.",
+   "src": "LuxCSD / Clearstream press release"
+  },
+  {
+   "region": "United States",
+   "tag": "RWA / market infrastructure",
+   "title": "DTCC publishes launch details for its tokenization service: an initial 25 securities, about $30 trillion of assets eligible for tokenisation",
+   "what": "According to CantonNews on 16 October, DTCC released a one-page overview of its Tokenization Service. The service is planned to go live in October, initially supporting 25 securities, covering some Russell 1000 constituents, ETFs and US Treasuries. About $30 trillion of assets would be eligible for tokenisation, roughly a quarter of the more than $114 trillion held at DTC. Tokens correspond 1:1 to securities held at DTC and retain the same CUSIP and investor rights. At launch the service will run on Canton and DTCC's private Besu network, with Stellar and Circle's Arc expected to join in 2027. Tokens can be transferred 24/7 between registered wallets; the conversion window is 02:00–18:00 Eastern time on business days, with a target of completion within 15 minutes. The 2027 roadmap includes on-chain settlement, collateral and digital cash, and is premised on an SEC no-action letter.",
+   "why": "The world's largest securities-back-office institution is turning tokenisation into a standard service, a sign that putting traditional assets on-chain is entering mainstream infrastructure. On-chain collateral and settlement on the roadmap are key steps if green and energy RWAs are to gain liquidity.",
+   "src": "CantonNews (citing DTCC's official overview)"
+  },
+  {
+   "region": "Latin America",
+   "tag": "Energy RWA",
+   "title": "El Salvador Santa Ana IV solar-plant token $SAIV: raising up to $20 million, with holders sharing residual cash flow",
+   "what": "Storylate reported on 23 October that Monetae had launched $SAIV, a digital asset linked to the Santa Ana IV solar plant in El Salvador. The asset is registered with El Salvador's National Commission of Digital Assets (CNAD), registration date 2026-08-25, number AD-00259. $SAIV is intended to raise up to $20 million for a project whose total investment is estimated at $63.6 million; the report calls this El Salvador's first public digital-asset issue linked to a photovoltaic project. The plant is being developed by Renovatio Solar, a joint venture of AES El Salvador and ECORAY, and is expected to generate 160 GWh in its first year of commercial operation. Each token represents a pro-rata right to the project's \"residual liquidity\", i.e. cash remaining after operating costs, senior debt and issuance fees. Returns are floating and not guaranteed; the token is not a debt instrument and has no security interest in the assets. The term is 35 years, with a minimum holding period of 12 months after purchase in the primary market; funds are held by a custodian until a minimum raise is reached.",
+   "why": "This is a typical energy-RWA structure: the token is a residual-return right junior to senior debt, risk disclosure is explicit, and the issue sits under a dedicated digital-asset legal framework. It shows that the core of energy-asset tokenisation is the seniority of cash flows and legal title, not the technology itself.",
+   "src": "Storylate; CNAD registration information"
+  }
+ ]
+}

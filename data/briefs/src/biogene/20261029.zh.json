@@ -1,0 +1,47 @@
+{
+ "date_cn": "2026年10月29日",
+ "coverage": "覆盖 2026年10月28日–29日 全球进展",
+ "summary": "本期五条要闻聚焦“群体规模基因组学把疾病风险落到具体细胞”与“新一代编辑工具和 AI 资本”。Nature 发表迄今最大阿尔茨海默病多祖源 GWAS（荷兰阿姆斯特丹自由大学牵头），新增 48 个风险位点，SNP 遗传力估计升至 16%；澳大利亚 Garvan 研究所等发布 TenK10K 一期，以 1,925 人、540 万个免疫细胞绘制单细胞层面的常见与罕见变异调控图谱；美国密歇根大学在 Nature Genetics 发布 287 份人体骨骼肌活检的单核多组学遗传调控图谱；南开大学团队在 Nature Methods 报道 MARRS RNA 编辑系统，不需外源酶即可在小鼠体内实现最高 84% 编辑效率；北京 AI 制药公司百奥几何（BioGeometry）A 轮系列累计融资超 1 亿美元。",
+ "items": [
+  {
+   "region": "欧洲",
+   "title": "Nature：迄今最大阿尔茨海默病多祖源 GWAS 新增 48 个风险位点，遗传力估计提高近 3 倍",
+   "what": "荷兰阿姆斯特丹自由大学（VU Amsterdam）Emil Uffelmann、Danielle Posthuma 等 2026-10-28 在 Nature 发表开放获取论文。研究汇总 109,479 例病例、74,141 例代理病例（父母患病）、2,131,799 名对照及 499,708 名代理对照，多祖源分析发现 118 个位点，另有 9 个祖源特异位点，其中 48 个为新位点；SNP 遗传力估计为 16%，约为此前估计的 3 倍。病例中小胶质细胞上调、神经元下调的基因富集了遗传风险，并提出潜在药物靶点；汇总统计数据已公开。",
+   "why": "说明阿尔茨海默病的常见变异贡献被严重低估，多祖源大样本能持续发现新靶点并改进多基因风险预测，为早筛与药物开发提供公开数据底座。",
+   "src": "Nature（2026-10-28）；VU Amsterdam 新闻稿",
+   "url": "https://www.nature.com/articles/s41586-026-11206-y"
+  },
+  {
+   "region": "国际其他",
+   "title": "Nature：TenK10K 一期以 540 万个免疫细胞绘制常见与罕见变异的单细胞调控图谱",
+   "what": "澳大利亚 Garvan 医学研究所等 2026-10-28 在 Nature 发表 TenK10K（目标 1 万人、每人 1 万个细胞）一期成果：对 1,925 名欧洲裔个体做全基因组测序，并对 28 种免疫细胞类型的 540 余万个细胞做单细胞 RNA 测序。研究为 21,404 个受测基因中的 83% 找到候选常见调控变异，为 47% 找到累积罕见变异信号，共计 15 万余个常见变异效应和 3 万余个罕见变异效应，约半数效应只在一种或少数细胞类型中出现。同期 Nature 还发表了基于同一资源的染色质可及性 QTL 与串联重复变异两篇配套论文。",
+   "why": "首次在单细胞分辨率、以群体规模系统量化罕见变异对基因表达的影响，把疾病风险变异落实到具体免疫细胞类型，是精准免疫和多组学研究的重要公共资源。",
+   "src": "Nature（2026-10-28）；Garvan 研究所新闻",
+   "url": "https://www.nature.com/articles/s41586-026-10721-2"
+  },
+  {
+   "region": "美国",
+   "title": "Nature Genetics：287 份人体骨骼肌活检的单核多组学图谱，近 3,500 个代谢性状 GWAS 信号找到细胞归属",
+   "what": "美国密歇根大学 Stephen Parker 团队联合美国国家人类基因组研究所（NHGRI）Francis Collins 等及芬兰 FUSION 队列，2026-10-28 在 Nature Genetics 发表研究：用遗传多重化技术对 287 份冷冻骨骼肌活检做单核 ATAC-seq 与单核 RNA-seq，识别 13 种细胞类型，发现 7,000 多个表达 QTL 和 10 万多个染色质可及性 QTL；38 个相关性状的近 3,500 个 GWAS 信号与这些 QTL 共定位，且多数只与染色质可及性 QTL 而非表达 QTL 共定位。",
+   "why": "骨骼肌是 2 型糖尿病、胰岛素抵抗等代谢病的关键组织；研究表明群体规模的染色质图谱是解释 GWAS 信号的关键补充，为代谢与衰老相关靶点提供细胞级线索。",
+   "src": "Nature Genetics（2026-10-28）",
+   "url": "https://www.nature.com/articles/s41588-026-02786-6"
+  },
+  {
+   "region": "中国",
+   "title": "Nature Methods：南开大学 MARRS 系统招募内源 ADAR1，RNA 编辑效率体外最高 100%、小鼠体内 84%",
+   "what": "南开大学刘书琳、庞代文等联合团队 2026-10-28 在 Nature Methods 发表 MARRS（多价 ADAR1 招募 RNA 编辑系统）。该系统把经优化、靶向 ADAR1 p150 Zα 结构域的多价 RNA 适配体嵌入环状 RNA 骨架，招募细胞自身的 ADAR1 完成 A-to-I 编辑，无需外源酶；在培养细胞中编辑效率最高达 100%，在小鼠模型中最高 84%，并显示多种靶转录本适用、脱靶效应低。",
+   "why": "RNA 编辑只修改转录本、不永久改变基因组，安全性优势明显；效率一直是其短板，MARRS 把效率推到接近完全编辑，可能成为体内基因编辑之外更可控的治疗路线。",
+   "src": "Nature Methods（2026-10-28）",
+   "url": "https://www.nature.com/articles/s41592-026-03284-7"
+  },
+  {
+   "region": "中国",
+   "title": "百奥几何（BioGeometry）A 轮系列累计融资超 1 亿美元，押注分子与细胞两级“生物世界模型”",
+   "what": "北京 AI 原生生物医药公司百奥几何 2026-10-28 宣布完成 A+ 轮融资，A 轮系列累计融资超过 1 亿美元。本轮由China Life Capital 领投，老股东上海生物医药产业投资基金追加，CDB Technology Venture Capital 等参与，华兴资本（Index Capital）任独家财务顾问。资金将用于分子尺度模型 GeoFlow 与细胞尺度模型 GeoCell 的研发、自动化高通量实验室扩建及自有管线推进；据 Ventureburn 报道，其双特异性抗体项目预计 2027 年提交 IND。",
+   "why": "中国国有与产业资本加码“AI 生物世界模型”，表明 AI 药物设计正从分子生成走向疾病细胞生物学建模，资本更青睐“模型 + 自动化湿实验 + 自有管线”的闭环模式。",
+   "src": "百奥几何官网新闻（2026-10-28）；Ventureburn（2026-10-28）",
+   "url": "https://www.biogeom.com/2026/10/28/biogeometry-completes-us100-million-in-series-a-funding-rounds-advancing-toward-superintelligence-in-life-sciences-through-self-improving-molecular-and-cellular-world-models/"
+  }
+ ]
+}

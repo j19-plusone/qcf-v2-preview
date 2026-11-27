@@ -1,0 +1,71 @@
+{
+ "date_cn": "2026年11月13日",
+ "coverage": "覆盖 2026年11月06日–11月13日 全球进展",
+ "summary": "本周八条要闻集中在“基因编辑走向注册与常见病”“AI 读懂细胞内的 DNA”“量子计算进入蛋白尺度”三条主线。Beam 的碱基编辑疗法 risto-cel 在镰状细胞病关键试验中达到主要终点，计划最早年底向 FDA 递交首个碱基编辑上市申请；CRISPR Therapeutics 的体内编辑疗法 CTX310 在 AHA 2026 公布 1b 期数据，单疗程使重度高甘油三酯血症患者甘油三酯平均下降 63%。Google DeepMind 发布 AlphaGenome 2，可按细胞类型预测变异效应；芝加哥大学团队在 Nature Aging 报道矿物补充剂硫酸氧钒可选择性清除衰老细胞并延长雄性小鼠寿命。量子方面，克利夫兰诊所、RIKEN 与 IBM 完成 12,635 原子蛋白—配体量子—经典混合计算（预印本），欧洲 LRZ、IQM、UCL 等团队以量子+超算+AI 模拟蛋白切割。阿联酋批准 2026–2031 国家基因组总体规划，Emirati Genome Program 已达 100 万参与者；Nature Medicine 评论呼吁为中国高风险基因编辑研究者发起试验增设独立外部审查。",
+ "items": [
+  {
+   "region": "美国",
+   "title": "Beam 碱基编辑疗法 risto-cel 镰状细胞病关键试验达主要终点，拟最早年底递交 FDA 申请",
+   "what": "BioPharma Dive 2026-11-10 报道，Beam Therapeutics 宣布其碱基编辑疗法 ristoglogene autogetemcel（risto-cel）在镰状细胞病关键试验中达到“免于严重血管闭塞危象”的主要终点，数据来自截至 10 月 20 日完成治疗并随访 12 个月的 31 名患者，次要终点（如相关住院减少）亦达成；公司未披露具体数值。Beam 计划最早年底向 FDA 递交申请，这将是首个碱基编辑疗法上市申请。消息当日 Beam 股价盘中一度下跌约 10%。",
+   "why": "这是碱基编辑（不切断 DNA 双链）首次获得阳性后期临床结果，标志着继 CRISPR 疗法 Casgevy 之后，更精准的第二代编辑技术开始进入注册阶段。",
+   "src": "BioPharma Dive（2026-11-10）",
+   "url": "https://www.biopharmadive.com/news/beam-sickle-cell-base-editing-risto-cel-results/874242/"
+  },
+  {
+   "region": "美国",
+   "title": "CRISPR Therapeutics 体内编辑疗法 CTX310 在 AHA 2026 公布 1b 期数据：单疗程甘油三酯平均降 63%",
+   "what": "CRISPR Therapeutics 2026-11-09 在美国心脏协会（AHA）科学年会以 late-breaking 口头报告公布 CTX310 1b 期数据。CTX310 是靶向肝脏 ANGPTL3 基因的体内 CRISPR/Cas9 疗法，入组 10 名空腹甘油三酯≥500 mg/dL 的重度高甘油三酯血症患者（中位基线超过 1,000 mg/dL），单次输注后第 30 天 ANGPTL3 平均下降 65%、甘油三酯平均下降 63%；未见与治疗相关的严重不良事件，也未见具有临床意义的肝转氨酶升高。主要研究者为克利夫兰诊所 Ashish Sarraju。",
+   "why": "体内基因编辑正从罕见病扩展到常见心血管代谢病，“一次治疗、长期降脂”的模式可能改变慢病管理逻辑；样本仅 10 人，长期安全性仍待验证。",
+   "src": "CRISPR Therapeutics 新闻稿（2026-11-09）；Cleveland Clinic（2026-11-10）",
+   "url": "https://crisprtx.gcs-web.com/news-releases/news-release-details/crispr-therapeutics-presents-phase-1b-data-ctx310r-demonstrating/"
+  },
+  {
+   "region": "美国",
+   "title": "Nature Aging：矿物补充剂硫酸氧钒可选择性清除衰老细胞，延长雄性小鼠寿命",
+   "what": "芝加哥大学等团队 2026-11-06 在 Nature Aging 发表开放获取论文，报告膳食矿物补充剂硫酸氧钒（vanadyl sulfate, VS）具有清除衰老细胞（senolytic）作用。研究发现衰老细胞蛋白质组半胱氨酸反应性整体下降、并伴随氧化型谷胱甘肽（GSSG）积累，VS 通过促进二硫键形成导致衰老细胞内蛋白错误折叠和死亡。在 70 周龄起始的雄性 C57BL/6J 小鼠中，饮水给予 VS 3 个月使中位生存期由 886.5 天延长至 952 天。",
+   "why": "它揭示了衰老细胞特有的“氧化还原—蛋白稳态”弱点，并把一种已有的膳食补充剂与衰老细胞清除联系起来；目前仅为小鼠结果，且只在雄性中验证寿命，不能据此推荐人体服用。",
+   "src": "Nature Aging（2026-11-06，开放获取）",
+   "url": "https://www.nature.com/articles/s43587-026-01253-5"
+  },
+  {
+   "region": "欧洲",
+   "title": "Google DeepMind 发布 AlphaGenome 2：按细胞类型预测 DNA 变异效应，因果变异识别率近翻倍",
+   "what": "Google DeepMind 2026-11-11 发布 AlphaGenome 2。新模型改为“条件式”架构，输入百万碱基 DNA 序列和指定细胞类型/状态，预测基因表达、染色质可及性、组蛋白修饰及新增的 DNA 甲基化；训练数据包括超过 1.07 亿个单细胞图谱。在 TenK10K 免疫单细胞数据集上，因果变异识别率由 16% 提升至 30%；只需几十个细胞的单细胞 RNA 数据即可适配新细胞状态而无需重训。模型已通过 AlphaGenome API 向非商业研究开放，商业研究为私测；Genomics Ltd 表示将接入其 Mystra 平台。DeepMind 注明仅供研究，未经临床或诊断验证。",
+   "why": "它把全基因组关联研究（GWAS）信号与单细胞图谱连接起来，帮助定位“哪个变异、在哪种细胞、上调还是下调哪个基因”，是药物靶点发现与精准医学的底层工具。",
+   "src": "Google DeepMind 官方博客（2026-11-11）",
+   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+  },
+  {
+   "region": "欧洲",
+   "title": "德国 LRZ 联合 UCL、LMU、TUM、IQM、NVIDIA：量子+超算+AI 混合计算模拟蛋白切割",
+   "what": "德国莱布尼茨超算中心（LRZ）2026-11-11 发文介绍一项已发表的混合计算研究：伦敦大学学院（UCL）Peter Coveney 团队、慕尼黑大学（LMU）、慕尼黑工业大学（TUM）与 LRZ，以及 IQM Quantum Computers、QMatter、NVIDIA 合作，把量子计算机、超级计算机与 AI 结合，模拟黏附类 G 蛋白偶联受体（aGPCR）的蛋白自切割过程。模型规模超过 117 万个原子，量子计算机采用量子选择组态相互作用（QSCI）方法识别关键电子组态，再交由经典计算机计算。",
+   "why": "这是欧洲“量子—超算一体化”在真实生物分子问题上的落地案例，展示了量子计算目前最现实的切入方式：只处理最关键的活性区域。",
+   "src": "Leibniz-Rechenzentrum（2026-11-11）",
+   "url": "https://www.lrz.de/en/news/detail/complex-molecular-simulation"
+  },
+  {
+   "region": "中国",
+   "title": "Nature Medicine 评论：中国基因编辑研究者发起试验暴露监管缺口，建议增设独立外部审查",
+   "what": "澳门大学杜立（Li Du）等来自澳门大学、加拿大基因组与社会研究所、东北大学、电子科技大学、天津大学的作者 2026-11-11 在 Nature Medicine 发表评论，指出近期中国多例实验性细胞与基因治疗试验中出现的死亡事件，反映出治理与监督存在缺口，建议为高风险疗法的临床监管增加一层独立外部审查。文中引用了辉大基因 HG302-1 首次人体试验、RiboX RXIM002 研究者发起研究的公开更新，以及 2026 年 5 月发布的《生物医学新技术风险分级指南》。",
+   "why": "中国研究者发起试验（IIT）是基因编辑快速进入人体的重要通道，监管规则的收紧或补强将直接影响中国基因治疗的研发节奏与国际合作的合规要求。",
+   "src": "Nature Medicine（2026-11-11，评论）",
+   "url": "https://www.nature.com/articles/s41591-026-04768-x"
+  },
+  {
+   "region": "国际其他",
+   "title": "阿联酋批准 2026–2031 国家基因组总体规划，Emirati Genome Program 达 100 万参与者",
+   "what": "阿布扎比媒体办公室 2026-11-10 发布，阿布扎比王储谢赫·哈立德主持阿联酋基因组委员会会议，批准 2026–2031 国家基因组总体规划，并宣布 Emirati Genome Program 已达 100 万参与者。规划包括四项举措：覆盖 100% 阿联酋公民；为 90 万参与者提供个人基因组报告（2026 年 12 月起经 TAMM 平台提供，涵盖 214 种遗传病与健康特征）；新生儿基因筛查扩展至全国（覆盖 730 多个基因、815 种以上儿童遗传病）；强化可信研究环境（TRE），目前已收到 21 家国内外机构的合作邀请。",
+   "why": "中东国家正从“测序积累”转向“全民精准预防”的规模化落地，个人基因组报告直达公民，是全球少见的国家级应用样板。",
+   "src": "Abu Dhabi Media Office（2026-11-10）",
+   "url": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-chairs-emirates-genome-council-meeting-approves-2026-2031-national-genomics-masterplan/"
+  },
+  {
+   "region": "国际其他",
+   "title": "克利夫兰诊所、日本 RIKEN 与 IBM 完成 12,635 原子蛋白—配体量子—经典混合计算（预印本）",
+   "what": "Quantum Computing Report 2026-11-12 报道，克利夫兰诊所、RIKEN 计算科学研究中心与 IBM Quantum 在 arXiv 预印本中报告了迄今最大规模的量子—经典混合电子结构计算：模拟含溶剂的胰蛋白酶—苯甲脒（12,635 原子）和 T4 溶菌酶—正丁基苯（11,608 原子）复合物。研究使用两台 156 量子比特 IBM Heron r2 处理器，联合富岳（Fugaku）等三台超级计算机，执行 21,006 条线路、采集 30 亿次测量；分子规模较此前基准扩大 40 倍以上，并给出首个此类混合方法的蛋白—配体结合能预测。",
+   "why": "量子计算在药物结合模拟上首次跨过万原子级“真实蛋白”门槛，但仍为未经同行评审的预印本，实用优势尚需独立验证。",
+   "src": "Quantum Computing Report（2026-11-12，基于 arXiv 预印本）",
+   "url": "https://quantumcomputingreport.com/cleveland-clinic-riken-and-ibm-cross-12000-atom-barrier-in-heterogeneous-quantum-classical-drug-binding-simulations/"
+  }
+ ]
+}

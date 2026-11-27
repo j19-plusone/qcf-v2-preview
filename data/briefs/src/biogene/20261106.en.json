@@ -1,0 +1,62 @@
+{
+ "coverage": "Global developments from 30 October to 6 November 2026",
+ "summary": "This week's seven items run through the expansion of population-genome and regulatory atlases, and the move of editing therapies and ageing interventions toward use. A Kiel University team published in Nature Genetics a haplotype reference panel based on 490,319 UK Biobank participants, with the largest imputation gains in East and South Asian groups. Portugal's i3S and the University of Rochester reported in Nature Communications that a small-molecule KIF2C agonist can enhance DNA double-strand-break repair and extend healthspan and lifespan in progeria mice. The UK MHRA lowered the eligible age for the CRISPR therapy Casgevy to 5 years. Qatar Biobank published in Nature Genetics a transcriptome QTL catalogue for a Middle Eastern consanguineous population (1,882 people). A Stanford / Enable Medicine team released the spatial multi-omics integration model CORAL. A Yale team introduced Epi-PHR in Nature Methods, a single-cell epigenomic imaging method that preserves 3D genome structure. XChrom, from the Shanghai Institute of Nutrition and Health, CAS, uses AI to predict chromatin accessibility across cells.",
+ "items": [
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Nature Genetics: a haplotype reference panel from whole-genome sequencing of 490,000 UK Biobank participants is released; imputation gains are largest for East and South Asian populations",
+   "what": "Lars Wienbrandt, Andre Franke and colleagues at Kiel University published an open-access paper in Nature Genetics on 2026-10-30. They used whole-genome sequencing data from 490,319 UK Biobank participants to build a genotype-imputation reference panel, and provide standalone and cloud phasing and imputation through EagleImp and EagleImp-RAP on the UK Biobank Research Analysis Platform. Compared with the TOPMed r3 panel (133,597 people), the new panel had a lower switch-error rate in all global super-populations except AMR, and in 25 of 26 1000 Genomes subpopulations. For variants with minor allele frequency as low as 0.01%, imputation-accuracy gains were largest in East and South Asian groups.",
+   "why": "Imputation reference panels are underlying infrastructure for GWAS and polygenic risk scores worldwide. A panel of 490,000 people that improves most clearly for Asian populations means that low-cost array genotyping can infer genome-wide information more accurately.",
+   "src": "Nature Genetics (2026-10-30, open access)"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Nature Communications: a small-molecule KIF2C agonist enhances DNA double-strand-break repair and extends healthspan and lifespan in progeria mice",
+   "what": "Elsa Logarinho's team at the i3S institute, University of Porto, with Vera Gorbunova, Andrei Seluanov and others at the University of Rochester, published an open-access paper in Nature Communications on 2026-11-01. The team shows that a small-molecule KIF2C agonist can improve DNA double-strand-break repair in cells from people with Hutchinson–Gilford progeria syndrome (HGPS) and Down syndrome, and in senescent cells, by restoring nuclear-envelope invaginations assembled by cytoplasmic microtubules, and that it also improves nuclear structure and transcriptional features. After subcutaneous dosing in progeria mice, ageing phenotypes were reduced and both healthspan and lifespan were extended. The work was supported by the Maximon Longevity Prize 2022 and an ERC Synergy Grant, among other funding.",
+   "why": "Enhancing genome stability by a pharmacological means to slow ageing offers intervenable evidence that DNA damage is a core driver of ageing. The results are still from cells and a progeria mouse model and have not entered humans.",
+   "src": "Nature Communications (2026-11-01, open access)"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "The UK MHRA lowers the eligible age for the CRISPR therapy Casgevy to 5 years",
+   "what": "On 2026-10-30 the UK Medicines and Healthcare products Regulatory Agency (MHRA) announced approval to extend the UK authorisation of Casgevy (exagamglogene autotemcel), allowing eligible children aged 5 years and over with severe sickle cell disease or transfusion-dependent beta-thalassaemia to receive the treatment; it had previously been limited to those aged 12 and over. The extension was granted to Vertex Pharmaceuticals (Europe) Ltd on 2026-10-29. The UK's NICE updated its guidance the same day, extending the population to age 5 and over and retaining the managed-access arrangement. The MHRA said the United Kingdom has about 15,000 people with sickle cell disease.",
+   "why": "The first approved CRISPR therapy worldwide has been formally extended to children, a sign that gene editing is moving from adult rare-disease treatment toward earlier intervention. Treatment still requires stem-cell collection and myeloablative conditioning, so safety and access remain critical.",
+   "src": "GOV.UK / MHRA (2026-10-30); NICE TA1003 (updated 2026-10-30)"
+  },
+  {
+   "region": "China",
+   "tag": "",
+   "title": "Shanghai Institute of Nutrition and Health, CAS, releases XChrom: combining genomic sequence and single-cell state to predict chromatin accessibility across cells",
+   "what": "The team of researcher Zhen Wang in the Department of Artificial Intelligence and Digital Health at the Shanghai Institute of Nutrition and Health, Chinese Academy of Sciences (first author Yuanyuan Miao), published the deep-learning framework XChrom online in Advanced Science on 2026-10-28 (related institute news around 10-31). The model combines a genomic-sequence embedding with a cell embedding from single-cell RNA sequencing to predict chromatin accessibility in different cells and infer transcription-factor activity. On five public paired human and mouse datasets, cross-cell prediction outperformed Seurat, MultiVI and other models on several metrics, and could simultaneously predict unseen regions and cells. Analysis of motor-cortex data across human, mouse, macaque and marmoset showed that it can capture evolutionarily conserved regulatory patterns. The team has released XChrom as open source on GitHub.",
+   "why": "Paired single-cell multi-omic data are scarce. XChrom lets the large volume of existing single-cell transcriptome data be used to infer a regulatory layer, lowering the cost of multi-omics research.",
+   "src": "Shanghai Institute of Nutrition and Health, CAS / Ebiotrade (about 2026-10-31); Advanced Science (online 2026-10-28)"
+  },
+  {
+   "region": "International / other",
+   "tag": "",
+   "title": "Nature Genetics: Qatar Biobank releases a transcriptome regulatory catalogue for a Middle Eastern consanguineous population",
+   "what": "Younes Mokrab and colleagues from Qatar Biobank / the Qatar Genome Programme published an open-access paper in Nature Genetics on 2026-11-02. They integrated whole-blood RNA sequencing, whole-genome sequencing and 45 clinically relevant phenotypes from 1,882 mostly healthy Qatar Biobank participants, cataloguing about 7 million significant QTLs (including short variants and structural variants) that affect gene expression, isoform use, splicing and allele-specific expression, and identifying 1,379 previously unreported eGenes. Fine-mapping yielded 29,953 high-confidence independent causal sites, of which about 24% had not been reported before. Using elevated homozygosity, they found that causal variants are depleted in runs of homozygosity, consistent with purifying selection, and that recent consanguinity increases the burden of homozygous regulatory variants. Colocalisation analysis revealed 58 causal variants acting on 20 clinically relevant phenotypes.",
+   "why": "This is one of the largest characterisations to date of transcriptome regulation in a Middle Eastern population, filling a gap in European-dominated resources such as GTEx and eQTLGen for Middle Eastern genetic backgrounds, with direct value for genomic medicine and variant interpretation.",
+   "src": "Nature Genetics (2026-11-02, open access)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Nature Genetics: the CORAL deep generative model enables cross-scale spatial multi-omics integration",
+   "what": "James Zou, Siyu He and colleagues at Stanford, with Enable Medicine, MD Anderson and others, published CORAL (Cross-scale spatial Omics Registration and Analysis via graph Learning) in Nature Genetics on 2026-11-05. The probabilistic deep generative model uses graph attention to integrate spatial transcriptomic, proteomic, metabolomic and epigenomic data at different spatial resolutions, jointly modelling high-resolution data with limited molecular coverage and lower-resolution genome-wide data, to produce a unified representation with both broad molecular coverage and high spatial resolution. On synthetic and experimental multi-tissue, multi-platform data, CORAL can identify spatial domains, predict high-resolution molecular profiles, detect spatially variable genes and infer cell–cell interactions. Applied to spatial transcriptomic and proteomic data from people with hepatocellular carcinoma before and after immunotherapy, it identified immune-cell subsets and signalling pathways associated with treatment resistance. The code has been released as open source.",
+   "why": "Mismatched resolution and molecular coverage across spatial multi-omics platforms is a bottleneck for clinical translation. Cross-scale integration can take tumour-microenvironment analysis to a level that can inform immunotherapy.",
+   "src": "Nature Genetics (2026-11-05)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Nature Methods: Epi-PHR enables single-cell imaging of combinatorial epigenetic marks while preserving the 3D genome",
+   "what": "Siyuan Wang, Andrew Z. Xiao and colleagues at Yale published an open-access paper in Nature Methods on 2026-11-05 reporting Epi-PHR, an epigenetic proximity hybridisation reaction method. It detects combinations of multiple epigenetic marks at hundreds of gene targets in situ in single cells while preserving 3D genome organisation. Combined with chromatin tracing and allele-specific FISH, it can reveal associations between parent-of-origin epigenetic enrichment and chromatin folding at the level of a single chromatin copy in imprinted gene clusters. Compared with existing imaging methods that disrupt 3D structure or can measure only one mark at a time, Epi-PHR performed better on heterochromatin-mark detection and on running multiple marks in parallel.",
+   "why": "Measuring epigenetic state and 3D folding together on the same single copy is a key technical gap for understanding imprinting, epigenetic reprogramming in ageing, and non-coding mechanisms of disease.",
+   "src": "Nature Methods (2026-11-05, open access)"
+  }
+ ]
+}

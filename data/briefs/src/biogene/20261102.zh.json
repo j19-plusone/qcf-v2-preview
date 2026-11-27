@@ -1,0 +1,47 @@
+{
+ "date_cn": "2026年11月2日",
+ "coverage": "覆盖 2026年10月30日–11月2日 全球进展",
+ "summary": "本期（周一，覆盖上周五至今）五条要闻聚焦“人群基因组基础设施升级”与“基因组稳定性对抗衰老”。德国基尔大学 Andre Franke 团队在 Nature Genetics 发布基于 490,319 名 UK Biobank 参与者全基因组测序构建的单倍型参考面板，相位与填补精度在多数全球人群优于 TOPMed r3，东亚、南亚人群提升最大；葡萄牙 i3S 研究所联合美国罗切斯特大学在 Nature Communications 报道，KIF2C 小分子激动剂可增强 DNA 双链断裂修复，并延长早衰症小鼠的健康寿命与寿命；英国 MHRA 将 CRISPR 疗法 Casgevy 的适用年龄从 12 岁下调至 5 岁；中国科学院上海营养与健康研究所发布深度学习模型 XChrom，把基因组序列与单细胞转录组结合预测跨细胞染色质可及性；美国 Setara Biosciences 完成 9,000 万美元 A 轮，推进罕见遗传病精准药物。",
+ "items": [
+  {
+   "region": "欧洲",
+   "title": "Nature Genetics：49 万人 UK Biobank 全基因组单倍型参考面板发布，东亚、南亚人群填补精度提升最大",
+   "what": "德国基尔大学（Kiel University）Lars Wienbrandt、Andre Franke 等 2026-10-30 在 Nature Genetics 发表开放获取论文，利用 490,319 名 UK Biobank 参与者的全基因组测序数据构建基因型填补参考面板，并通过 EagleImp 与 UK Biobank 研究分析平台上的 EagleImp-RAP 提供独立及云端相位推断与填补。与广泛使用的 TOPMed r3 面板（133,597 人）相比，新面板在除 AMR 外的所有全球超级人群、以及 26 个千人基因组亚人群中的 25 个上相位切换错误率更低；对次等位基因频率低至 0.01% 的变异，5 个超级人群中 4 个的填补准确度提升，东亚与南亚人群增益最大。对意大利、德国、西班牙、挪威 COVID-19 GWAS 数据重新填补后发现了更多全基因组显著位点。",
+   "why": "填补参考面板是全球 GWAS 与多基因风险评分的底层基础设施；49 万人规模且对亚洲人群提升最明显，意味着基于芯片的低成本基因分型可以更准确地推断全基因组信息。",
+   "src": "Nature Genetics（2026-10-30，开放获取）",
+   "url": "https://www.nature.com/articles/s41588-026-02819-0"
+  },
+  {
+   "region": "欧洲",
+   "title": "Nature Communications：KIF2C 小分子激动剂增强 DNA 双链断裂修复，延长早衰症小鼠健康寿命与寿命",
+   "what": "葡萄牙波尔图大学 i3S 研究所 Elsa Logarinho 团队联合美国罗切斯特大学 Vera Gorbunova、Andrei Seluanov 等 2026-11-01 在 Nature Communications 发表开放获取论文。团队此前发现驱动蛋白 KIF2C 在衰老细胞中被抑制；本研究显示其小分子激动剂可在早衰症（HGPS）和唐氏综合征患者来源细胞及衰老细胞中，通过恢复由胞质微管驱动的核膜内陷组装来改善 DNA 双链断裂修复，并改善核结构与转录特征。早衰症小鼠皮下给药后衰老表型减轻，健康寿命与寿命均延长。研究资助方包括瑞士 Maximon A.G. 的 Maximon Longevity Prize 2022 及欧洲研究理事会 ERC Synergy Grant。",
+   "why": "直接以药理学手段增强基因组稳定性来延缓衰老，为“DNA 损伤是衰老核心驱动因素”提供了可干预的证据；目前仍为细胞与早衰小鼠模型结果，尚未进入人体。",
+   "src": "Nature Communications（2026-11-01，开放获取）",
+   "url": "https://www.nature.com/articles/s41467-026-79165-6"
+  },
+  {
+   "region": "欧洲",
+   "title": "英国 MHRA 将 CRISPR 疗法 Casgevy 适用年龄下调至 5 岁",
+   "what": "英国药品和保健品管理局（MHRA）2026-10-30 宣布，批准扩展 Casgevy（exagamglogene autotemcel）在英国的授权，允许 5 岁及以上、符合条件的重度镰状细胞病和输血依赖型 β-地中海贫血儿童接受治疗；此前仅限 12 岁及以上。授权扩展于 2026-10-29 授予 Vertex Pharmaceuticals (Europe) Ltd。英国 NICE 同日更新指南，将人群扩展至 5 岁及以上，并维持管理准入（managed access）安排。MHRA 称英国约有 15,000 名镰状细胞病患者。",
+   "why": "全球首个获批的 CRISPR 疗法正式扩展到儿童，标志基因编辑从成人罕见病治疗向更早期干预推进；同时治疗仍需干细胞采集与清髓预处理，安全与可及性仍是关键。",
+   "src": "GOV.UK / MHRA（2026-10-30）；NICE TA1003（2026-10-30 更新）",
+   "url": "https://www.gov.uk/government/news/mhra-approves-gene-editing-treatment-for-children-aged-five-and-over-with-serious-inherited-blood-disorders"
+  },
+  {
+   "region": "中国",
+   "title": "中科院上海营养与健康所发布 XChrom：融合基因组序列与单细胞状态，跨细胞预测染色质可及性",
+   "what": "中国科学院上海营养与健康研究所人工智能与数字健康部王振研究员团队（第一作者苗园园）2026-10-28 在 Advanced Science 在线发表 XChrom 深度学习框架（研究所新闻于 10-31 发布）。模型将基因组序列嵌入与单细胞 RNA 测序得到的细胞嵌入结合，预测不同细胞的染色质可及性并推断转录因子活性。在五组人类和小鼠公开配对数据上，跨区域预测与 scBasset 相当，跨细胞预测在多项指标上优于 Seurat、MultiVI 等模型，并可同时预测未见过的区域和细胞；跨人、小鼠、猕猴、狨猴运动皮层数据的分析显示其能捕捉进化保守的调控规律。团队已将 XChrom 开源发布于 GitHub。",
+   "why": "配对的单细胞多组学数据稀缺，XChrom 让海量现有单细胞转录组数据可以“推算”出调控层信息，降低多组学研究成本。",
+   "src": "中国科学院上海营养与健康研究所 / 生物通（2026-10-31）；Advanced Science（2026-10-28 在线）",
+   "url": "https://www.ebiotrade.com/newsf/2026-10/20261031083016192.htm"
+  },
+  {
+   "region": "美国",
+   "title": "Setara Biosciences 完成 9,000 万美元 A 轮，推进罕见遗传病精准药物",
+   "what": "美国 Setara Biosciences 2026-10-30 通过 Business Wire 宣布完成 9,000 万美元 A 轮融资，用于推进针对罕见遗传病及相关扩展适应症的精准药物；据公开报道，其领先项目为 TRPV4 抑制剂，适应症包括腓骨肌萎缩症（Charcot-Marie-Tooth 病）和膀胱过度活动症。",
+   "why": "遗传学驱动的罕见病药物仍能获得大额早期融资，说明资本持续看好“从致病基因到精准药物”的路径。",
+   "src": "Business Wire（2026-10-30）",
+   "url": "https://www.businesswire.com/news/home/20261030022827/en/Setara-Biosciences-Announces-%2490-Million-Series-A-Financing-to-Advance-Precision-Medicines-for-Rare-Genetic-Diseases-and-Related-Expansion-Indications"
+  }
+ ]
+}

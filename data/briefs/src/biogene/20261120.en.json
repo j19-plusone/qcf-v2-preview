@@ -1,0 +1,70 @@
+{
+ "coverage": "Global developments from 13 to 20 November 2026",
+ "summary": "This week's eight items follow three threads: the safety and regulation of gene editing; a surge of capital into AI drug discovery; and ageing measurement and intervention moving toward populations. Shanghai published the findings of its investigation into a gene-editing study at Shanghai Jiao Tong University School of Medicine that led to a child's death; the principal investigator was dismissed, and Nature later followed the story. Meanwhile, Intellia presented four-year follow-up data for the in vivo CRISPR therapy lonvo-z at ACAAI 2026; it could become the first FDA-approved in vivo gene-editing therapy. The Salk Institute published Superb-seq in Nature Methods, which can capture Cas9 off-target edits and their effects on gene expression in the same single cell. On the capital side, Isomorphic Labs closed a $5 billion Series C. In ageing research, UC San Diego reported in Cell Metabolism on metabolic features of the gut microbiota in centenarians and used engineered bacteria to improve metabolism in old mice; a University of Hong Kong team published in npj Aging a 20-year follow-up of organ-specific proteomic ageing clocks in a Chinese population. On the quantum side, Moth encoded and read back DNA and protein sequence data on an IBM 120-qubit processor. In the Middle East, Dubai announced the establishment of a Dubai Precision Medicine Centre.",
+ "items": [
+  {
+   "region": "China",
+   "tag": "",
+   "title": "Shanghai publishes findings of its investigation into a gene-editing study that led to a child's death; the principal investigator is dismissed",
+   "what": "China Daily reported on 2026-11-13 that a Shanghai investigation and handling working group had published findings on a gene-editing research incident at Shanghai Jiao Tong University School of Medicine: a child with Snijders Blok–Campeau syndrome died after receiving a customised gene-editing therapy at Xinhua Hospital; the principal investigator (Qiu Zilong) was dismissed from his posts, and the university was summoned and ordered to reflect thoroughly. Nature followed on 2026-11-16, reporting that the investigation found the team had not complied with regulations and had ignored warning signs in safety reports, and that participating institutions and other individuals were also sanctioned.",
+   "why": "This is a landmark accountability case in China for high-risk, investigator-initiated gene-editing clinical research. It will directly tighten requirements for ethics review, informed consent and safety reporting, and will affect the pace of customised gene therapy in the country.",
+   "src": "China Daily (2026-11-13); Nature (2026-11-16)"
+  },
+  {
+   "region": "China",
+   "tag": "",
+   "title": "University of Hong Kong team in npj Aging: 20-year follow-up of organ-specific proteomic ageing clocks in a Chinese population",
+   "what": "An open-access paper in npj Aging on 2026-11-19, from a University of Hong Kong team and others, used the SomaScan v5.0 proteome to assess a whole-body clock and 11 organ-specific ageing clocks in 185 Chinese adults in the Hong Kong Osteoporosis Study. Over a median 20.3 years of follow-up, muscle ageing was associated with new-onset chronic kidney disease (HR=2.84 per SD), and immune and brain ageing were associated with all-cause mortality. People with three or more organs \"aged\" had a 16.5-fold higher mortality risk than those with no aged organs. Metabolomic analysis identified 380 metabolites associated with organ-age gaps.",
+   "why": "Organ ageing clocks have mainly been based on European populations. This study is the first long-term clinical-outcome validation in a Chinese population, and it provides a basis for ageing measurement and early intervention in Asian groups (the sample is relatively small and needs confirmation in larger cohorts).",
+   "src": "npj Aging (2026-11-19)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Intellia lonvo-z four-year follow-up data: could become the first approved in vivo CRISPR therapy",
+   "what": "On 2026-11-12 Intellia announced that it would present additional lonvo-z data in hereditary angioedema (HAE) at ACAAI 2026, with a four-year durability and safety oral report on 11-14. In the phase 3 HAELO trial, patients who had previously been on long-term prophylaxis saw an 81% further drop in monthly attack rate after dosing, relative to their prior prophylaxis; 100% of patients who received 50 mg in the phase 1/2 and HAELO studies were free of long-term prophylaxis as of the data cut-off. Nature reported on 2026-11-12 that the therapy had been filed with the FDA and could become the first approved in vivo gene-editing therapy.",
+   "why": "In vivo editing does not require cells to be taken out and modified, so cost and access are far better than ex vivo therapies. If approved, it would open a commercial era of in vivo editing with a single dose and lasting effect.",
+   "src": "Intellia IR (2026-11-12); Nature (2026-11-12)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Salk Institute publishes Superb-seq in Nature Methods: capturing Cas9 edits and expression effects in the same single cell",
+   "what": "An open-access paper in Nature Methods on 2026-11-16 from Graham McVicker's team at the Salk Institute introduces Superb-seq, which integrates Cas9 editing, T7 in situ transcription and single-cell RNA sequencing, validated in 35,000 cells across three cell lines. In 10,000 K562 cells it detected 5,761 edited cells, all on-target sites and 36 off-target sites; 19 off-target edits were associated with differential gene expression, nine of them in a cell-type-specific way.",
+   "why": "The core safety problem in gene therapy is off-target editing and its functional consequences. Superb-seq is the first method to link, at single-cell resolution, where an edit occurred and what it changed. It can be used for safety characterisation in therapy development and can provide high-quality data for AI models.",
+   "src": "Nature Methods (2026-11-16); Salk Institute (2026-11-16)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "UC San Diego in Cell Metabolism: metabolic features of the gut microbiota in centenarians can be amplified by engineered bacteria and improve metabolism in old mice",
+   "what": "UC San Diego announced on 2026-11-16 that Amir Zarrinpar's team had published that day in Cell Metabolism a study identifying a pattern of gut microbial metabolic activity in centenarians associated with exceptional longevity, also observed in old mice. The researchers used engineered bacteria to amplify that activity, improving insulin sensitivity in old mice and producing other favourable metabolic changes.",
+   "why": "The study suggests that some age-related microbiota changes may be a protective adaptation rather than decline, and it puts microbial metabolism on the list of new intervention targets for healthy longevity (the evidence is still at the animal level).",
+   "src": "UC San Diego Today (2026-11-16); Cell Metabolism"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Isomorphic Labs closes a $5 billion Series C, another record for AI drug-discovery capital",
+   "what": "London-based Isomorphic Labs announced on 2026-11-17 that it had closed a $5 billion Series C, jointly led by Greenoaks and Sequoia Capital, with new investors including a16z, a further large investment from Alphabet, and follow-on participation from all existing investors including Thrive Capital, MGX, GV, CapitalG, Temasek and the UK Sovereign AI Fund. The funds will expand its proprietary drug-design engine IsoDDE and its pipeline of AI-designed drug candidates. CNBC noted that this came only months after the previous round.",
+   "why": "This is a rare mega-round in AI drug discovery, a sign that capital is betting on AI understanding biology at the molecular level and moving candidates into the clinic. Industry valuations and competition for talent will rise further.",
+   "src": "Isomorphic Labs (2026-11-17); CNBC (2026-11-17)"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "London's Moth encodes and reads back DNA and protein sequence data on an IBM 120-qubit processor, setting a record",
+   "what": "The UK quantum company Moth announced on 2026-11-16 that its encoding method Tessa had encoded 1,568 numerical values on all 120 qubits of the IBM Quantum Nighthawk r2 processor and successfully read them back (previous experiments of this kind had read back at most 128 values). Tessa was also used to encode DNA and protein sequences, including the \"genome guardian\" protein p53. According to TechRadar and other reports, the readout was not perfect and was not error-corrected.",
+   "why": "Loading data is one of the main bottlenecks in quantum machine learning. Writing biological sequences onto a quantum chip and reading them back is a basic step toward using quantum computing for genome and protein analysis (this is still an early demonstration).",
+   "src": "Moth (2026-11-16)"
+  },
+  {
+   "region": "International / other",
+   "tag": "",
+   "title": "Dubai signs an MoU to establish a Dubai Precision Medicine Centre",
+   "what": "The Dubai Media Office reported on 2026-11-19 that during Dubai Future Week 2026 (18–21 November), Sheikh Mansoor bin Mohammed, vice-chairman of the Dubai Health Authority, witnessed the signing of a memorandum of understanding between the Dubai Future Foundation and Dubai Health to establish a Dubai Precision Medicine Centre. The centre will be based at Mohammed Bin Rashid University of Medicine and Health Sciences (MBRU), part of Dubai Health, and is intended to advance personalised medicine and accelerate multidisciplinary collaboration.",
+   "why": "After the UAE's 2026–2031 national genome plan, Dubai is establishing a city-level precision-medicine centre. Gulf countries are treating genomics and precision medicine as national strategic infrastructure.",
+   "src": "Dubai Media Office (2026-11-19)"
+  }
+ ]
+}

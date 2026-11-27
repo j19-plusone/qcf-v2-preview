@@ -1,0 +1,71 @@
+{
+ "date_cn": "2026年11月20日",
+ "coverage": "覆盖 2026年11月13日–11月20日 全球进展",
+ "summary": "本周八条要闻围绕三条主线：“基因编辑的安全与监管”“AI 制药资本狂潮”“衰老测量与干预走向人群”。中国上海市公布上海交大医学院基因编辑研究致儿童死亡事件调查结果，首席研究者被免职，Nature 随后跟进报道；与此同时，Intellia 在 ACAAI 2026 公布体内 CRISPR 疗法 lonvo-z 四年随访数据，有望成为首个获 FDA 批准的体内基因编辑疗法。Salk 研究所在 Nature Methods 发表 Superb-seq，可在单细胞层面同时捕获 Cas9 的脱靶编辑及其对基因表达的影响。资本方面，Isomorphic Labs 完成 50 亿美元 C 轮融资。衰老领域，UC San Diego 在 Cell Metabolism 报道百岁老人肠道菌群代谢特征并以工程菌改善老年小鼠代谢；香港大学团队在 npj Aging 发表中国人群器官特异性蛋白质组衰老时钟 20 年随访结果。量子方面，Moth 在 IBM 120 比特处理器上编码并读回 DNA/蛋白序列数据；中东方面，迪拜宣布建立 Dubai Precision Medicine Centre。",
+ "items": [
+  {
+   "region": "中国",
+   "title": "上海公布基因编辑研究致儿童死亡事件调查结果：首席研究者被免职",
+   "what": "China Daily 2026-11-13 报道，上海市调查处置工作组公布上海交通大学医学院一项基因编辑研究事件的调查结果：一名患 Snijders Blok–Campeau 综合征的儿童在新华医院接受定制基因编辑疗法后死亡，首席研究者（仇子龙）被免去所任职务，学校被约谈并责令深刻反思。Nature 2026-11-16 跟进报道称，调查认定团队未遵守法规、忽视安全报告中的警示信号，参与机构及其他人员亦被处理。",
+   "why": "这是中国针对研究者发起的高风险基因编辑临床研究的标志性问责案例，将直接收紧伦理审查、知情同意与安全报告要求，影响国内“定制化”基因治疗的推进节奏。",
+   "src": "China Daily（2026-11-13）；Nature（2026-11-16）",
+   "url": "https://www.chinadaily.com.cn/a/202611/13/WS6af70d2de4b03ebf8519c505.html"
+  },
+  {
+   "region": "中国",
+   "title": "港大团队 npj Aging：中国人群器官特异性蛋白质组衰老时钟 20 年随访",
+   "what": "npj Aging 2026-11-19 发表（开放获取），香港大学等团队基于 SomaScan v5.0 蛋白质组，在香港骨质疏松研究的 185 名中国成年人中评估整体及 11 个器官特异性衰老时钟。中位随访 20.3 年：肌肉衰老与新发慢性肾病相关（每 SD HR=2.84），免疫与脑衰老与全因死亡相关；≥3 个器官“老化”者死亡风险为无老化器官者的 16.5 倍；代谢组分析识别出 380 个与器官年龄差相关的代谢物。",
+   "why": "器官衰老时钟此前主要基于欧洲人群，本研究首次在中国人群中给出长期临床结局验证，为亚洲人群的衰老测量与早期干预提供依据（样本量较小，需更大队列验证）。",
+   "src": "npj Aging（2026-11-19）",
+   "url": "https://www.nature.com/articles/s41514-026-00566-4"
+  },
+  {
+   "region": "美国",
+   "title": "Intellia lonvo-z 四年随访数据：有望成为首个获批的体内 CRISPR 疗法",
+   "what": "Intellia 2026-11-12 宣布在 ACAAI 2026 发布 lonvo-z（遗传性血管性水肿 HAE）多项数据，四年耐久性/安全性口头报告于 11-14 进行：HAELO 3 期中此前接受长期预防治疗的患者，给药后月发作率较原预防治疗再降 81%；1/2 期与 HAELO 中接受 50 mg 的患者截至数据截止日 100% 无需长期预防用药。Nature 2026-11-12 报道称该疗法已向 FDA 申请上市，有望成为首个获批的体内基因编辑疗法。",
+   "why": "体内编辑无需取出细胞改造，成本与可及性远优于体外疗法；若获批，将开启“一次给药、长期治愈”的体内编辑商业化时代。",
+   "src": "Intellia IR（2026-11-12）；Nature（2026-11-12）",
+   "url": "https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-presents-additional-positive-clinical-and"
+  },
+  {
+   "region": "美国",
+   "title": "Salk 研究所 Nature Methods 发表 Superb-seq：单细胞同时捕获 Cas9 编辑与表达效应",
+   "what": "Nature Methods 2026-11-16 发表（开放获取），Salk 研究所 Graham McVicker 团队提出 Superb-seq，整合 Cas9 编辑、T7 原位转录与单细胞 RNA 测序，在 3 种细胞系共 35,000 个细胞中验证。在 10,000 个 K562 细胞中检出 5,761 个被编辑细胞、全部靶点及 36 个脱靶位点；19 个脱靶编辑与差异基因表达相关，其中 9 个具有细胞类型特异性。",
+   "why": "基因治疗安全性的核心难题是脱靶及其功能后果，Superb-seq 首次在单细胞分辨率把“编辑在哪里”与“改变了什么”关联起来，可用于疗法开发的安全性表征，并为 AI 模型提供高质量数据。",
+   "src": "Nature Methods（2026-11-16）；Salk Institute（2026-11-16）",
+   "url": "https://www.nature.com/articles/s41592-026-03319-z"
+  },
+  {
+   "region": "美国",
+   "title": "UC San Diego Cell Metabolism：百岁老人肠道菌群代谢特征可被工程菌放大，改善老年小鼠代谢",
+   "what": "UC San Diego 2026-11-16 宣布，Amir Zarrinpar 团队当日在 Cell Metabolism 发表研究：在百岁老人中发现一种与超长寿相关的肠道微生物代谢活动模式，老年小鼠中亦可观察到；研究者用工程菌放大该活动，使老年小鼠胰岛素敏感性改善并出现其他有利代谢变化。",
+   "why": "研究提出部分随年龄出现的菌群变化可能是“保护性适应”而非衰退，将微生物代谢列为健康长寿的新干预靶点（目前为动物层面证据）。",
+   "src": "UC San Diego Today（2026-11-16）；Cell Metabolism",
+   "url": "https://today.ucsd.edu/story/gut-microbiome-activity-linked-to-exceptional-longevity-may-support-healthier-aging"
+  },
+  {
+   "region": "欧洲",
+   "title": "Isomorphic Labs 完成 50 亿美元 C 轮融资，AI 制药资本再创纪录",
+   "what": "总部位于伦敦的 Isomorphic Labs 2026-11-17 宣布完成 50 亿美元 C 轮融资，由 Greenoaks 与 Sequoia Capital 联合领投，a16z 等新投资方参与，Alphabet 继续大额投资，Thrive Capital、MGX、GV、CapitalG、Temasek 与英国 Sovereign AI Fund 等现有投资方全部跟投。资金将用于扩展其专有药物设计引擎 IsoDDE 与 AI 设计的候选药物管线。CNBC 指出这距其上一轮融资仅数月。",
+   "why": "这是 AI 制药领域罕见的超大单轮融资，表明资本押注“AI 从分子层面理解生物学”并推动候选药物进入临床，行业估值与人才竞争将进一步抬升。",
+   "src": "Isomorphic Labs（2026-11-17）；CNBC（2026-11-17）",
+   "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round"
+  },
+  {
+   "region": "欧洲",
+   "title": "伦敦 Moth 在 IBM 120 比特处理器上编码并读回 DNA/蛋白序列数据，刷新纪录",
+   "what": "英国量子公司 Moth 2026-11-16 宣布，其编码方法 Tessa 在 IBM Quantum Nighthawk r2 处理器的全部 120 个量子比特上编码 1,568 个数值并成功读回（此前同类实验最多读回 128 个），并用 Tessa 编码了 DNA 与蛋白序列，包括“基因组守护者”p53 蛋白。据 TechRadar 等报道，读回并非完美且未经纠错。",
+   "why": "数据加载是量子机器学习的主要瓶颈之一，把生物序列写入并读出量子芯片是量子计算走向基因组与蛋白分析的基础一步（目前仍属早期演示）。",
+   "src": "Moth（2026-11-16）",
+   "url": "https://mothquantum.com/news/2026/11/16/tessa-record-quantum-data-encoding"
+  },
+  {
+   "region": "国际其他",
+   "title": "迪拜签署 MoU 建立 Dubai Precision Medicine Centre",
+   "what": "迪拜媒体办公室 2026-11-19 发布，在 Dubai Future Week 2026（11 月 18–21 日）期间，迪拜卫生局副主席 Sheikh Mansoor bin Mohammed 见证 Dubai Future Foundation 与 Dubai Health 签署谅解备忘录，建立 Dubai Precision Medicine Centre；中心依托 Dubai Health 旗下穆罕默德·本·拉希德医学与健康科学大学（MBRU），旨在推动个性化医疗并加速多学科合作。",
+   "why": "继阿联酋 2026–2031 国家基因组规划之后，迪拜在城市层面落地精准医学中心，海湾地区正把基因组与精准医疗作为国家级战略基础设施。",
+   "src": "Dubai Media Office（2026-11-19）",
+   "url": "https://www.mediaoffice.ae/en/news/2026/novemebr/19-11/mansoor-bin-mohammed-witnesses-launch-of-dubai-precision-medicine-centre"
+  }
+ ]
+}
