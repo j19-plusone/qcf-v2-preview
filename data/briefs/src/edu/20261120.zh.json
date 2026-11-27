@@ -1,0 +1,95 @@
+{
+ "date_cn": "2026年11月20日",
+ "coverage": "覆盖 2026年11月13日–11月20日 全球进展",
+ "summary": "本周国际教育有四条主线。第一，美国年度数据落地：IIE《Open Doors 2026》（11月16日）显示 2025/26 学年在美国际生 1,146,163 人，同比下降约 3%，新生下降 18%、硕士生下降 22%，而博士生增长 3%；800 余所高校的 2026 秋季快照显示总数再降 9%。同周联邦法官对 DHS 收紧 CPT 实习的两份备忘录发出初步禁令。第二，全球流动“东移西减”：Studyportals/NAFSA/牛津英语测试联合调查显示，“四大”目的地 62% 的高校研究生国际招生下降，其他地区仅 27%，亚洲与欧洲大陆受益；爱尔兰则因签证拒签增加损失逾 800 万欧元学费收入。第三，AI 与量子成为大学组织与资源配置核心：ETH Zurich 决定自 2027 年起将 ETH AI Center、Quantum Center 等七个中心升级为“战略 ETH 中心”；FIU 与 IonQ 签约在校内部署 256 量子比特离子阱量子计算机；Caltech 获 6,750 万美元冠名计算与数学科学系，宾州州立大学获 7,500 万美元累计承诺。第四，跨学科与亚洲崛起：THE 跨学科科学排名 2027（11月18日）中 NUS 升至第 2、港大升至并列第 7，前十首次有三所亚洲大学；北航全球合作伙伴峰会在杭州揭牌三个国际科研平台；卡塔尔联合 Scale AI 与卡塔尔大学推出教育 AI 国家项目。",
+ "trends": [
+  "美国国际教育“授课型硕士收缩、博士与 STEM 稳定”：工作通道（OPT/CPT）的政策与司法拉锯将继续左右学生选择。",
+  "全球流动重心东移：亚洲与欧洲大陆高校国际招生向好，但欧洲内部签证政策分化（如爱尔兰拒签上升）。",
+  "AI 与量子从院系项目升级为大学战略机构与校园基础设施（ETH 战略中心、FIU 校园量子计算机），教学与产业转移一体化。",
+  "跨学科能力成为新的排名与竞争维度，亚洲高校快速上升；对跨学科学者的激励机制仍是普遍短板。",
+  "国家主导的教育 AI（卡塔尔）与中国高校“共建实体平台”式国际化并行推进；大额捐赠继续集中于 AI/计算领域。"
+ ],
+ "footer": "本简报所有事实与数据均来自所列公开来源（发布日期见各条目），由 QCF 首席发展官（008 QCF COO）整理，供内部决策参考，不构成投资或法律意见。",
+ "items": [
+  {
+   "region": "美国",
+   "tag": "留学数据 / 年度报告",
+   "title": "《Open Doors 2026》：在美国际生约 114.6 万、降 3%，新生降 18%；秋季快照再降 9%，法院叫停 CPT 收紧",
+   "what": "美国国际教育协会（IIE）11月16日发布《Open Doors 2026》：2025/26 学年在美国际生 1,146,163 人，同比下降约 3%。研究生下降 13%（硕士 -22%，博士 +3%），本科 356,165 人基本持平（-0.3%）；首次入学新生下降 18% 至 228,123 人；OPT 参与者增长 14% 至 335,785 人。印度仍为最大生源国（339,435 人，-6%），中国 254,458 人（-4%）；孟加拉、越南、意大利等 9 个生源国创历史新高。美国学生海外留学学分人数 313,824 人（2024/25，+5%），瑞士为创历史新高的目的地之一。800 余所高校参与的 2026 秋季快照显示国际生总数再降 9%、新生降 15%。另据 Inside Higher Ed 11月20日报道，联邦法官 Julia Kobick 于本周二（11月17日）对 DHS 8 月两份限制国际生课程实习（CPT）的备忘录发出初步禁令，诉讼由美国大学协会（AAU）等四个高教团体提起。",
+   "why": "这是全球最权威的年度留学流动基准之一。数据显示美国授课型硕士市场明显收缩，而博士与 STEM 研究型人才仍在增长；签证、OPT/CPT 等工作通道的政策不确定性，正直接影响学生选校。",
+   "src": "Institute of International Education（IIE）Open Doors；Inside Higher Ed",
+   "date": "2026-11-16",
+   "url": "https://opendoorsdata.org/wp-content/uploads/2026/11/Open-Doors-Data-Press-Release_2026.pdf"
+  },
+  {
+   "region": "全球 / 欧洲",
+   "tag": "留学流动 / 目的地格局",
+   "title": "全球招生基准调查：“四大”目的地研究生招生普遍下滑，亚洲与欧洲大陆受益；爱尔兰拒签损失逾 800 万欧元",
+   "what": "Studyportals 联合 NAFSA 与牛津英语测试（Oxford Test of English）发布 2026 全球招生基准调查（ICEF Monitor、THE 11月12日报道，覆盖 63 国 437 所大学）：澳、加、英、美“四大”目的地中 62% 的高校 2026 年 8–10 月国际研究生招生下降，其他地区仅 27%；英国 79% 的高校研究生国际招生下降。签证与限制性政策被视为招生“最大障碍”，亚洲高校对 2027 年前景最乐观，欧洲次之。另据 RTÉ 11月15日报道，爱尔兰大学因 2026 年国际学生签证拒签率上升，本学年已损失超 800 万欧元学费收入，科大协会（TUA）预计 2027 年科技大学板块损失将超 500 万欧元。",
+   "why": "全球学生流向正从英语“四大”向欧洲大陆和亚洲转移，但欧洲内部也并非全然开放（如爱尔兰签证收紧）。政策稳定性正成为国际教育的核心竞争力。",
+   "src": "ICEF Monitor；Times Higher Education；RTÉ News",
+   "date": "2026-11-15",
+   "url": "https://monitor.icef.com/2026/11/global-survey-tracks-universities-foreign-enrolment-for-2026-and-outlook-for-2027/"
+  },
+  {
+   "region": "瑞士",
+   "tag": "AI × 量子 / 大学治理",
+   "title": "ETH Zurich 设立七个“战略 ETH 中心”，AI Center 与 Quantum Center 2027 年起统一治理",
+   "what": "ETH Zurich 执行委员会在 11 月中旬会议上决定（ETH Staffnet 11月16日发布），自 2027 年 1 月 1 日起设立七个“战略 ETH 中心”（Strategic ETH Centres），统一整合教育、研究与知识/技术转移：Albert Einstein 公共政策学院、材料与工艺中心（MaP）、机器人中心（RobotX）、能源科学中心、ETH AI Center、Quantum Center、世界粮食系统中心。各中心将分别向研究副校长或知识转移与企业关系副校长汇报，采用统一的治理与预算框架。研究副校长 Annette Oxenius 表示，此举旨在长期加强对科学与社会至关重要的跨学科领域。此外，EPFL 量子科学与工程硕士生正联合 FHNW 推进 “Schiiq” 项目，开发低成本、开源的教学用台式 NMR 量子计算机，面向瑞士及低收入国家的学校。",
+   "why": "瑞士顶尖理工大学把 AI 与量子从项目层面提升为全校战略级机构，并把教育、研究、产业转移打通；量子教育也开始走向“低成本普及”。",
+   "src": "ETH Zurich Staffnet；EPFL News",
+   "date": "2026-11-16",
+   "url": "https://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2026/11/news-from-the-executive-board-2026-7.html"
+  },
+  {
+   "region": "全球 / 亚洲",
+   "tag": "排名 / 跨学科科学",
+   "title": "THE 跨学科科学排名 2027：MIT 三连冠，NUS 升至第 2、港大跃至并列第 7，前十首现三所亚洲大学",
+   "what": "泰晤士高等教育（THE）联合 Schmidt Science Fellows 于 11月18日发布跨学科科学排名（ISR）2027：MIT 连续第三年第一；新加坡国立大学从第 8 升至第 2，南洋理工并列第 7，香港大学从并列第 32 跃升至并列第 7；欧洲仅荷兰瓦赫宁根大学（第 9）进入前十。前十中美国占 6 所，前二十中有 7 所亚洲大学（去年 5 所）；中国内地前三名高校大幅跃升进入前 50。本届共 1,058 所机构、102 个国家/地区参评（去年 911 所），卡塔尔等 10 国首次上榜。THE 指出，跨学科研究的设施投入在增加，但对跨学科学者的评价与晋升激励仍不足。",
+   "why": "跨学科能力正成为衡量大学未来竞争力的新维度；亚洲高校在这一维度快速上升，评价体系改革（晋升、激励）是下一步关键。",
+   "src": "Times Higher Education",
+   "date": "2026-11-18",
+   "url": "https://www.timeshighereducation.com/press-releases/press-release-interdisciplinary-science-rankings-2027"
+  },
+  {
+   "region": "中国",
+   "tag": "国际合作 / 科研平台",
+   "title": "2026 北航全球合作伙伴峰会在杭州举行：40 多国 160 多所机构参会，三个国际科研平台揭牌",
+   "what": "据杭州网 11月18日报道，2026 北航全球合作伙伴峰会在北航杭州国际校园举行，来自 40 多个国家和地区、160 多所教育科研机构的 300 余位专家参会，为第 24 届中国国际人才交流大会北航分会场。峰会揭牌空天智能韧性网络国际合作联合实验室、北航“让·莫内”卓越欧洲研究中心、北航—巴西物理研究中心自旋电子学联合实验室三个国际科研平台；北航与摩洛哥拉巴特国际大学及企业签署共建“中非卓越工程师学院”备忘录，并与巴西高校签署中巴医学中心协议（聚焦工程医学与数智健康）。T.I.M.E. 国际工程卓越大学联盟（27 国 60 所大学）秘书长到会。",
+   "why": "中国高校正以“国际校园 + 联合实验室 + 产教融合学院”模式拓展全球南方与欧洲合作，国际化从学生交换走向共建实体平台。",
+   "src": "杭州网",
+   "date": "2026-11-18",
+   "url": "https://ori.hangzhou.com.cn/ornews/content/2026-11/18/content_9373396.htm"
+  },
+  {
+   "region": "中东",
+   "tag": "AI 教育 / 国家项目",
+   "title": "卡塔尔联合 Scale AI 与卡塔尔大学推出两项教育 AI 国家项目",
+   "what": "据 The Peninsula（卡塔尔通讯社稿）11月17日报道，卡塔尔通信与信息技术部、教育与高等教育部和卡塔尔大学在 Scale AI 技术合作下，启动两项教育 AI 国家项目：面向中小学师生、基于国家课程的“智能助手”（Smart Assistant），以及与卡塔尔大学合作、提升大学学业指导服务的“学业顾问助手”（Academic Adviser Assistant）。",
+   "why": "海湾国家正把 AI 以“国家项目”形式系统嵌入从中小学到大学的教育链条，政府—高校—科技公司三方合作成为主流模式。",
+   "src": "The Peninsula Qatar（QNA）",
+   "date": "2026-11-17",
+   "url": "https://thepeninsulaqatar.com/article/17/11/2026/qatar-launches-two-national-ai-projects-to-enhance-school-learning-university-academic-advising"
+  },
+  {
+   "region": "美国",
+   "tag": "量子教育 / 基础设施",
+   "title": "FIU 与 IonQ 合作：佛州首台校园全栈离子阱量子计算机（256 量子比特）将于 2027 年落地",
+   "what": "佛罗里达国际大学（FIU）工程与计算学院院长 11月17日宣布，FIU 与 IonQ 达成协议，成为该公司在佛州的旗舰学术合作伙伴；IonQ 新一代 Superion 256 系统（256 量子比特离子阱）预计 2027 年中后期安装在 FIU 校园，FIU 将成为佛州首所拥有全栈离子阱量子计算机的大学。学院已有 NSF 研究型培训项目和两项 DOE 资助研究，涵盖量子材料、量子 AI、能源量子算法、抗量子加密与量子传感。",
+   "why": "量子计算正从“云端访问”走向“校园自有设备”，成为大学吸引人才、培养学生和服务区域产业（含智能电网/能源）的核心基础设施。",
+   "src": "FIU College of Engineering & Computing",
+   "date": "2026-11-17",
+   "url": "https://cec.fiu.edu/news-events/news/2026/from-the-deans-desk-a-quantum-computer-is-coming-to-fiu.html"
+  },
+  {
+   "region": "美国",
+   "tag": "大学慈善捐赠",
+   "title": "Caltech 获 6,750 万美元冠名计算与数学科学系；宾州州立大学获 7,500 万美元累计承诺",
+   "what": "加州理工学院（Caltech）11月18日宣布，校友 William “Bill” Coughran 与妻子 Bridget Coughran 承诺捐赠 6,750 万美元，冠名并永续资助“Bridget and William Coughran 计算与数学科学系”，支持计算与信息领域的基础研究。校长 Ray Jayawardhana 表示 AI 与计算将在全部科学与工程领域发挥关键作用。宾州州立大学 11月13日宣布，荣誉校董 Ira Lubert 与 Pam Estadt 在本轮募资中的累计承诺达 7,500 万美元，成为该校史上第二大捐赠人，资助学术与学生项目。",
+   "why": "大额慈善捐赠持续流向 AI/计算等前沿学科，并以“冠名院系 + 永续基金”形式锁定长期投入，是大学筹资的主流结构。",
+   "src": "Caltech News；Penn State News",
+   "date": "2026-11-18",
+   "url": "https://www.caltech.edu/about/news/caltech-names-the-bridget-and-william-coughran-department-of-computing-mathematical-sciences"
+  }
+ ]
+}

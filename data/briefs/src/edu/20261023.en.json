@@ -1,0 +1,78 @@
+{
+ "coverage": "Global developments from 16 to 23 October 2026",
+ "summary": "International higher education this week has three main threads. First, transnational education and regional hubs are accelerating: Singapore Management University (SMU) opened its first China centre in Shenzhen on 22 October and signed four memoranda of understanding; Vietnam's deputy prime minister on 20 October welcomed a HKU Business School campus in Hanoi and suggested a staged approach; the University of Birmingham and the University of Lagos opened two joint master's programmes in Nigeria on 22 October. Second, China–Switzerland and China–Europe education cooperation is being institutionalised: the Finance Committee of the Swiss National Council on 16 October approved 2027 Erasmus+ funding by 18 votes to 7, with a plenary vote expected in December; the China–Switzerland Vocational and Technical Education Alliance was established in Tianjin on 17 October, with 33 founding members. Third, AI and quantum are reshaping faculty structures and degree systems: Beijing University of Technology established a Frontier Interdisciplinary Research Institute on 16 October and inaugurated a Quantum Science and Technology Innovation Centre; Cornell University announced two online AI master's programmes from autumn 2027. At the same time, uncertainty in US international-student policy continues to grow (a proposed OPT fee, tighter CPT rules, pending litigation), while large gifts continue to flow to US universities.",
+ "trends": [
+  "Transnational education is shifting from \"Anglo-American export\" toward \"Asian export + asset-light entry\": SMU has opened a centre in Shenzhen, HKU Business School plans a campus in Hanoi (Vietnam has suggested starting with joint training), and the University of Birmingham has opened joint master's programmes in Lagos. Centres, joint programmes and in-country delivery have become the mainstream forms.",
+  "China–Switzerland and China–Europe education cooperation is being institutionalised: the China–Switzerland vocational-education alliance has been established; Switzerland's 2027 accession to Erasmus+ has entered the final National Council stage (a December vote).",
+  "AI and quantum are changing how universities are organised: Chinese universities are using interdisciplinary institutes to position quantum work, while US universities are splitting AI degrees into technical and applied tracks and scaling them online.",
+  "Switzerland's leading universities face an outflow of AI talent: according to Swiss outlet The Intelligent on 20 October, US technology companies are attracting AI graduates from ETH and EPFL through gifts (for example Google's 2026 gift of 500,000 Swiss francs to the ETH AI Center), funded doctoral students and high salaries (starting pay of up to about 190,000 Swiss francs). Andreas Krause, who leads the ETH AI Center, expressed concern about technological sovereignty.",
+  "Uncertainty in US international-student policy continues to grow (OPT fees, tighter CPT, limits on visa duration of stay), and may push international students toward Europe, Asia and the Middle East. No major new higher-education developments in the Middle East were found in this time window; tracking will continue in the next edition."
+ ],
+ "footer": "All facts and figures in this brief are taken from the public sources listed; the original texts prevail. Time window: 2026-10-16 to 2026-10-23 (Zurich time). This edition has no peer-reviewed papers, newly released annual reports this week, or Nature/Science-level results, and no permanent record was created.",
+ "items": [
+  {
+   "region": "Switzerland / European Union",
+   "tag": "Student-mobility policy",
+   "title": "Switzerland takes a further step back toward Erasmus+: the National Council Finance Committee approves 2027 funding by 18 votes to 7",
+   "what": "According to an update on 16 October from Movetia, Switzerland's national agency for exchange and mobility, the Finance Committee of the National Council approved funding for Switzerland to take part in the EU's Erasmus+ programme in 2027, by 18 votes to 7. The Council of States had already approved the appropriation of 192.6 million Swiss francs by 23 votes to 18, with 3 abstentions. A plenary vote in the National Council is expected in December. In addition, the EU has approved ECHE (Erasmus Charter for Higher Education) accreditation for 53 Swiss institutions, including 12 universities and 9 universities of applied sciences. If accession does not take place in 2027, Switzerland will continue its existing \"Swiss Erasmus+\" scheme.",
+   "why": "Once formal accession takes place, students and faculty at Swiss institutions will be able to apply for European mobility and cooperation funding on equal terms with EU member states, substantially opening academic mobility between Switzerland and Europe. The decision is also part of the Switzerland–EU package (Bilateral Agreements III), and it will affect the internationalisation of Swiss education and research as a whole.",
+   "src": "Movetia (Switzerland's national Erasmus+ agency)"
+  },
+  {
+   "region": "China / Switzerland",
+   "tag": "Vocational-education cooperation",
+   "title": "A China–Switzerland Vocational and Technical Education Alliance is established in Tianjin: 33 founding members, with ABB taking part",
+   "what": "On 17 October, the 2026 World Vocational and Technical Education Development Conference closed in Tianjin, and a China–Switzerland Vocational and Technical Education Alliance was formally established. According to a 20 October notice from member institution Anhui Vocational and Technical University, the alliance is China's first institutionalised bilateral vocational-education cooperation platform with Europe, taking the 10th anniversary of the China–Switzerland innovative strategic partnership as its occasion, and bringing together 33 member organisations from both countries. Founding members include Shenzhen Polytechnic University, Nanjing Vocational University of Industry Technology, Changzhou Vocational Institute of Mechatronic Technology, Swiss institutions and industry bodies, and ABB Group. The alliance will jointly develop curricula, exchange faculty, share practical-training resources and learn from each other's occupational-competency standards, build a \"Chinese language + vocational skills\" pathway for study in China, and hold an annual China–Switzerland intelligent-manufacturing vocational-education forum, publishing an annual report on outcomes and talent demand.",
+   "why": "This is a step from campus-to-campus exchange toward an institutionalised platform in China–Switzerland education cooperation, with government endorsement and industry participation (ABB). Switzerland's dual vocational system is widely drawn on in China, and the alliance's annual forum and talent-demand report will be a regular window on China–Switzerland education cooperation.",
+   "src": "Anhui Vocational and Technical University news site"
+  },
+  {
+   "region": "China",
+   "tag": "Quantum × university organisational innovation",
+   "title": "Beijing University of Technology establishes a Frontier Interdisciplinary Research Institute; a Quantum Science and Technology Innovation Centre is inaugurated the same day",
+   "what": "According to The Beijing News on 17 October, Beijing University of Technology formally established a Frontier Interdisciplinary Research Institute at a science and technology work conference on 16 October, and inaugurated a Quantum Science and Technology Innovation Centre and a National Major Engineering Technology Innovation Centre the same day. The university said that since the 14th Five-Year Plan period it had accumulated more than 6 billion yuan in research funding, published 12 papers in Science and Nature, and commercialised 2,000 patents for 300 million yuan. The new institute is positioned as \"an innovative attempt to break existing faculty management models\", and will support recruited talent in interdisciplinary work, with a focus on frontier fields including quantum science and technology.",
+   "why": "Chinese universities are using interdisciplinary institutes in place of traditional faculty structures to position themselves in frontier fields such as quantum science — a common move at the start of the 15th Five-Year Plan. It echoes this month's Ministry of Education call for \"AI+\" virtual-simulation teaching projects (covering quantum, 6G, embodied intelligence and other directions). Quantum work is moving from research projects into faculty organisation and talent-training systems.",
+   "src": "The Beijing News"
+  },
+  {
+   "region": "Singapore / China",
+   "tag": "Overseas centre / regional hub",
+   "title": "Singapore Management University opens its first China centre, SMU China, in Shenzhen and signs four memoranda of understanding",
+   "what": "Singapore Management University (SMU) opened SMU China in Shenzhen on 22 October, its first centre in China, joining its centres in Indonesia, Thailand and Vietnam in an overseas network, at China Resources Tower (the Spring Bamboo) in Nanshan. The launch announced four memoranda of understanding, with the \"Going Global\" Global Service Centre, the Shenzhen Foundation for International Exchange and Cooperation, Zhongzhi International Business Development Company and The Chinese University of Hong Kong, Shenzhen. SMU currently partners with 60 Chinese universities, has 7,000 alumni in China, and jointly offers a DBA with Peking University HSBC Business School and CUHK-Shenzhen; since 2011 more than 850 students have interned at more than 350 Chinese companies.",
+   "why": "Leading Asian universities are beginning to \"move campus functions forward to the industrial site\", entering China in an asset-light form as a centre rather than a full branch campus, while also serving Chinese companies going out to Southeast Asia. This represents a new model in which international education is integrated with industry and the regional economy.",
+   "src": "SMU Newsroom"
+  },
+  {
+   "region": "Vietnam / Hong Kong, China",
+   "tag": "Transnational education (TNE)",
+   "title": "Vietnam's deputy prime minister welcomes a HKU Business School campus in Hanoi and suggests a staged approach",
+   "what": "According to Vietnam News Agency via VnExpress on 20 October, Deputy Prime Minister Le Thanh Long met Cai Hongbin, dean of HKU Business School, in Hanoi and welcomed plans for a campus there. He suggested a staged approach: first joint training or pilot courses with well-known Vietnamese universities, then expanding enrolment after demand is assessed, and completing investment and licensing procedures for a full campus. The report said the HKU representative office in Vietnam has secured more than $4.7 million in scholarships for Vietnamese students since 2022. Potential areas of cooperation include artificial intelligence, data science, semiconductors, green finance, fintech and public health.",
+   "why": "Southeast Asian countries are using policy to attract foreign universities, while controlling risk with a cautious path of joint training first and a formal campus later. Asian universities (not only Anglo-American ones) are becoming new exporters of transnational education.",
+   "src": "VnExpress International (Vietnam News Agency)"
+  },
+  {
+   "region": "United States",
+   "tag": "Online AI degrees",
+   "title": "Cornell University announces two online AI master's programmes from autumn 2027",
+   "what": "The Cornell Ann S. Bowers College of Computing and Information Science announced on 21 October that from autumn 2027 it would offer two online master's programmes for working professionals: a Master of Science in Artificial Intelligence (technical depth in mathematics, computation and systems principles) and a Master of Science in Applied Artificial Intelligence (aimed at workplace applications, with no programming or mathematics background required). In the same week, several other US universities also announced new AI-related degrees; in Nigeria, the University of Birmingham and the University of Lagos opened a joint Master of Science in AI and data technologies on 22 October (transnational education).",
+   "why": "Leading universities are splitting AI education into technical and applied tracks and using online delivery to scale it for working people. An \"AI master's with no programming background required\" shows that AI literacy is being treated as a general competence.",
+   "src": "Cornell Chronicle; Edugist (UNILAG–Birmingham)"
+  },
+  {
+   "region": "United States",
+   "tag": "International-student policy",
+   "title": "US international-student policy continues to tighten: a proposed OPT fee, tighter CPT rules and litigation proceed in parallel",
+   "what": "A 19 October public letter to international students from the University of Virginia summarised the latest situation: a proposed rule issued by the US Department of Homeland Security on 8 October would require universities to pay $70,000 for each F-1 student's first OPT (post-completion practical training) application and $30,000 for each subsequent recommendation; it is not yet in effect, and there is a 30-day public-comment period. A tighter SEVP interpretation of CPT (curricular practical training) has prompted litigation, with a hearing on 6 November. A new \"Duration of Status\" rule limiting student-visa stays (to a maximum of four years) was paused by a federal court in Massachusetts on 14 September, and the government has appealed. The University of Virginia has paused new non-required CPT authorisations and plans to file a formal objection.",
+   "why": "Internship and post-graduation work pathways are among the core reasons international students choose the United States. If these policies take effect, they will directly weaken US attractiveness to international students and push enrolment toward Europe, Asia and the Middle East.",
+   "src": "University of Virginia Student Affairs; Yale OISS (updated 18 October)"
+  },
+  {
+   "region": "United States",
+   "tag": "Major gifts",
+   "title": "Large gifts continue: Centre College receives a $225 million anonymous bequest; Case Western Reserve receives $50 million and launches a $2.5 billion campaign",
+   "what": "On 16 October, Centre College announced a $225 million bequest pledge from an anonymous donor to establish the Centre Forever Fund, supporting scholarships and academic development, and used it to launch the largest fundraising campaign in the college's history, of $450 million (with $350 million already raised). On 21 October, Case Western Reserve University announced that alumni Roger Susi and his wife had given a cumulative $50 million for an interdisciplinary research building (with a university match, a total impact of $100 million), which will bear their name, and launched a $2.5 billion comprehensive campaign the same day. Of the $300 million building, $165 million comes from gifts; research directions include electrochemical and energy science, molecular therapeutics, precision diagnostics and neurotechnology.",
+   "why": "Large gifts to US universities are increasingly concentrated on two directions — interdisciplinary research space and scholarships/student access — with naming rights, matching gifts and comprehensive campaigns as the core mechanisms. The $3 billion gift to Carnegie Mellon University earlier this month is part of the same trend.",
+   "src": "Centre College; Case Western Reserve University"
+  }
+ ]
+}

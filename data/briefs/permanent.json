@@ -1,0 +1,302 @@
+[
+ {
+  "date": "2026-11-26",
+  "title": "An engineered cohesion system reduces errors in aged mammalian eggs (TALhesin)",
+  "venue": "Science",
+  "venue_en": "Science",
+  "url": "https://www.science.org/doi/10.1126/science.aei5852",
+  "file": "20261126_Science_TALhesin_Engineered_Cohesion_Aged_Eggs_Record.md"
+ },
+ {
+  "date": "2026-11-25",
+  "title": "Rare-variant genetic architecture of height in over 1.4 million individuals",
+  "venue": "Nature（开放获取）",
+  "venue_en": "Nature (open access)",
+  "url": "https://www.nature.com/articles/s41586-026-11345-2",
+  "file": "20261125_Nature_Height_RareVariant_1_4M_Exomes_Record.md"
+ },
+ {
+  "date": "2026-11-25",
+  "title": "Single-cell variant-to-enhancer-to-gene map for coronary artery disease",
+  "venue": "Nature（开放获取）",
+  "venue_en": "Nature (open access)",
+  "url": "https://www.nature.com/articles/s41586-026-11275-z",
+  "file": "20261125_Nature_CAD_SingleCell_Variant_Enhancer_Gene_Map_Record.md"
+ },
+ {
+  "date": "2026-11-24",
+  "title": "Highly accurate non-invasive preimplantation genetic testing for monogenic and polygenic diseases from spent medium",
+  "venue": "Nature Biomedical Engineering（开放获取）",
+  "venue_en": "Nature Biomedical Engineering (open access)",
+  "url": "https://www.nature.com/articles/s41551-026-01788-3",
+  "file": "20261124_NatBME_PKU_Noninvasive_PGT_Spent_Medium_Record.md"
+ },
+ {
+  "date": "2026-11-21",
+  "title": "Practical protein-pocket hydration-site prediction for drug discovery on a quantum computer",
+  "venue": "Physical Review Research（同行评审，开放获取）",
+  "venue_en": "Physical Review Research (peer-reviewed, open access)",
+  "url": "https://journals.aps.org/prresearch/abstract/10.1103/gyqr-mv1h",
+  "file": "20261121_PRR_Quantum_Protein_Hydration_Site_IBM_Heron_Record.md"
+ },
+ {
+  "date": "2026-11-19",
+  "title": "Organ-specific proteomic aging in Chinese adults: 20-year clinical outcomes and metabolomic underpinnings",
+  "venue": "npj Aging（开放获取）",
+  "venue_en": "npj Aging (open access)",
+  "url": "https://www.nature.com/articles/s41514-026-00566-4",
+  "file": "20261119_npjAging_HKU_Organ_Proteomic_Aging_Chinese_Record.md"
+ },
+ {
+  "date": "2026-11-18",
+  "title": "Times Higher Education Interdisciplinary Science Rankings 2027（与 Schmidt Science Fellows 合作）",
+  "venue": "Times Higher Education（THE）",
+  "venue_en": "Times Higher Education (THE)",
+  "url": "https://www.timeshighereducation.com/press-releases/press-release-interdisciplinary-science-rankings-2027",
+  "file": "20261118_THE_Interdisciplinary_Science_Rankings_2027_Record.md",
+  "title_en": "Times Higher Education Interdisciplinary Science Rankings 2027 (in partnership with Schmidt Science Fellows)"
+ },
+ {
+  "date": "2026-11-16",
+  "title": "Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on gene expression (Superb-seq)",
+  "venue": "Nature Methods（开放获取）",
+  "venue_en": "Nature Methods (open access)",
+  "url": "https://www.nature.com/articles/s41592-026-03319-z",
+  "file": "20261116_NatMethods_SuperbSeq_SingleCell_Cas9_OffTarget_Record.md"
+ },
+ {
+  "date": "2026-11-16",
+  "title": "Open Doors 2026 Report on International Educational Exchange（含 2026 Fall Snapshot）",
+  "venue": "Institute of International Education（IIE）",
+  "venue_en": "Institute of International Education (IIE)",
+  "url": "https://opendoorsdata.org/open-doors-2026-annual-data-release/",
+  "file": "20261116_IIE_Open_Doors_2026_Record.md",
+  "title_en": "Open Doors 2026 Report on International Educational Exchange (incl. 2026 Fall Snapshot)"
+ },
+ {
+  "date": "2026-11-16",
+  "title": "百岁老人肠道菌群代谢特征与工程菌改善老年小鼠代谢（UC San Diego）",
+  "venue": "Cell Metabolism",
+  "venue_en": "Cell Metabolism",
+  "url": "https://today.ucsd.edu/story/gut-microbiome-activity-linked-to-exceptional-longevity-may-support-healthier-aging",
+  "file": "20261116_CellMetab_UCSD_Centenarian_Gut_Microbiome_Record.md",
+  "title_en": "Gut-microbiome metabolic signatures of centenarians; engineered bacteria improve metabolism in aged mice (UC San Diego)"
+ },
+ {
+  "date": "2026-11-12",
+  "title": "IAEA World Fusion Outlook 2026（第四版）",
+  "venue": "International Atomic Energy Agency (IAEA)",
+  "venue_en": "International Atomic Energy Agency (IAEA)",
+  "url": "https://doi.org/10.61092/iaea.wu84-ej4j",
+  "file": "20261112_IAEA_World_Fusion_Outlook_2026_Record.md",
+  "title_en": "IAEA World Fusion Outlook 2026 (4th edition)"
+ },
+ {
+  "date": "2026-11-11",
+  "title": "Benchmarking hybrid quantum-classical algorithms for power grid optimization problems",
+  "venue": "Scientific Reports（开放获取，CC BY-NC-ND 4.0）",
+  "venue_en": "Scientific Reports (open access, CC BY-NC-ND 4.0)",
+  "url": "https://www.nature.com/articles/s41598-026-78377-6",
+  "file": "20261111_SciRep_Hybrid_Quantum_Power_Grid_ACOPF_UC_Benchmark_Record.md"
+ },
+ {
+  "date": "2026-11-06",
+  "title": "Altered protein cysteine reactivity in senescent cells is a vulnerability for senolysis to ameliorate aging",
+  "venue": "Nature Aging (open access)",
+  "venue_en": "Nature Aging (open access)",
+  "url": "https://doi.org/10.1038/s43587-026-01253-5",
+  "file": "20261106_NatAging_Vanadyl_Sulfate_Senolytic_Record.md"
+ },
+ {
+  "date": "2026-11-06",
+  "title": "Towards Conditioning-Wise Quantum Electromagnetic Transient Simulation for Converter-Dominated Systems",
+  "venue": "IEEE Transactions on Sustainable Energy（同行评审",
+  "venue_en": "IEEE Transactions on Sustainable Energy (peer-reviewed",
+  "url": "https://doi.org/10.1109/TSTE.2026.3751404",
+  "file": "20261106_IEEE_TSTE_Quantum_EMT_Simulation_Origin_Wukong180_Record.md"
+ },
+ {
+  "date": "2026-11-05",
+  "title": "Nondisruptive 3D profiling of combinations of epigenetic marks in single cells",
+  "venue": "Nature Methods",
+  "venue_en": "Nature Methods",
+  "url": "https://doi.org/10.1038/s41592-026-03253-0",
+  "file": "20261105_NatMethods_EpiPHR_SingleCell_Spatial_Epigenetics_Record.md"
+ },
+ {
+  "date": "2026-11-05",
+  "title": "Multiscale multimodal integration of spatial omics through a deep generative model with CORAL",
+  "venue": "Nature Genetics",
+  "venue_en": "Nature Genetics",
+  "url": "https://doi.org/10.1038/s41588-026-02821-6",
+  "file": "20261105_NatGenet_CORAL_Spatial_Omics_Integration_Record.md"
+ },
+ {
+  "date": "2026-11-02",
+  "title": "A catalog of transcriptome genetic regulation in a consanguineous Middle Eastern biobank",
+  "venue": "Nature Genetics",
+  "venue_en": "Nature Genetics",
+  "url": "https://doi.org/10.1038/s41588-026-02785-7",
+  "file": "20261102_NatGenet_Qatar_Biobank_Transcriptome_QTL_Catalog_Record.md"
+ },
+ {
+  "date": "2026-11-01",
+  "title": "Small-molecule targeting of kinesin-13 KIF2C enhances double-strand break DNA repair and slows down aging",
+  "venue": "Nature Communications (open access)",
+  "venue_en": "Nature Communications (open access)",
+  "url": "https://www.nature.com/articles/s41467-026-79165-6",
+  "file": "20261101_NatCommun_KIF2C_Agonist_DNA_Repair_Slows_Aging_Record.md"
+ },
+ {
+  "date": "2026-10-30",
+  "title": "A haplotype reference panel constructed from 490,319 UK Biobank genomes improves genotype imputation for global populations",
+  "venue": "Nature Genetics (Letter, open access)",
+  "venue_en": "Nature Genetics (Letter, open access)",
+  "url": "https://www.nature.com/articles/s41588-026-02819-0",
+  "file": "20261030_NatGenet_UKB_490k_Haplotype_Reference_Panel_Record.md"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "Rare and common genetic variants shape single-cell immune gene expression",
+  "venue": "Nature, 2026-10-28",
+  "venue_en": "Nature, 2026-10-28",
+  "url": "https://www.nature.com/articles/s41586-026-10721-2",
+  "file": "20261028_Nature_TenK10K_SingleCell_Immune_eQTL_Record.md"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "Perinatal elimination of genetically aberrant human cortical neurons",
+  "venue": "Nature (open access)",
+  "venue_en": "Nature (open access)",
+  "url": "https://www.nature.com/articles/s41586-026-11190-3",
+  "file": "20261028_Nature_Perinatal_Elimination_Aberrant_Cortical_Neurons_Record.md"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "Alzheimer's disease genetics converges on microglial and neuronal dysregulation",
+  "venue": "Nature",
+  "venue_en": "Nature",
+  "url": "https://www.nature.com/articles/s41586-026-11206-y",
+  "file": "20261028_Nature_Alzheimers_MultiAncestry_GWAS_48_New_Loci_Record.md"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "Aptamer-mediated multivalent endogenous ADAR1 recruitment for highly efficient RNA editing",
+  "venue": "Nature Methods, 2026-10-28",
+  "venue_en": "Nature Methods, 2026-10-28",
+  "url": "https://www.nature.com/articles/s41592-026-03284-7",
+  "file": "20261028_NatMethods_MARRS_ADAR1_RNA_Editing_Record.md"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "Population-scale single-nucleus multi-omic profiling of skeletal muscle reveals extensive context-specific genetic regulation",
+  "venue": "Nature Genetics, 2026-10-28",
+  "venue_en": "Nature Genetics, 2026-10-28",
+  "url": "https://www.nature.com/articles/s41588-026-02786-6",
+  "file": "20261028_NatGenet_Skeletal_Muscle_snMultiome_QTL_Record.md"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "Long-read sequencing reveals telomere inheritance patterns from human trios",
+  "venue": "Nature Communications",
+  "venue_en": "Nature Communications",
+  "url": "https://www.nature.com/articles/s41467-026-78944-5",
+  "file": "20261028_NatCommun_Telomere_Inheritance_LongRead_Trios_Record.md"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "Somatic DNA-repeat expansions initiate distinct yet analogous changes in Huntington's disease cortical and striatal neurons",
+  "venue": "Cell",
+  "venue_en": "Cell",
+  "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)01212-2",
+  "file": "20261028_Cell_Huntington_Somatic_CAG_Expansion_Cortex_Record.md"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "XChrom: A Cross-Cell Chromatin Accessibility Prediction Model Integrating Genomic Sequence and Cellular Context",
+  "venue": "Advanced Science",
+  "venue_en": "Advanced Science",
+  "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.78456",
+  "file": "20261028_AdvSci_XChrom_CrossCell_Chromatin_Accessibility_Record.md"
+ },
+ {
+  "date": "2026-10-27",
+  "title": "Scientific Reports — Jeju Genome Project cohort (Korea)",
+  "venue": "Scientific Reports, open access, 2026-10-27",
+  "venue_en": "Scientific Reports, open access, 2026-10-27",
+  "url": "https://www.nature.com/articles/s41598-026-77032-4",
+  "file": "20261027_SciRep_Jeju_Genome_Project_Cohort_Record.md"
+ },
+ {
+  "date": "2026-10-27",
+  "title": "Geromedicine — 17 plasma proteins linked to mortality and organ biological age",
+  "venue": "Geromedicine, reported 2026-10-27 (News-Medical / Science Exploration Press)",
+  "venue_en": "Geromedicine, reported 2026-10-27 (News-Medical / Science Exploration Press)",
+  "url": "https://www.news-medical.net/news/20261027/Plasma-proteins-offer-clues-to-biological-aging-and-mortality-risk.aspx",
+  "file": "20261027_Geromedicine_17_Plasma_Proteins_Mortality_BioAge_Record.md"
+ },
+ {
+  "date": "2026-10-27",
+  "title": "In Vivo Genome-Editing Therapy for Duchenne Muscular Dystrophy: Preclinical Studies and First-in-Human Trial",
+  "venue": "Cell",
+  "venue_en": "Cell",
+  "url": "https://www.cell.com/cell/abstract/S0092-8674(26)01206-7",
+  "file": "20261027_Cell_HuidaGene_HG302_DMD_InVivo_Editing_FIH_Record.md"
+ },
+ {
+  "date": "2026-10-26",
+  "title": "Efficient and precise large-scale genomic duplication using amplification editing",
+  "venue": "Nature Protocols",
+  "venue_en": "Nature Protocols",
+  "url": "https://doi.org/10.1038/s41596-026-01454-7",
+  "file": "20261026_NatProtoc_Amplification_Editing_Genomic_Duplication_Record.md"
+ },
+ {
+  "date": "2026-10-23",
+  "title": "HuRef2.0: near telomere-to-telomere diploid human genome using only ONT Simplex reads",
+  "venue": "PNAS 123(43)",
+  "venue_en": "PNAS 123(43)",
+  "url": "https://www.pnas.org/doi/10.1073/pnas.2616836123",
+  "file": "20261023_PNAS_HuRef2_Nanopore_Near_T2T_Diploid_Genome_Record.md"
+ },
+ {
+  "date": "2026-10-23",
+  "title": "Taurine lowers inflammaging by regulating the NLRP3 inflammasome in macrophages",
+  "venue": "Cell",
+  "venue_en": "Cell",
+  "url": "https://doi.org/10.1016/j.cell.2026.09.061",
+  "file": "20261023_Cell_Taurine_NLRP3_Inflammaging_Record.md"
+ },
+ {
+  "date": "2026-10-23",
+  "title": "Dynamic force sensing by bone delays aging and extends lifespan",
+  "venue": "Cell Metabolism",
+  "venue_en": "Cell Metabolism",
+  "url": "https://www.cell.com/cell-metabolism/fulltext/S1550-4131(26)00433-X",
+  "file": "20261023_CellMetab_Bone_Force_Sensing_Delays_Aging_Record.md"
+ },
+ {
+  "date": "2026-10-22",
+  "title": "High false sign rates in transcriptome-wide association studies",
+  "venue": "Nature Genetics（Article，开放获取）",
+  "venue_en": "Nature Genetics (Article, open access)",
+  "url": "https://www.nature.com/articles/s41588-026-02796-4",
+  "file": "20261022_NatGenet_TWAS_High_False_Sign_Rates_Record.md"
+ },
+ {
+  "date": "2026-10-22",
+  "title": "Multiomic characterization of microsatellite-stable colorectal cancer reveals distinct biology and targetable vulnerabilities",
+  "venue": "Cancer Cell",
+  "venue_en": "Cancer Cell",
+  "url": "https://www.cell.com/cancer-cell/fulltext/S1535-6108(26)00433-2",
+  "file": "20261022_CancerCell_MSS_CRC_Multiomic_iPhenMap_Record.md"
+ },
+ {
+  "date": "2026-10-21",
+  "title": "Genome-wide analyses identify 60 loci associated with liver triglyceride content",
+  "venue": "Nature Genetics（Letter，开放获取）",
+  "venue_en": "Nature Genetics (Letter, open access)",
+  "url": "https://www.nature.com/articles/s41588-026-02794-6",
+  "file": "20261021_NatGenet_Liver_Triglyceride_GWAS_60_Loci_Record.md"
+ }
+]

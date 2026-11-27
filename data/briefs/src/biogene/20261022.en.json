@@ -1,0 +1,47 @@
+{
+ "items": [
+  {
+   "region": "China",
+   "tag": "",
+   "title": "Reforgene's RM001 β-thalassaemia gene-editing therapy reports major phase II progress (Guangzhou, China)",
+   "what": "Reforgene announced that in the pivotal phase II study of RM001, its in-house HBG promoter-targeted gene-editing therapy, all 28 participants with transfusion-dependent β-thalassaemia became transfusion-independent, each with more than one year of follow-up. In total 47 people have been dosed and all remain transfusion-independent, with up to 5 years of follow-up and a median time to stopping transfusions of about 18 days. No serious adverse events related to RM001 have been reported to date. The therapy has not yet been approved for marketing.",
+   "why": "This is the largest publicly reported clinical dataset for HBG promoter-targeted gene editing; Chinese gene-editing therapies are now competing head-on with international products such as Casgevy.",
+   "src": "Reforgene Medicine, 2026-10-21"
+  },
+  {
+   "region": "China",
+   "tag": "",
+   "title": "Ruiju Biotech closes a Series A of several hundred million yuan to accelerate a first-in-class anti-ageing drug (Nanjing, China)",
+   "what": "Nanjing-based Ruiju Biotech closed an oversubscribed Series A round of several hundred million yuan, co-invested by Cathay Capital, Fosun Health Capital, Efung Capital and the Nanjing Huatai GenScript biomedical fund. The company treats ageing itself as the drug target and has built three platforms to clear, activate and reprogramme senescent cells. In March 2026 two of its programmes received IND clearance from both China's NMPA and the US FDA, and phase I trials are under way.",
+   "why": "Anti-ageing drugs have moved from concept to clinical trials filed in both China and the US, and leading investors are starting to back \"ageing as an indication\".",
+   "src": "VCBeat, 2026-10-21"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "A 54-qubit IQM processor and NVIDIA GPUs simulate ADGRG1 receptor self-cleavage (Germany, Europe)",
+   "what": "A team from QMatter, the Technical University of Munich, University College London, the Leibniz Supercomputing Centre, LMU Munich, NVIDIA and IQM coupled a 54-qubit IQM processor (Euro-Q-Exa) with up to 1,200 NVIDIA H100 GPUs to simulate the self-cleavage of the ADGRG1 receptor in a million-atom endoplasmic-reticulum membrane environment. The quantum core problem has 26 electrons in 26 orbitals, mapped onto 52 qubits. ADGRG1 is associated with brain developmental disorders and triple-negative breast cancer.",
+   "why": "A concrete case of quantum computing being applied to a real protein drug-target problem, showing a workable path for hybrid quantum + supercomputer + GPU pipelines.",
+   "src": "Quantum Zeitgeist, 2026-10-21"
+  },
+  {
+   "region": "Europe / International",
+   "tag": "",
+   "title": "Nature Genetics: genome-wide analyses identify 60 loci associated with liver triglycerides",
+   "what": "Teams led by Stefano Romeo and Luca Valenti ran a GWAS meta-analysis of MRI-measured liver triglyceride content in 71,488 UK Biobank participants and identified 60 independent loci (31 reported for the first time), with SNP heritability of about 25%. Compared with the lowest decile, people in the highest polygenic-risk-score decile had 2.71 times higher odds of cirrhosis and 7.47 times higher odds of hepatocellular carcinoma.",
+   "why": "With roughly twice the sample size of earlier studies, it links genomic risk directly to hard endpoints such as cirrhosis and liver cancer, strong evidence for bringing polygenic risk scores into the clinic. (Added to the permanent archive.)",
+   "src": "Nature Genetics, 2026-10-21, DOI 10.1038/s41588-026-02794-6"
+  },
+  {
+   "region": "USA",
+   "tag": "",
+   "title": "OpenAI, PerturbAI and Scripps use thousands of AI agents to mine a whole-brain CRISPR atlas",
+   "what": "OpenAI, PerturbAI and Scripps Research used thousands of AI agents powered by GPT-Rosalind to analyse existing experimental data from millions of brain cells in parallel, linking gene perturbations and cellular effects with the published literature to generate testable hypotheses for research on Alzheimer's, Parkinson's and other diseases.",
+   "why": "AI is moving from \"prediction model\" to \"massively parallel research assistant\", potentially cutting the time needed to interpret huge single-cell and gene-perturbation datasets from months to minutes.",
+   "src": "OpenAI, 2026-10-21; PR Newswire, 2026-10-21"
+  }
+ ],
+ "coverage": "Global developments on 21 October 2026",
+ "summary": "Over the past 24 hours gene editing made important progress from the clinic to early R&D. In China, all 28 participants in the phase II trial of Reforgene's RM001 gene-editing therapy for thalassaemia became transfusion-independent, and the anti-ageing drug developer Ruiju completed a Series A round worth several hundred million yuan. In Europe, an IQM 54-qubit processor working with NVIDIA GPUs completed a million-atom quantum–classical simulation of protein self-cleavage, and Nature Genetics published a liver-triglyceride GWAS of more than 70,000 people. In the US, OpenAI, PerturbAI and Scripps used thousands of AI agents to mine a whole-brain CRISPR atlas. The overall signal: gene editing is moving towards large-scale clinical use, and quantum computing and AI are starting to tackle real biological problems.",
+ "footer": "All items come from public sources and all figures are quoted from the originals. RM001 is an investigational therapy and has not been approved; item 3 reports simulation results published by the research team, and the original paper prevails."
+}

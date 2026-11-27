@@ -1,0 +1,46 @@
+{
+ "coverage": "Global developments on 26–27 October 2026",
+ "summary": "This edition has five items centred on in vivo gene editing moving into the clinic and on AI reshaping drug development and ageing assessment. SERP-01, an in vivo base-editing therapy developed in a collaboration between Shanghai Renji Hospital and Hannover Medical School, kept protective protein levels above the threshold after a single dose in four patients with alpha-1 antitrypsin deficiency; Bristol Myers Squibb led a $237 million Series E for Pathos AI at a valuation of about $3 billion; a Yale team reported in Cell a mechanism by which taurine eases \"inflammaging\" by inhibiting the NLRP3 inflammasome; Hao Yin's team in China published a Nature Protocols standard workflow for amplification editing, which can precisely copy genomic segments; and an npj Aging commentary called for using \"biological age + AI\" instead of chronological age to guide clinical decisions.",
+ "items": [
+  {
+   "region": "China / Europe",
+   "tag": "",
+   "title": "In vivo base editing with SERP-01: a single dose corrects the pathogenic mutation in alpha-1 antitrypsin deficiency, with benefit lasting to 10 months",
+   "what": "On 2026-10-26 Serapha Bio released interim data from an investigator-initiated trial (IIT) run jointly by Shanghai Renji Hospital and Hannover Medical School; the data were presented at the ERS Alpha-1 Antitrypsin Conference in Barcelona on 23–24 October. After a single intravenous dose of the lipid nanoparticle–delivered base editor YOLT-202 (SERP-01), all four patients with the PiZZ genotype (one at 35 mg and three at 45 mg) rapidly exceeded the 11 µM protective threshold for serum total AAT; in the 45 mg group, levels remained close to the 20 µM lower limit of normal through 10 months of follow-up. At week 3, the normal M form accounted for 93.4%–98.7% of circulating AAT. A week-10 liver biopsy from the 35 mg patient showed a 54% correction rate at the target site and no detected bystander editing. No serious adverse events were reported as of the data cut-off. The company plans to start a phase 2/3 trial in the United States at the end of 2026 or early 2027.",
+   "why": "This is the first report (according to the company) of a lipid nanoparticle–delivered base editor achieving gene correction in the liver of PiZZ patients, and an example of a China–Europe clinical collaboration advancing in vivo gene editing. The sample is only four patients and follow-up is limited; safety and long-term efficacy still need more data.",
+   "src": "Serapha Bio / GlobeNewswire (2026-10-26)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "BMS leads a $237 million Series E for Pathos AI at a valuation of about $3 billion, and licenses a Tempus neuroscience dataset for $55 million",
+   "what": "Pathos AI announced a $237 million Series E (BioSpace, 2026-10-25; Pharmaceutical Technology, 10-26) at a post-money valuation of about $3 billion, led by Bristol Myers Squibb (BMS). The funds will expand its Foundry platform of thousands of specialised AI agents (which integrate clinical, genomic, biospecimen and competitive data to decide a drug programme's next step) and advance four oncology pipeline assets, including the TROP2/HER3 bispecific ADC JSKN016, which will enter a registrational study. According to a TheBench.Bio summary, Pathos will also license, for five years and $55 million, a de-identified longitudinal dataset built by Tempus AI covering hundreds of thousands of people with Alzheimer's disease and other neurological conditions; BMS receives three years of exclusive neuroscience rights to Foundry.",
+   "why": "A large pharmaceutical company is betting directly, as lead investor, on a firm whose drug development is driven by AI agents, a sign that AI plus genomic data have moved from tools to the decision core of drug assets. The pricing of a large longitudinal health dataset ($55 million over five years) also offers a public reference point for valuing data assets.",
+   "src": "BioSpace / Business Wire (2026-10-25); Pharmaceutical Technology (2026-10-26); TheBench.Bio (2026-10-26)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Cell: a Yale team finds that taurine rises with age, and that supplementation inhibits the NLRP3 inflammasome and improves healthspan in old mice",
+   "what": "A team led by Vishwa Deep Dixit at Yale School of Medicine (co-first authors Chenyang Guan and Seungjin Ryu) published in Cell (online 2026-10-23; reported by Qidian on 10-26). In a 71-person serum cohort and an independent validation cohort, taurine levels were higher in the older group (an additional plasma cohort showed no significant difference). Male mice given taurine in drinking water for four months from 20 months of age improved on rotarod and grip-strength tests, and single-cell analysis of adipose tissue showed weaker pro-inflammatory pathways in multiple cell types. Mechanistically, danger signals cause macrophages to expel taurine within five minutes; restoring intracellular levels maintains trans-Golgi network integrity and suppresses NLRP3 inflammasome activation. In 14 participants in the CALERIE-II calorie-restriction trial, subcutaneous adipose taurine rose and inflammasome-related gene expression fell after one year.",
+   "why": "Earlier conclusions that \"taurine deficiency drives ageing\" had been questioned by an NIH team. This study offers a new interpretation: rising taurine may be compensation that is still insufficient against inflammation, while supplementation can still ease inflammaging through a defined molecular mechanism. The main evidence comes from mouse and cell experiments.",
+   "src": "Cell, DOI 10.1016/j.cell.2026.09.061 (online 2026-10-23); Qidian / Sina Finance (2026-10-26)"
+  },
+  {
+   "region": "China",
+   "tag": "",
+   "title": "Nature Protocols: Hao Yin's team publishes a standard amplification-editing workflow that can precisely copy genomic segments from tens of bases to chromosome scale",
+   "what": "Si-Si Xie, Zhou He and corresponding author Hao Yin published an experimental protocol for amplification editing (AE) in Nature Protocols on 2026-10-26. AE uses paired pegRNAs arranged \"PAM-out\". Complementary 3′ short flanks generated during reverse transcription anneal to one another as primers and synthesise the sequence between two nicks, enabling programmed copying of genomic segments from tens of base pairs to chromosome scale, at multiple sites and in multiple cell types. The protocol covers design, execution, efficiency quantification and validation for different segment sizes; most experiments can be completed within two weeks. Sequencing data and analysis code have been made public.",
+   "why": "Genomic duplication is a common structural variant in cancer and genetic disease, but precise, efficient methods for creating DNA repeats were previously lacking. A standardised protocol lets more laboratories build disease models of gene dosage and repetitive sequence.",
+   "src": "Nature Protocols, DOI 10.1038/s41596-026-01454-7 (2026-10-26)"
+  },
+  {
+   "region": "International / other",
+   "tag": "",
+   "title": "npj Aging commentary: replace chronological age with \"biological age + AI\" to guide clinical decisions such as surgical assessment and intensive-care triage",
+   "what": "In an open-access commentary in npj Aging on 2026-10-26, Pawel Kordowitzki argues that clinical practice relies too heavily on chronological age — an \"age illusion\" — and calls for integrating a new generation of \"causally relevant\" epigenetic clocks (such as DamAge, which can distinguish accumulated molecular damage from adaptive responses), plasma-protein models that show organs ageing at different rates, and multi-omic frameworks of proteomics and DNA methylation (such as the Biolearn platform). AI would then use biological age, individualised by sex, in decisions on surgical eligibility, intensive-care triage and screening thresholds.",
+   "why": "Biological age is moving from a research metric toward a clinical tool. The commentary sets out a path to deployment that is interpretable, organ-specific and longitudinally tracked, and is a signal that longevity medicine is moving toward standardisation. This is an opinion piece and contains no new experimental data.",
+   "src": "npj Aging, DOI 10.1038/s41514-026-00524-0 (2026-10-26)"
+  }
+ ]
+}

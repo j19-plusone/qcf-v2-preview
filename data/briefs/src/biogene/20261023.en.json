@@ -1,0 +1,46 @@
+{
+ "items": [
+  {
+   "region": "USA",
+   "tag": "",
+   "title": "Prime editing rewrites DNA directly inside the human body for the first time",
+   "what": "Nature News (2026-10-22) reported that Prime Medicine has dosed the first patient in its global phase I/II trial of PM577a, which uses lipid nanoparticles to deliver a prime editor to liver cells to correct ATP7B H1069Q, the most common mutation in Wilson disease. This is the first known in vivo prime-editing treatment. The company announced the first dosing on 5 October; the FDA has granted rare paediatric disease designation, and first clinical data are expected in 2027.",
+   "why": "Casgevy, previously the only FDA-approved gene-editing therapy, requires editing cells outside the body. One-time in vivo editing that can \"rewrite\" rather than only \"knock out\" could greatly reduce costs and reach mutations that base editing cannot fix. The trial is still early and efficacy and safety have not been reported.",
+   "src": "Nature News, 2026-10-22"
+  },
+  {
+   "region": "USA",
+   "tag": "",
+   "title": "Nature Genetics: TWAS gets the direction of gene effects wrong 23%–33% of the time",
+   "what": "Jonathan Pritchard's team at Stanford published a paper in Nature Genetics (2026-10-22, open access) that evaluates transcriptome-wide association studies (TWAS) against plasma proteins and loss-of-function burden tests as benchmarks. The direction of gene effects inferred by TWAS was wrong 23% of the time for plasma proteins and 33% for complex traits. The authors attribute this mainly to eQTLs from non-relevant tissues and tightly linked regulatory variants jointly tagging the GWAS signal. A News & Views commentary was published alongside.",
+   "why": "TWAS is widely used to decide whether up- or down-regulating a gene would help against a disease, which directly shapes the direction of drug targets. The study shows such results must be cross-checked with proteomic, loss-of-function or experimental data.",
+   "src": "Nature Genetics, 2026-10-22, DOI 10.1038/s41588-026-02796-4"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Undecimal Bio raises an oversubscribed USD 18 million seed round to use AI to escape siRNA's \"liver trap\"",
+   "what": "Undecimal Bio, based in Cambridge, UK (within the Cancer Research UK Cambridge Institute), announced an oversubscribed USD 18 million seed round co-led by 4BIO Capital and IQ Capital. Spun out of Eleven Therapeutics, its DELiveri platform screens very large combinatorial ligand libraries and uses agentic AI to analyse the data, looking for conjugates that deliver siRNA to specific cells outside the liver, starting with renal vascular disease.",
+   "why": "RNA interference drugs are still largely limited to the liver, and extra-hepatic delivery is one of the biggest bottlenecks for genetic medicines; European investors keep backing this underlying \"AI + delivery\" layer.",
+   "src": "Drug Discovery World, 2026-10-22"
+  },
+  {
+   "region": "China",
+   "tag": "",
+   "title": "Gene-edited pig-to-monkey orthotopic whole-liver transplant survives 42 days, a new world record",
+   "what": "Science and Technology Daily (2026-10-21) reported that the Second Xiangya Hospital of Central South University and ClonOrgan performed a gene-edited pig-to-monkey orthotopic whole-liver xenotransplant on 8 September. As of 20 October the recipient monkey had survived 42 days in good condition, breaking the 29-day record held since 2016 by Massachusetts General Hospital. The donor was a pig with seven gene edits (TKO/CD55/CD46/THBD/vWF), including an added human vWF gene to improve clotting compatibility; the recipient's coagulation function and platelet count remained broadly stable.",
+   "why": "The liver is involved in regulating blood clotting, making it one of the hardest organs for xenotransplantation; reproducible results open new routes for extracorporeal perfusion bridging and auxiliary transplantation in acute liver failure. This is still an animal study.",
+   "src": "Science and Technology Daily, 2026-10-21"
+  },
+  {
+   "region": "International / other",
+   "tag": "",
+   "title": "Japan's SBC Medical starts developing a DNA-methylation \"biological age\" test",
+   "what": "Nasdaq-listed SBC Medical (2026-10-22, Business Wire) announced that its AI longevity subsidiary SBC AI Longevity Innovation will lead in-house development of a DNA methylation-based biological age test, building on the regenerative-medicine expertise of its Japanese subsidiary Waqoo group. The roadmap has three directions: organ-specific biological age, non-invasive testing without a blood draw, and a data framework based on Japanese population cohorts.",
+   "why": "Epigenetic clocks are moving from research tools to consumer health services, with organ-level, non-invasive testing and local population data as points of differentiation. The product is still in development and no launch date has been announced.",
+   "src": "Business Wire, 2026-10-22"
+  }
+ ],
+ "coverage": "Global developments on 21–22 October 2026",
+ "summary": "Prime editing has been carried out inside the human body for the first time, moving from editing cells outside the body to rewriting DNA directly in vivo. At the same time, genomics methodology has had an important self-correction: Nature Genetics reports that TWAS gets the direction of gene effects wrong 23%–33% of the time. On the funding side, AI-driven RNA drug delivery raised a UK seed round; China set a new world survival record for gene-edited pig-to-primate liver xenotransplantation; and a listed Japanese medical group began developing DNA-methylation \"biological age\" tests as longevity testing moves quickly towards consumers."
+}

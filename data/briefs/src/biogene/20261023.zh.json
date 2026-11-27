@@ -1,0 +1,47 @@
+{
+ "date_cn": "2026年10月23日",
+ "coverage": "覆盖 2026年10月21日–22日 全球进展",
+ "summary": "基因编辑首次在人体内实现“先导编辑”，从体外细胞走向直接改写体内 DNA；同时，基因组学方法学迎来重要自我校正——Nature Genetics 指出 TWAS 推断效应方向的错误率高达 23%–33%。资本端，AI 驱动的 RNA 药物递送获英国种子轮融资；中国在基因编辑猪异种肝移植上刷新全球存活纪录；日本上市医疗集团启动 DNA 甲基化“生物年龄”检测，长寿检测加速走向消费端。",
+ "items": [
+  {
+   "region": "美国",
+   "title": "先导编辑（Prime Editing）首次在人体内直接改写 DNA",
+   "what": "Nature 新闻（2026-10-22）报道：Prime Medicine 在其 PM577a 的 I/II 期全球临床试验中完成首例给药，通过脂质纳米颗粒把先导编辑器递送至肝细胞，纠正威尔逊病最常见的 ATP7B H1069Q 突变。这是已知首例体内先导编辑治疗。公司 10 月 5 日公告首例给药，FDA 已授予罕见儿科疾病认定，首批临床数据预计 2027 年公布。",
+   "why": "此前唯一获 FDA 批准的基因编辑疗法 Casgevy 需体外编辑细胞；体内、一次性、可“改写”而非仅“敲除”的编辑，有望大幅降低成本并覆盖碱基编辑无法处理的突变。目前仍为早期试验，疗效与安全性尚未公布。",
+   "src": "Nature News, 2026-10-22",
+   "url": "https://www.nature.com/articles/d41586-026-03371-x"
+  },
+  {
+   "region": "美国",
+   "title": "Nature Genetics：TWAS 推断基因效应方向错误率达 23%–33%",
+   "what": "斯坦福 Jonathan Pritchard 团队在 Nature Genetics（2026-10-22，开放获取）发文，以血浆蛋白和功能缺失负荷检验为基准评估转录组关联研究（TWAS）。结果显示 TWAS 给出的基因效应方向在血浆蛋白中有 23% 是错的，在复杂性状中为 33%。作者认为主要原因是非相关组织的 eQTL 与紧密连锁的调控变异共同标记了 GWAS 信号。同期配发 News & Views 评论。",
+   "why": "TWAS 被广泛用于判断“某基因上调还是下调对疾病有利”，直接影响药物靶点方向。该研究提示必须用蛋白组、功能缺失或实验数据交叉验证。",
+   "src": "Nature Genetics, 2026-10-22, DOI 10.1038/s41588-026-02796-4",
+   "url": "https://www.nature.com/articles/s41588-026-02796-4"
+  },
+  {
+   "region": "欧洲",
+   "title": "Undecimal Bio 获 1,800 万美元超额种子轮，用 AI 突破 siRNA“肝脏陷阱”",
+   "what": "总部位于英国剑桥（Cancer Research UK 剑桥研究所内）的 Undecimal Bio 宣布完成 1,800 万美元超额认购种子轮，由 4BIO Capital 与 IQ Capital 联合领投。公司从 Eleven Therapeutics 分拆，其 DELiveri 平台筛选超大规模组合配体库，并用智能体 AI 解析数据，寻找能把 siRNA 送入肝外特定细胞的偶联物，首先用于肾血管疾病。",
+   "why": "RNA 干扰药物目前主要局限于肝脏，肝外递送是基因药物最大瓶颈之一；欧洲资本持续押注“AI + 递送”这一底层环节。",
+   "src": "Drug Discovery World, 2026-10-22",
+   "url": "https://www.ddw-online.com/seed-financing-to-address-liver-trap-in-sirna-therapeutic-delivery-44399-202610/"
+  },
+  {
+   "region": "中国",
+   "title": "基因编辑猪-猴原位全肝移植存活 42 天，刷新全球纪录",
+   "what": "科技日报（2026-10-21）报道：中南大学湘雅二医院与中科奥格于 9 月 8 日实施一例基因编辑猪-猴异种原位全肝移植，截至 10 月 20 日受体猴已存活 42 天且状态良好，打破 2016 年美国麻省总医院保持的 29 天纪录。供体为 7 基因编辑猪（TKO/CD55/CD46/THBD/vWF），新增人 vWF 基因以改善凝血兼容性，受体凝血功能与血小板计数基本稳定。",
+   "why": "肝脏参与凝血调控，是异种移植最难方向之一；可重复的结果为急性肝衰竭的体外灌注桥接和辅助移植提供了新路径。目前仍为动物实验。",
+   "src": "科技日报, 2026-10-21",
+   "url": "https://www.stdaily.com/web/gdxw/2026-10/21/content_600038.html"
+  },
+  {
+   "region": "国际其他",
+   "title": "日本 SBC Medical 启动 DNA 甲基化“生物年龄”检测研发",
+   "what": "纳斯达克上市的 SBC Medical（2026-10-22，Business Wire）宣布由其 AI 长寿子公司 SBC AI Longevity Innovation 牵头，借助日本子公司 Waqoo 集团的再生医学技术基础，自主研发基于 DNA 甲基化的生物年龄检测。路线图三大方向：按器官评估生物年龄、无需抽血的非侵入式检测、基于日本人群队列的数据框架。",
+   "why": "表观遗传时钟正从科研工具走向消费级健康服务，器官级、非侵入式与本地人群数据是差异化方向；产品仍处研发阶段，未公布上市时间。",
+   "src": "Business Wire, 2026-10-22",
+   "url": "https://www.businesswire.com/news/home/20261022474590/en/SBC-Medical-Initiates-Development-of-a-DNA-Methylation-Test-to-Estimate-Biological-Age"
+  }
+ ]
+}

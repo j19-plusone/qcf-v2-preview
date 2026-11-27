@@ -1,0 +1,70 @@
+{
+ "coverage": "Global developments from 6 to 13 November 2026",
+ "summary": "This week's eight items centre on three threads: gene editing moving toward registration and common disease; AI reading DNA inside cells; and quantum computing reaching protein scale. Beam's base-editing therapy risto-cel met its primary endpoint in a pivotal sickle cell trial and plans to file the first base-editing marketing application with the FDA as early as the end of the year. CRISPR Therapeutics presented phase 1b data for the in vivo editing therapy CTX310 at AHA 2026: a single course cut triglycerides by an average of 63% in people with severe hypertriglyceridaemia. Google DeepMind released AlphaGenome 2, which can predict variant effects by cell type. A University of Chicago team reported in Nature Aging that the mineral supplement vanadyl sulfate can selectively clear senescent cells and extend lifespan in male mice. On the quantum side, Cleveland Clinic, RIKEN and IBM completed a 12,635-atom protein–ligand hybrid quantum-classical calculation (a preprint), and Europe's LRZ, IQM, UCL and others simulated protein cleavage with quantum computing, supercomputing and AI. The UAE approved a 2026–2031 national genome master plan, and the Emirati Genome Program has reached 1 million participants. A Nature Medicine commentary called for an added layer of independent external review for high-risk investigator-initiated gene-editing trials in China.",
+ "items": [
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Beam's base-editing therapy risto-cel meets the primary endpoint in a pivotal sickle cell trial; an FDA filing is planned as early as year-end",
+   "what": "BioPharma Dive reported on 2026-11-10 that Beam Therapeutics announced its base-editing therapy ristoglogene autogetemcel (risto-cel) had met the primary endpoint of freedom from severe vaso-occlusive crises in a pivotal sickle cell trial. The data come from 31 patients who had completed treatment and 12 months of follow-up as of 20 October; secondary endpoints (such as fewer related hospitalisations) were also met. The company did not disclose specific figures. Beam plans to file with the FDA as early as the end of the year, which would be the first marketing application for a base-editing therapy. Beam's share price fell as much as about 10% during the session on the day of the news.",
+   "why": "This is the first positive late-stage clinical result for base editing (which does not cut both strands of DNA), a sign that a more precise second-generation editing technology is entering the registration stage after the CRISPR therapy Casgevy.",
+   "src": "BioPharma Dive (2026-11-10)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "CRISPR Therapeutics presents phase 1b data for in vivo editing therapy CTX310 at AHA 2026: a single course cuts triglycerides by an average of 63%",
+   "what": "On 2026-11-09 CRISPR Therapeutics presented phase 1b data for CTX310 as a late-breaking oral report at the American Heart Association (AHA) Scientific Sessions. CTX310 is an in vivo CRISPR/Cas9 therapy targeting the liver ANGPTL3 gene. Ten patients with severe hypertriglyceridaemia and fasting triglycerides ≥500 mg/dL (median baseline above 1,000 mg/dL) were enrolled. Thirty days after a single infusion, ANGPTL3 fell by an average of 65% and triglycerides by an average of 63%. No treatment-related serious adverse events were seen, nor any clinically meaningful rise in liver transaminases. The principal investigator was Ashish Sarraju of Cleveland Clinic.",
+   "why": "In vivo gene editing is expanding from rare diseases to common cardiometabolic disease, and a \"one-time treatment, lasting lipid lowering\" model could change how chronic disease is managed. The sample is only 10 people, and long-term safety still needs to be confirmed.",
+   "src": "CRISPR Therapeutics press release (2026-11-09); Cleveland Clinic (2026-11-10)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Nature Aging: the mineral supplement vanadyl sulfate can selectively clear senescent cells and extend lifespan in male mice",
+   "what": "A team including the University of Chicago published an open-access paper in Nature Aging on 2026-11-06 reporting that the dietary mineral supplement vanadyl sulfate (VS) has a senolytic effect, clearing senescent cells. They found an overall drop in proteome cysteine reactivity in senescent cells, together with accumulation of oxidised glutathione (GSSG); VS promotes disulphide-bond formation, leading to protein misfolding and death in senescent cells. In male C57BL/6J mice starting at 70 weeks of age, VS in drinking water for three months extended median survival from 886.5 days to 952 days.",
+   "why": "The work reveals a redox–proteostasis weakness particular to senescent cells and links an existing dietary supplement to senescent-cell clearance. The results are in mice only, and lifespan was tested only in males; they are not a basis for recommending human use.",
+   "src": "Nature Aging (2026-11-06, open access)"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Google DeepMind releases AlphaGenome 2: predicting DNA variant effects by cell type, nearly doubling the rate of causal-variant identification",
+   "what": "Google DeepMind released AlphaGenome 2 on 2026-11-11. The new model uses a \"conditional\" architecture: given a megabase of DNA sequence and a specified cell type or state, it predicts gene expression, chromatin accessibility, histone modifications and, newly, DNA methylation. Training data include more than 107 million single-cell profiles. On the TenK10K immune single-cell dataset, the rate of causal-variant identification rose from 16% to 30%. Only single-cell RNA data from a few dozen cells are needed to adapt to a new cell state without retraining. The model is open to non-commercial research through the AlphaGenome API; commercial research is in private testing. Genomics Ltd said it would connect the model to its Mystra platform. DeepMind notes that it is for research only and has not been clinically or diagnostically validated.",
+   "why": "It connects genome-wide association study (GWAS) signals to single-cell atlases, helping to locate which variant, in which cell type, up- or down-regulates which gene. That is underlying infrastructure for drug-target discovery and precision medicine.",
+   "src": "Google DeepMind official blog (2026-11-11)"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Germany's LRZ, with UCL, LMU, TUM, IQM and NVIDIA: a hybrid of quantum computing, supercomputing and AI simulates protein cleavage",
+   "what": "On 2026-11-11 the Leibniz Supercomputing Centre (LRZ) in Germany described a published hybrid-computing study. Peter Coveney's team at University College London (UCL), Ludwig-Maximilians-Universität München (LMU), the Technical University of Munich (TUM) and LRZ, with IQM Quantum Computers, QMatter and NVIDIA, combined a quantum computer, a supercomputer and AI to simulate the autoproteolysis of an adhesion G protein-coupled receptor (aGPCR). The model exceeded 1.17 million atoms. The quantum computer used a quantum selected configuration interaction (QSCI) method to identify key electronic configurations, which were then computed on a classical computer.",
+   "why": "This is a European case of \"quantum–supercomputing integration\" applied to a real biomolecular problem, and it shows the most realistic current entry point for quantum computing: handling only the most critical active region.",
+   "src": "Leibniz-Rechenzentrum (2026-11-11)"
+  },
+  {
+   "region": "China",
+   "tag": "",
+   "title": "Nature Medicine commentary: investigator-initiated gene-editing trials in China expose a regulatory gap; independent external review is recommended",
+   "what": "Li Du of the University of Macau and co-authors from the University of Macau, Canada's Centre of Genomics and Policy, Northeastern University, the University of Electronic Science and Technology of China and Tianjin University published a commentary in Nature Medicine on 2026-11-11. They argue that recent deaths in experimental cell and gene-therapy trials in China point to gaps in governance and oversight, and recommend adding a layer of independent external review to the clinical regulation of high-risk therapies. The article cites public updates on HuidaGene's first-in-human HG302-1 trial and RiboX's investigator-initiated RXIM002 study, and the Biomedical New Technology Risk Classification Guide issued in May 2026.",
+   "why": "Investigator-initiated trials (IITs) in China are an important route for gene editing to reach humans quickly. Tightening or reinforcing the rules will directly affect the pace of gene-therapy R&D in China and compliance requirements for international collaboration.",
+   "src": "Nature Medicine (2026-11-11, commentary)"
+  },
+  {
+   "region": "International / other",
+   "tag": "",
+   "title": "The UAE approves a 2026–2031 national genome master plan; the Emirati Genome Program reaches 1 million participants",
+   "what": "The Abu Dhabi Media Office reported on 2026-11-10 that Sheikh Khaled, Crown Prince of Abu Dhabi, chaired a meeting of the Emirates Genome Council, approved the 2026–2031 National Genomics Masterplan, and announced that the Emirati Genome Program had reached 1 million participants. The plan includes four measures: coverage of 100% of UAE citizens; personal genome reports for 900,000 participants (available from December 2026 through the TAMM platform, covering 214 genetic diseases and health traits); nationwide expansion of newborn genetic screening (covering more than 730 genes and more than 815 childhood genetic diseases); and a strengthened Trusted Research Environment (TRE), which has already received collaboration invitations from 21 domestic and international institutions.",
+   "why": "Middle Eastern countries are moving from accumulating sequencing data to large-scale national precision prevention, with personal genome reports going directly to citizens — a rare national-level application model worldwide.",
+   "src": "Abu Dhabi Media Office (2026-11-10)"
+  },
+  {
+   "region": "International / other",
+   "tag": "",
+   "title": "Cleveland Clinic, RIKEN in Japan and IBM complete a 12,635-atom protein–ligand hybrid quantum-classical calculation (preprint)",
+   "what": "Quantum Computing Report reported on 2026-11-12 that Cleveland Clinic, the RIKEN Center for Computational Science and IBM Quantum had reported in an arXiv preprint the largest hybrid quantum-classical electronic-structure calculation to date: simulations of solvated trypsin–benzamidine (12,635 atoms) and T4 lysozyme–n-butylbenzene (11,608 atoms) complexes. The study used two 156-qubit IBM Heron r2 processors, together with three supercomputers including Fugaku, executing 21,006 circuits and collecting 3 billion measurements. The molecular scale is more than 40 times previous benchmarks, and the work gives the first protein–ligand binding-energy predictions with this class of hybrid method.",
+   "why": "Quantum computing has for the first time crossed the 10,000-atom \"real protein\" threshold in drug-binding simulation, but this is still a preprint that has not been peer reviewed, and any practical advantage still needs independent confirmation.",
+   "src": "Quantum Computing Report (2026-11-12, based on an arXiv preprint)"
+  }
+ ]
+}

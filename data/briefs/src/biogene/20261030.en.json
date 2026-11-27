@@ -1,0 +1,46 @@
+{
+ "coverage": "Global developments on 28–30 October 2026",
+ "summary": "This edition has five items focused on how somatic genomes change the brain and ageing over time, and on faster capital for AI drug development. A Cell paper from the Broad Institute and others shows that the pathogenic CAG repeat in Huntington's disease also expands with age in neocortical neurons and becomes toxic after about 150 repeats, suggesting that drugs in development to suppress repeat expansion may protect more than one brain region. A Nature paper from Christopher Walsh's team at Boston Children's Hospital reports that about 25.9% of fetal cortical neurons carry extensive copy-number variation, a share that falls about 4.5-fold after birth, revealing genomic quality control in human brain development. McGill University, Children's Mercy Hospital in the United States and Kyoto University used long-read sequencing in Nature Communications to trace telomere inheritance in 75 family trios; parental telomere length explained 62.3% of variation in offspring telomere length. Formation Bio in the United States set up a $600 million \"drug development accelerator\" fund. European AI drug-discovery company ALLOX closed a $10.5 million seed round. This edition found no verifiable major new developments from China.",
+ "items": [
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Cell: Huntington's disease CAG repeats also \"expand with age and then become toxic\" in neocortex, one mechanism for pathology in two brain regions",
+   "what": "A team at the Broad Institute, Harvard Medical School and McLean Hospital (co-corresponding authors Steve McCarroll and Sabina Berretta) published online in Cell on 2026-10-28. They analysed more than 125,000 cells in the neocortex of 11 people with Huntington's disease, measuring HTT CAG-repeat length and gene expression in the same nucleus. Like striatal neurons, cortical pyramidal neurons showed gene-expression pathology only after somatic CAG expansion exceeded about 150 repeats; cortical cells expanded more slowly, and most never reached the threshold in a lifetime. Expansion differed by as much as about 20-fold among pyramidal-neuron subtypes. Intranuclear huntingtin inclusions appeared only in cells whose repeats far exceeded 150 and that were close to death.",
+   "why": "Extending somatic DNA-repeat expansion from striatum to neocortex shows that the same time-dependent genomic change can unify the motor and cognitive pathology of Huntington's disease. Drugs being developed to slow repeat expansion may therefore protect more than one brain region at once.",
+   "src": "Broad Institute news (2026-10-28); Cell (online 2026-10-28)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Nature: about one in four fetal cortical neurons has a severely abnormal genome and is selectively cleared around birth",
+   "what": "Christopher A. Walsh of Boston Children's Hospital, Peter J. Park of Harvard Medical School and colleagues (collaborators include the Wellcome Sanger Institute in the United Kingdom and the University of Tsukuba in Japan) published an open-access paper in Nature on 2026-10-28. Using two single-cell whole-genome sequencing methods, they analysed 2,357 individual neurons from post-mortem human brains from fetus to after birth. On average, 25.9% (12.7%–46%) of prenatal cortical neurons carried extensive copy-number variation involving multiple chromosomes; after birth this share fell about 4.5-fold. Copy-number variants in surviving neurons avoided dosage-sensitive genes and genes linked to neurodevelopmental disorders. Single-nucleus ATAC and RNA sequencing of 44,861 nuclei showed abnormal synaptic gene expression in neurons with a high variant burden.",
+   "why": "This is the first relatively large single-cell demonstration that human brain development includes a quality-control process that removes neurons with defective genomes. Failure of that process may be linked to neurodevelopmental disease, and the findings also provide a baseline for understanding genome stability in long-lived neurons.",
+   "src": "Nature (2026-10-28, open access)"
+  },
+  {
+   "region": "International / other",
+   "tag": "",
+   "title": "Nature Communications: long-read sequencing traces telomere inheritance across three generations; parental telomere length explains 62.3% of variation in offspring",
+   "what": "A team from McGill University in Canada, the Children's Mercy Hospital Center for Genomic Medicine in the United States and Kyoto University WPI-ASHBi in Japan published in Nature Communications on 2026-10-28. Using PacBio HiFi long-read sequencing, they analysed 75 parent–child trios (225 people) in the Genomic Answers for Kids project, measuring telomere length on each chromosome arm (about 5,000–8,000 base pairs on average). Parental telomere length predicted offspring telomere length with R² of 0.623. Using telomere variant repeats, they could trace 53.3% of maternally and 49.9% of paternally inherited telomeres. Paternally inherited telomeres were significantly longer than maternal ones, by 448 bp on average, and the difference was larger when parents were older (732 bp).",
+   "why": "Telomeres are a key marker of ageing and age-related disease. This study is the first to reveal parent-of-origin effects on telomeres at the level of chromosome arms and alleles, and it offers a method for bringing telomere length into genetic-risk and biological-age assessment.",
+   "src": "Nature Communications (2026-10-28)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Formation Bio sets up a $600 million \"drug development accelerator\" fund to use AI to cut clinical-development costs",
+   "what": "According to Axios on 2026-10-29, US AI biotechnology company Formation Bio (investors include a16z, Sequoia Capital and Thrive Capital; 2024 valuation $1.7 billion) has raised a $600 million \"drug development accelerator\" fund, with limited partners mainly university endowments, foundations and hospitals. The fund will acquire molecules and drug programmes, which Formation will advance through clinical development with AI and a centralised approach, creating a separate new company for each programme. CEO Ben Liu said nearly half of clinical-development costs come from CRO margins, and the company believes it can cut the related spending by 30%–50%.",
+   "why": "AI has moved quickly in drug \"discovery\", but \"development\" remains the bottleneck. University endowments and hospitals are putting money directly on AI-enabled clinical development, a sign that capital is shifting from early discovery toward lowering the cost of clinical trials.",
+   "src": "Axios (2026-10-29)"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "ALLOX closes a $10.5 million seed round to use high-throughput genetics and AI to find new pockets on \"undruggable\" targets",
+   "what": "On 2026-10-29 the European biotechnology company ALLOX announced a $10.5 million (about €9.4 million) seed round, led by Sabadell Asabys II, a fund of Spain's Asabys, with participation from Spain's CDTI (via SICC Innvierte) and the Institut Català de Finances (ICF). Its platform measures in parallel the effects of thousands of gene mutations on protein folding and interactions, and uses AI to identify druggable pockets such as allosteric sites, developing small-molecule drugs against traditionally hard targets including protein–protein interactions and transcription factors. The company also appointed Morten Graugaard, formerly of Novo Holdings and Lundbeck, as independent chair of the board.",
+   "why": "\"Large-scale functional genomic data plus predictive AI\" is becoming the mainstream early-stage financing narrative in European drug discovery, with public-capital backing, a sign that European support for data-driven biotech start-ups is strengthening.",
+   "src": "Tech.eu (2026-10-29); Discover Pharma"
+  }
+ ]
+}

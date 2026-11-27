@@ -1,0 +1,71 @@
+{
+ "date_cn": "2026年11月27日",
+ "coverage": "覆盖 2026年11月20日–11月27日 全球进展",
+ "summary": "本周八条要闻围绕三条主线：“人群级基因组走向临床预测”“生殖与胚胎遗传技术突破”“量子计算切入基因组与药物发现”。中国昌平实验室、北京大学谢晓亮院士团队在《自然·生物医学工程》发表无创胚胎植入前遗传检测技术，220 个可报告致病等位基因诊断与活检对照全部一致。美国方面，Regeneron 遗传学中心在 Nature 发表 140 万人身高罕见变异研究，华盛顿大学与 Amgen 团队在 Nature 发表冠心病单细胞“变异—增强子—基因”图谱；Heng Li 等发布 Phirefly 预印本，首次在 D-Wave 与 IBM 量子硬件上执行长读长单倍型定相的关键步骤。欧洲方面，马普所在 Science 报道人工“染色体胶水”TALhesin 修复衰老卵子黏连缺陷；英国 Wellcome Sanger 研究所启动 Healthcare Genomics 预测医学项目；Qubit Pharmaceuticals、索邦大学与 Q-CTRL 在 IBM Heron 上完成蛋白口袋水合位点预测。以色列 Clalit 以 AI 问卷向 120 万女性提供乳腺癌风险评估。",
+ "items": [
+  {
+   "region": "中国",
+   "title": "北大谢晓亮团队《自然·生物医学工程》：无创胚胎植入前遗传检测，220 个诊断与活检全部一致",
+   "what": "新华网 2026-11-24 报道，昌平实验室、北京大学谢晓亮院士团队（与乔杰院士等合作）当日在 Nature Biomedical Engineering 发表（开放获取）高准确率无创胚胎植入前遗传检测（niPGT）方法：改造线性全基因组扩增技术为 scm-LIANTI，从胚胎培养液的痕量游离 DNA 扩增，并结合贝叶斯单倍型算法判断致病位点的亲本单倍型遗传。在来自 29 个罕见单基因病家庭的 191 份培养液样本中全部扩增成功，对 277 个致病等位基因中的 220 个作出诊断，220/220 与侵入式活检对照一致；并对部分胚胎做了 2 型糖尿病多基因风险的探索性评估。",
+   "why": "传统 PGT 需对胚胎活检，存在损伤风险；该方法无需改变 IVF 流程，可推动遗传病家庭辅助生殖的无创化。多基因风险评估部分为探索性，涉及伦理争议，临床应用需审慎。",
+   "src": "Nature Biomedical Engineering（2026-11-24）；新华网（2026-11-24）",
+   "url": "https://www.nature.com/articles/s41551-026-01788-3"
+  },
+  {
+   "region": "美国",
+   "title": "Regeneron Nature：140 万人外显子组揭示身高罕见变异，单个变异效应可达 17 厘米",
+   "what": "Nature 2026-11-25 发表（开放获取），Regeneron 遗传学中心 Adam Locke 等利用 826,066 个外显子组发现 207 个身高相关基因（98% 在另外 624,567 人中得到重复验证）。极罕见的功能缺失变异涉及 17 个大效应基因，每个等位基因效应从 −17 cm（ACAN）到 +11 cm（FBN1），约为常见身高变异平均效应的 52 倍；TET1、DTL、IGF2BP2 等基因效应不亚于已知孟德尔身高基因。",
+   "why": "以“模型性状”身高证明罕见变异可带来与孟德尔综合征相当的大效应，对个体性状预测、临床评估和药物靶点优先排序具有方法学意义。",
+   "src": "Nature（2026-11-25）；Nature News（2026-11-25）",
+   "url": "https://www.nature.com/articles/s41586-026-11345-2"
+  },
+  {
+   "region": "美国",
+   "title": "华盛顿大学与 Amgen Nature：冠心病单细胞“变异—增强子—基因”图谱",
+   "what": "Nature 2026-11-25 发表（开放获取），华盛顿大学医学院（圣路易斯）与 Amgen 等团队对 44 人冠状动脉做单细胞核多组学（基因表达+染色质可及性）测序，回收 126,804 个细胞核，鉴定 11,269 个染色质可及性数量性状位点（caQTL）；结合 15 例冠状动脉 Hi-C、CRISPRi 与 Perturb-seq，提名 AMOTL2 为平滑肌细胞特异的冠心病基因，并发现细胞外基质重塑是平滑肌细胞的核心疾病程序。",
+   "why": "GWAS 位点多位于非编码区，难以找到致病基因与细胞类型；该研究给出从非编码变异到细胞类型、染色质状态和基因程序的系统框架，可提供降脂之外的新靶点思路。",
+   "src": "Nature（2026-11-25）",
+   "url": "https://www.nature.com/articles/s41586-026-11275-z"
+  },
+  {
+   "region": "美国",
+   "title": "Phirefly 预印本：首个在量子硬件上执行关键步骤的染色体级单倍型定相算法",
+   "what": "bioRxiv 2026-11-25 发布预印本（未经同行评审），Yifei Wang、Megan K. Le、Heng Li 提出 Phirefly：先用 CPU 算法把强读长支持的 SNP 组合成“phaselet”，再把跨 phaselet 的难点定相交给量子算法求解。该方法可在 D-Wave 与 IBM 的实体量子计算机上运行，也可用 CPU/GPU 量子启发求解器运行，在 HG002 数据集上精度与 QHap 及主流定相算法大体相当。研究由美国 NIH 资助，代码已开源。",
+   "why": "这是量子计算直接进入基因组数据分析核心流程（长读长变异分析）的实用化尝试；目前精度与经典方法“相当”而非超越，属早期验证。",
+   "src": "bioRxiv（2026-11-25，预印本）",
+   "url": "https://www.biorxiv.org/content/10.64898/2026.11.24.768929v1"
+  },
+  {
+   "region": "欧洲",
+   "title": "马普所 Science：人工“染色体胶水”TALhesin 让衰老卵子染色体错误接近年轻水平",
+   "what": "Science 2026-11-26 发表，德国马克斯·普朗克多学科科学研究所 Melina Schuh 团队设计 TALhesin 人工黏连系统，以可编程 TAL 效应蛋白结合着丝粒附近区域、替代随年龄流失的黏连蛋白，并内置可被分离酶切割的位点以在正确时机释放。在衰老小鼠卵子中，无姐妹染色单体过早分离的比例由 46.7% 升至 74.1%，接近年轻小鼠的 74.7%；在捐赠的人类卵子中也观察到结合与初步黏连效果。",
+   "why": "卵子染色体非整倍体是高龄女性不孕和 IVF 失败的主要原因；这是首次以工程化系统替代黏连蛋白功能。团队强调临床应用前仍需更多研究和安全性测试。",
+   "src": "Max Planck Society（2026-11-26）；Nature News（2026-11-26）；Science",
+   "url": "https://www.mpg.de/27061728/an-engineered-glue-for-aged-eggs"
+  },
+  {
+   "region": "欧洲",
+   "title": "Wellcome Sanger 研究所启动 Healthcare Genomics：用遗传与纵向分子数据预测疾病进程与疗效",
+   "what": "Wellcome Sanger 研究所 2026-11-25 宣布启动 Healthcare Genomics 项目，由 Carl Anderson 领导：从常规医疗中采集的数十万份患者样本（含同一患者的重复样本）生成分子数据，结合遗传信息与临床记录，用统计与 AI 方法构建疾病进程、治疗反应等预测模型，并在不同祖源人群和医疗环境中检验，进一步评估用模型指导临床决策能否改善患者结局。",
+   "why": "人群遗传学已发现大量关联，但尚不能可靠预测个体病程；Sanger 将重点从“发现”转向“预测+临床验证”，并坚持开放科学，代表欧洲精准医学的新方向。",
+   "src": "Wellcome Sanger Institute（2026-11-25）",
+   "url": "https://www.sanger.ac.uk/news_item/healthcare-genomics-predicting-disease-risk-and-outcomes-to-guide-care/"
+  },
+  {
+   "region": "欧洲",
+   "title": "Qubit Pharmaceuticals、索邦大学与 Q-CTRL：在 IBM Heron 量子处理器上预测蛋白口袋水合位点",
+   "what": "Quantum Computing Report 2026-11-21 报道，法国 Qubit Pharmaceuticals、索邦大学（CNRS 理论化学实验室）与 Q-CTRL 在 Physical Review Research 发表同行评审研究：将 3D-RISM 水密度拟合问题转化为 QUBO，在 156 比特 IBM Heron 处理器上运行，最多使用 123 个量子比特，覆盖 5 个 FDA 已批准药物靶点蛋白。11 个 41–116 比特实例均找到经 CPLEX 验证的最优解；123 比特难题上，量子处理器 25 分钟找到的解优于 CPLEX 3 小时超时前的结果。作者估计约需 900 个量子比特才具备实际药物发现效用。",
+   "why": "蛋白口袋中的水分子位置影响药物结合与设计；研究在真实硬件上给出了具体基准与资源外推，但同时表明距离实用仍有明显差距。",
+   "src": "Quantum Computing Report（2026-11-21）；Physical Review Research",
+   "url": "https://quantumcomputingreport.com/qubit-pharmaceuticals-sorbonne-universite-and-q-ctrl-demonstrate-3d-protein-hydration-site-prediction-on-ibm-heron-processors/"
+  },
+  {
+   "region": "国际其他",
+   "title": "以色列 Clalit 以 AI 问卷向 120 万女性提供乳腺癌风险评估，最早从 25 岁开始",
+   "what": "JNS 2026-11-24 报道，以色列最大医疗服务机构 Clalit 于 11-23（周一）宣布，向约 120 万名 25–74 岁女性推送经临床验证的数字问卷，涵盖病史与家族史、遗传易感性、激素和生活方式因素；由其 AI 工具 AI-PRO 分析后给出个性化建议，包括常规筛查、提前或加密乳腺 X 光检查、咨询乳腺外科或肿瘤遗传专科、进行 BRCA1/BRCA2 基因检测等，结果写入病历并提供给家庭医生。以色列国家乳腺 X 光筛查项目一般从 50 岁开始。",
+   "why": "这是 AI 风险分层与遗传检测转诊在人群层面落地的案例，把精准预防前移到年轻女性，可为其他国家的数字化筛查提供参考。",
+   "src": "JNS（2026-11-24）；Clalit Health Services",
+   "url": "https://www.jns.org/news/israel-news/clalit-to-offer-breast-cancer-risk-assessments-to-1-2-million-women-starting-at-age-25"
+  }
+ ]
+}

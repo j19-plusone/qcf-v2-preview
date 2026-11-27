@@ -1,0 +1,46 @@
+{
+ "coverage": "Global developments on 30 October–2 November 2026",
+ "summary": "This edition (Monday, covering last Friday to today) has five items focused on upgrades to population-genome infrastructure and on genome stability as a counter to ageing. Andre Franke's team at Kiel University published in Nature Genetics a haplotype reference panel built from whole-genome sequencing of 490,319 UK Biobank participants; phasing and imputation accuracy beat TOPMed r3 in most global populations, with the largest gains in East and South Asian groups. Portugal's i3S institute and the University of Rochester reported in Nature Communications that a small-molecule KIF2C agonist enhances DNA double-strand-break repair and extends healthspan and lifespan in progeria mice. The UK MHRA lowered the eligible age for the CRISPR therapy Casgevy from 12 to 5 years. The Shanghai Institute of Nutrition and Health, Chinese Academy of Sciences, released the deep-learning model XChrom, which combines genomic sequence with single-cell transcriptomes to predict chromatin accessibility across cell types. Setara Biosciences in the United States closed a $90 million Series A to advance precision medicines for rare genetic diseases.",
+ "items": [
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Nature Genetics: a haplotype reference panel from whole-genome sequencing of 490,000 UK Biobank participants is released; imputation gains are largest for East and South Asian populations",
+   "what": "Lars Wienbrandt, Andre Franke and colleagues at Kiel University published an open-access paper in Nature Genetics on 2026-10-30. They used whole-genome sequencing data from 490,319 UK Biobank participants to build a genotype-imputation reference panel, and provide standalone and cloud phasing and imputation through EagleImp and EagleImp-RAP on the UK Biobank Research Analysis Platform. Compared with the widely used TOPMed r3 panel (133,597 people), the new panel had a lower switch-error rate in all global super-populations except AMR, and in 25 of 26 1000 Genomes subpopulations. For variants with minor allele frequency as low as 0.01%, imputation accuracy improved in four of five super-populations, with the largest gains in East and South Asian groups. Re-imputing COVID-19 GWAS data from Italy, Germany, Spain and Norway revealed additional genome-wide significant loci.",
+   "why": "Imputation reference panels are underlying infrastructure for GWAS and polygenic risk scores worldwide. A panel of 490,000 people that improves most clearly for Asian populations means that low-cost array genotyping can infer genome-wide information more accurately.",
+   "src": "Nature Genetics (2026-10-30, open access)"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Nature Communications: a small-molecule KIF2C agonist enhances DNA double-strand-break repair and extends healthspan and lifespan in progeria mice",
+   "what": "Elsa Logarinho's team at the i3S institute, University of Porto, with Vera Gorbunova, Andrei Seluanov and others at the University of Rochester, published an open-access paper in Nature Communications on 2026-11-01. The team had previously found that the kinesin KIF2C is suppressed in senescent cells. This study shows that a small-molecule agonist can improve DNA double-strand-break repair in cells from people with Hutchinson–Gilford progeria syndrome (HGPS) and Down syndrome, and in senescent cells, by restoring nuclear-envelope invaginations assembled by cytoplasmic microtubules, and that it also improves nuclear structure and transcriptional features. After subcutaneous dosing in progeria mice, ageing phenotypes were reduced and both healthspan and lifespan were extended. Funders include the Maximon Longevity Prize 2022 from Switzerland's Maximon A.G. and an ERC Synergy Grant from the European Research Council.",
+   "why": "Enhancing genome stability by a pharmacological means to slow ageing offers intervenable evidence that DNA damage is a core driver of ageing. The results are still from cells and a progeria mouse model and have not entered humans.",
+   "src": "Nature Communications (2026-11-01, open access)"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "The UK MHRA lowers the eligible age for the CRISPR therapy Casgevy to 5 years",
+   "what": "On 2026-10-30 the UK Medicines and Healthcare products Regulatory Agency (MHRA) announced approval to extend the UK authorisation of Casgevy (exagamglogene autotemcel), allowing eligible children aged 5 years and over with severe sickle cell disease or transfusion-dependent beta-thalassaemia to receive the treatment; it had previously been limited to those aged 12 and over. The extension was granted to Vertex Pharmaceuticals (Europe) Ltd on 2026-10-29. The UK's NICE updated its guidance the same day, extending the population to age 5 and over and retaining the managed-access arrangement. The MHRA said the United Kingdom has about 15,000 people with sickle cell disease.",
+   "why": "The first approved CRISPR therapy worldwide has been formally extended to children, a sign that gene editing is moving from adult rare-disease treatment toward earlier intervention. Treatment still requires stem-cell collection and myeloablative conditioning, so safety and access remain critical.",
+   "src": "GOV.UK / MHRA (2026-10-30); NICE TA1003 (updated 2026-10-30)"
+  },
+  {
+   "region": "China",
+   "tag": "",
+   "title": "Shanghai Institute of Nutrition and Health, CAS, releases XChrom: combining genomic sequence and single-cell state to predict chromatin accessibility across cells",
+   "what": "The team of researcher Zhen Wang in the Department of Artificial Intelligence and Digital Health at the Shanghai Institute of Nutrition and Health, Chinese Academy of Sciences (first author Yuanyuan Miao), published the deep-learning framework XChrom online in Advanced Science on 2026-10-28 (institute news released on 10-31). The model combines a genomic-sequence embedding with a cell embedding from single-cell RNA sequencing to predict chromatin accessibility in different cells and infer transcription-factor activity. On five public paired human and mouse datasets, cross-region prediction was comparable to scBasset, and cross-cell prediction outperformed Seurat, MultiVI and other models on several metrics, and could simultaneously predict unseen regions and cells. Analysis of motor-cortex data across human, mouse, macaque and marmoset showed that it can capture evolutionarily conserved regulatory patterns. The team has released XChrom as open source on GitHub.",
+   "why": "Paired single-cell multi-omic data are scarce. XChrom lets the large volume of existing single-cell transcriptome data be used to \"infer\" a regulatory layer, lowering the cost of multi-omics research.",
+   "src": "Shanghai Institute of Nutrition and Health, CAS / Ebiotrade (2026-10-31); Advanced Science (online 2026-10-28)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Setara Biosciences closes a $90 million Series A to advance precision medicines for rare genetic diseases",
+   "what": "On 2026-10-30 Setara Biosciences of the United States announced via Business Wire that it had closed a $90 million Series A to advance precision medicines for rare genetic diseases and related expansion indications. According to public reports, its lead programme is a TRPV4 inhibitor, with indications including Charcot-Marie-Tooth disease and overactive bladder.",
+   "why": "Genetics-driven rare-disease drugs can still attract large early-stage financings, a sign that capital continues to favour the path from a disease-causing gene to a precision medicine.",
+   "src": "Business Wire (2026-10-30)"
+  }
+ ]
+}

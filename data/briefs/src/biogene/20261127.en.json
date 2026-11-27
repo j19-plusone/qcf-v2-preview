@@ -1,0 +1,70 @@
+{
+ "coverage": "Global developments from 20 to 27 November 2026",
+ "summary": "This week's eight items follow three threads: population-scale genomics moving into clinical prediction; breakthroughs in reproductive and embryonic genetic technology; and quantum computing entering genome analysis and drug discovery. The team of academician Xie Xiaoliang at Changping Laboratory and Peking University published in Nature Biomedical Engineering a non-invasive preimplantation genetic testing method; all 220 reportable pathogenic-allele diagnoses agreed with biopsy controls. In the United States, the Regeneron Genetics Center published in Nature a study of rare height variants in 1.4 million people, and a Washington University and Amgen team published in Nature a single-cell \"variant–enhancer–gene\" map of coronary artery disease. Heng Li and colleagues posted a Phirefly preprint, the first algorithm to run key steps of chromosome-scale haplotype phasing on D-Wave and IBM quantum hardware. In Europe, the Max Planck Institute reported in Science that an artificial \"chromosome glue\", TALhesin, repairs cohesion defects in aged eggs; the Wellcome Sanger Institute launched its Healthcare Genomics predictive-medicine programme; and Qubit Pharmaceuticals, Sorbonne University and Q-CTRL predicted hydration sites in protein pockets on an IBM Heron processor. Israel's Clalit is offering AI-questionnaire breast-cancer risk assessments to 1.2 million women.",
+ "items": [
+  {
+   "region": "China",
+   "tag": "",
+   "title": "Peking University team of Xie Xiaoliang in Nature Biomedical Engineering: non-invasive preimplantation genetic testing, with all 220 diagnoses matching biopsy",
+   "what": "Xinhua reported on 2026-11-24 that the team of academician Xie Xiaoliang at Changping Laboratory and Peking University (in collaboration with academician Qiao Jie and others) had that day published an open-access high-accuracy method for non-invasive preimplantation genetic testing (niPGT) in Nature Biomedical Engineering. They adapted linear whole-genome amplification into scm-LIANTI, amplifying trace cell-free DNA from embryo culture medium, and used a Bayesian haplotype algorithm to determine parental haplotype transmission at pathogenic sites. All 191 culture-medium samples from 29 families with rare monogenic disease amplified successfully. Diagnoses were made for 220 of 277 pathogenic alleles, and 220/220 agreed with invasive biopsy controls. An exploratory polygenic-risk assessment for type 2 diabetes was also performed on some embryos.",
+   "why": "Conventional PGT requires an embryo biopsy, with a risk of damage. This method does not change the IVF workflow and could make assisted reproduction less invasive for families with genetic disease. The polygenic-risk part is exploratory and ethically contested; clinical use should be cautious.",
+   "src": "Nature Biomedical Engineering (2026-11-24); Xinhua (2026-11-24)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Regeneron in Nature: exomes from 1.4 million people reveal rare height variants, with single-variant effects of up to 17 centimetres",
+   "what": "An open-access paper in Nature on 2026-11-25 by Adam Locke and colleagues at the Regeneron Genetics Center used 826,066 exomes to find 207 height-associated genes (98% replicated in a further 624,567 people). Extremely rare loss-of-function variants involved 17 large-effect genes, with per-allele effects from −17 cm (ACAN) to +11 cm (FBN1), about 52 times the average effect of common height variants. Effects at genes including TET1, DTL and IGF2BP2 were no smaller than those of known Mendelian height genes.",
+   "why": "Using height as a \"model trait\", the study shows that rare variants can have effects as large as Mendelian syndromes, with methodological implications for individual trait prediction, clinical assessment and the prioritisation of drug targets.",
+   "src": "Nature (2026-11-25); Nature News (2026-11-25)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Washington University and Amgen in Nature: a single-cell \"variant–enhancer–gene\" map of coronary artery disease",
+   "what": "An open-access paper in Nature on 2026-11-25 from Washington University School of Medicine in St. Louis, Amgen and others reports single-nucleus multi-omic sequencing (gene expression plus chromatin accessibility) of coronary arteries from 44 people, recovering 126,804 nuclei and identifying 11,269 chromatin-accessibility quantitative trait loci (caQTLs). Combined with Hi-C from 15 coronary arteries, CRISPRi and Perturb-seq, the team nominated AMOTL2 as a smooth-muscle-cell-specific coronary-artery-disease gene and found that extracellular-matrix remodelling is a core disease programme in smooth muscle cells.",
+   "why": "Most GWAS loci lie in non-coding regions, making it hard to find the causal gene and cell type. The study offers a systematic framework from non-coding variant to cell type, chromatin state and gene programme, and may suggest new targets beyond lipid lowering.",
+   "src": "Nature (2026-11-25)"
+  },
+  {
+   "region": "United States",
+   "tag": "",
+   "title": "Phirefly preprint: the first chromosome-scale haplotype-phasing algorithm to run key steps on quantum hardware",
+   "what": "A preprint posted on bioRxiv on 2026-11-25 (not peer reviewed), by Yifei Wang, Megan K. Le and Heng Li, introduces Phirefly: a CPU algorithm first groups SNPs with strong read support into \"phaselets\", then hands the hard cross-phaselet phasing to a quantum algorithm. The method can run on physical D-Wave and IBM quantum computers, or on CPU/GPU quantum-inspired solvers, and on the HG002 dataset its accuracy is broadly comparable to QHap and mainstream phasing algorithms. The research was funded by the US NIH, and the code has been released as open source.",
+   "why": "This is a practical attempt to bring quantum computing directly into a core genome-analysis workflow (long-read variant analysis). Accuracy is so far \"comparable\" to classical methods rather than better, and the work is an early validation.",
+   "src": "bioRxiv (2026-11-25, preprint)"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Max Planck Institute in Science: an artificial \"chromosome glue\", TALhesin, brings chromosome-error rates in aged eggs close to youthful levels",
+   "what": "A Science paper on 2026-11-26 from Melina Schuh's team at the Max Planck Institute for Multidisciplinary Sciences in Germany describes TALhesin, an artificial cohesion system. Programmable TAL effector proteins bind near centromeres, substituting for cohesin that is lost with age, and include a site that can be cleaved by separase so release happens at the right time. In aged mouse eggs, the share without premature sister-chromatid separation rose from 46.7% to 74.1%, close to 74.7% in young mice. Binding and a preliminary cohesion effect were also observed in donated human eggs.",
+   "why": "Egg aneuploidy is a main cause of infertility and IVF failure in older women. This is the first engineered system to substitute for cohesin function. The team stresses that more research and safety testing are still needed before clinical use.",
+   "src": "Max Planck Society (2026-11-26); Nature News (2026-11-26); Science"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Wellcome Sanger Institute launches Healthcare Genomics: using genetic and longitudinal molecular data to predict disease course and treatment response",
+   "what": "The Wellcome Sanger Institute announced on 2026-11-25 the launch of its Healthcare Genomics programme, led by Carl Anderson. Molecular data will be generated from hundreds of thousands of patient samples collected in routine care (including repeat samples from the same patient), combined with genetic information and clinical records. Statistical and AI methods will be used to build predictive models of disease course and treatment response, tested across ancestries and healthcare settings, and then evaluated for whether using the models to guide clinical decisions can improve patient outcomes.",
+   "why": "Population genetics has found many associations but still cannot reliably predict an individual's disease course. Sanger is shifting its emphasis from discovery to prediction plus clinical validation, and is keeping to open science — a new direction for European precision medicine.",
+   "src": "Wellcome Sanger Institute (2026-11-25)"
+  },
+  {
+   "region": "Europe",
+   "tag": "",
+   "title": "Qubit Pharmaceuticals, Sorbonne University and Q-CTRL: predicting hydration sites in protein pockets on an IBM Heron quantum processor",
+   "what": "Quantum Computing Report reported on 2026-11-21 that France's Qubit Pharmaceuticals, Sorbonne University (CNRS laboratory of theoretical chemistry) and Q-CTRL had published a peer-reviewed study in Physical Review Research. They recast 3D-RISM water-density fitting as a QUBO and ran it on a 156-qubit IBM Heron processor, using up to 123 qubits, covering five FDA-approved drug-target proteins. All 11 instances of 41–116 qubits found CPLEX-verified optimal solutions; on a 123-qubit hard instance, the solution found by the quantum processor in 25 minutes was better than CPLEX's result before a 3-hour time-out. The authors estimate that about 900 qubits would be needed for practical utility in drug discovery.",
+   "why": "The positions of water molecules in protein pockets affect drug binding and design. The study gives a concrete benchmark and a resource extrapolation on real hardware, while also showing that a clear gap remains before practical use.",
+   "src": "Quantum Computing Report (2026-11-21); Physical Review Research"
+  },
+  {
+   "region": "International / other",
+   "tag": "",
+   "title": "Israel's Clalit offers AI-questionnaire breast-cancer risk assessments to 1.2 million women, starting as early as age 25",
+   "what": "JNS reported on 2026-11-24 that Clalit, Israel's largest healthcare organisation, had announced on Monday 11-23 that it would send a clinically validated digital questionnaire to about 1.2 million women aged 25–74, covering medical and family history, genetic predisposition, and hormonal and lifestyle factors. Its AI tool AI-PRO then issues personalised recommendations, including routine screening, earlier or more frequent mammography, referral to breast surgery or cancer-genetics specialists, and BRCA1/BRCA2 testing. Results are written into the medical record and provided to the family doctor. Israel's national mammography screening programme generally starts at age 50.",
+   "why": "This is a case of AI risk stratification and genetic-testing referral being deployed at population scale, moving precision prevention earlier for younger women, and it may inform digital screening in other countries.",
+   "src": "JNS (2026-11-24); Clalit Health Services"
+  }
+ ]
+}

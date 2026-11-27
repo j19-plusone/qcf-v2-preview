@@ -1,0 +1,70 @@
+{
+ "coverage": "Global developments from 23 to 30 October 2026",
+ "summary": "This week's focus in quantum energy is grid optimisation on real hardware. EPB × IonQ, with $4 million of NIST funding, validated three distribution-network reconfiguration algorithms on a local IonQ system, at a maximum scale of 417 nodes. E.ON × Qoro × the UK's NQCC split a grid problem that would need 1,710 qubits into subproblems of at most 50 qubits and ran peer-to-peer energy-trading scheduling on IBM hardware. Both sides acknowledge that this is still a proof of concept and that end-to-end speed does not yet fully beat classical methods. In China, Xinhua reported that Hefei's virtual power plant uses \"5G + quantum encryption\" for dispatch and has connected more than 1,450 MW of distributed energy. In fusion, the US Department of Commerce, under the CHIPS Act, awarded semiconductor R&D funds to Helion ($175 million) and CFS ($85 million) in exchange for non-voting shares. Proxima Fusion signed an MoU with Kyoto Fusioneering. On the RWA side, DTCC's tokenization service officially went live on 28 October, with 20 participant firms already signed up, and the Hong Kong SFC approved the world's first tokenised public funds for 24/7 secondary trading on a licensed platform.",
+ "trends": [
+  "Quantum-energy applications are concentrated on grid optimisation: this week both the United States (EPB × IonQ, up to 417 nodes) and Europe (E.ON × Qoro × NQCC, splitting a 1,354-node benchmark into subproblems of ≤50 qubits) completed experiments on real hardware, but both sides acknowledge that this is still a proof of concept, with limited end-to-end advantage.",
+  "China is on a different path: quantum-secure communications and quantum precision measurement are already operating on the grid (Hefei's virtual power plant has connected more than 1,450 MW of distributed energy, with dispatch response of ≤15 seconds).",
+  "Fusion financing has taken the form of \"government funds for equity\": a total of $260 million in US Commerce Department CHIPS funding has gone to Helion and CFS, with the government receiving non-voting shares. Helion is valued at $15.5 billion, implying a government stake of about 1%.",
+  "The RWA market is flat: according to data from rwa.xyz cited by Stobox on 27 October, on-chain distributed RWA assets stood at $39.05 billion, essentially unchanged from about $39 billion two weeks earlier. Tokenised US Treasuries, at $14.63 billion, are the only category with real scale. Infrastructure is accelerating (DTCC going live, Hong Kong secondary trading approved), but asset size has not grown with it.",
+  "Green financing is still mainly in traditional bonds: on 27 October Masdar issued a $600 million blue bond (5-year tenor, AA- rating, 2.5 times subscribed) for offshore wind and other projects, without using tokenisation. No new rules specifically on energy RWAs were issued this week by FINMA, the EU's MiCA/ESMA, Singapore's MAS or the China Securities Regulatory Commission."
+ ],
+ "footer": "All facts and figures in this brief are taken from the public sources listed. The EPB/IonQ research is a preprint that has not been peer reviewed, and the E.ON/Qoro results are a proof of concept; the original texts prevail. Time window: 2026-10-23 to 2026-10-30 (Zurich time). This edition has no peer-reviewed papers, annual reports or Nature/Science-level results, and no permanent record was created.",
+ "items": [
+  {
+   "region": "United States",
+   "tag": "Quantum × distribution grid",
+   "title": "EPB × IonQ: three distribution-network reconfiguration algorithms validated on a local trapped-ion quantum computer, at a maximum of 417 nodes",
+   "what": "According to Quantum Computing Report on 28 October, EPB, the municipal utility in Chattanooga, Tennessee, and IonQ released three technical preprints on distribution-network reconfiguration (using switch combinations to cut line losses). The project is funded by $4 million from the US National Institute of Standards and Technology (NIST) and ran on a local IonQ Forte Enterprise system at the EPB Quantum Center. Results include: quantum-enhanced deep reinforcement learning found the exact optimum on the IEEE 33-node system (line losses of 0.1396 MW), with 95.8% fewer parameters; on a 417-node network, a \"hint\" generated with 29 qubits cut the median runtime of the classical Gurobi solver from 1,415.47 seconds to 34.71 seconds (measured to within a 1% target).",
+   "why": "This is a rare, concrete experiment in which a utility owns its own quantum computer, trains its own researchers and works on a real operating problem. The reporting also states the limits clearly: on small and medium networks, end-to-end time is still dominated by quantum-circuit overhead and pre- and post-processing; only at the 417-node scale does the gap start to narrow. The preprints have not been peer reviewed.",
+   "src": "Quantum Computing Report (citing EPB/IonQ preprints)"
+  },
+  {
+   "region": "Europe / United Kingdom",
+   "tag": "Quantum × energy trading",
+   "title": "E.ON × Qoro × the UK National Quantum Computing Centre: problem decomposition used to schedule peer-to-peer energy trading on IBM quantum hardware",
+   "what": "According to a press release published by The Quantum Insider on 29 October, Qoro, the European energy company E.ON and the UK National Quantum Computing Centre (NQCC) completed a proof of concept with SparQ funding. A real grid model based on the PEGASE-1354-node benchmark would typically need 1,710 qubits. The team used Qoro's open-source SDK Divi and a scheduler to split the problem into subproblems of at most 50 qubits, ran them on IBM quantum hardware, and then stitched a complete solution back together with a classical \"feasibility repair\". By placing multiple circuits side by side on the chip (spatial circuit packing), hardware execution time was shortened by about three times; residual decomposition error was lower than a classical baseline.",
+   "why": "This shows that software orchestration plus problem decomposition can let today's small-scale quantum hardware take part in large grid problems. The press release itself also makes clear that this is still a proof of concept and has not been deployed on a live grid. The involvement of a large European energy company shows that the European energy industry is seriously assessing the technology.",
+   "src": "The Quantum Insider (press release)"
+  },
+  {
+   "region": "China",
+   "tag": "Quantum × new power systems",
+   "title": "Hefei virtual power plant uses \"5G + quantum encryption\" for dispatch: more than 1,450 MW of distributed energy connected, command response cut to under 15 seconds",
+   "what": "Xinhua on 29 October reprinted a report from the Economic Information Daily: State Grid Hefei Power Supply Company was the first in China, in May 2023, to use \"5G + quantum encryption\" for virtual-power-plant dispatch, with each command using an independently generated real-time key, cutting dispatch response from 90 seconds to under 15 seconds. As of the end of September 2026, the Hefei virtual power plant had connected more than 1,450 MW of distributed energy, with a maximum regulating capacity of 400,000 kW. The 220 kV Hefei Houstore quantum-application demonstration substation, commissioned in November 2024, has deployed 85 units of power quantum equipment in 18 categories, including a quantum current transformer developed by State Grid Anhui Electric Power (measurement accuracy class 0.1). Quantum precision-measurement meters at the Yanglin Road vehicle-to-grid demonstration station have metering accuracy 5–10 times higher than conventional devices.",
+   "why": "Unlike the European and US emphasis on quantum computing for optimisation, what has been deployed most on China's grid is quantum-secure communications and quantum precision measurement, already accumulating operating-scale data. This is the most mature \"quantum + energy\" application path in China.",
+   "src": "Xinhua / Economic Information Daily"
+  },
+  {
+   "region": "Germany / Japan",
+   "tag": "Fusion collaboration",
+   "title": "Proxima Fusion and Kyoto Fusioneering sign an MoU to develop gyrotron heating and fuel-cycle technology",
+   "what": "On 28 October, during German Chancellor Merz's visit to Japan, Munich-based stellarator fusion company Proxima Fusion and Japan's Kyoto Fusioneering signed a memorandum of understanding in Tokyo to expand cooperation on next-generation gyrotrons (for plasma heating) and fusion fuel-cycle technology. Kyoto Fusioneering will also provide technical and engineering support for the commercial deployment of fusion in Germany, including the national \"Fusion Hub\" programme of the Federal Ministry of Research, Technology and Space (BMFTR). The cooperation serves Proxima's roadmap: a demonstration stellarator, Alpha, in the early 2030s, followed by the first commercial fusion plant, Stellaris.",
+   "why": "Fusion competition is shifting from single companies toward transnational industrial-chain cooperation, with endorsement at the level of government diplomacy. Last week's QCF brief already listed Proxima Fusion as a potential European counterpart; this week its industrial network has expanded further.",
+   "src": "Kyoto Fusioneering press release"
+  },
+  {
+   "region": "United States",
+   "tag": "Fusion financing",
+   "title": "US Commerce Department awards Helion $175 million and CFS $85 million under the CHIPS Act, taking non-voting shares in return",
+   "what": "A series of TechCrunch reports on 22–26 October showed that the US Department of Commerce, under the CHIPS and Science Act, had awarded semiconductor-related R&D funds totalling $260 million to two fusion companies: Helion received $175 million over three years for advanced semiconductors and power electronics needed in fusion plants, and also announced a further $50 million of private investment; Commonwealth Fusion Systems (CFS) received $85 million for five areas including silicon-carbide power electronics, radio-frequency heating power supplies and radiation-hardened control electronics. Both companies agreed to issue non-voting shares to the government. At Helion's Series G valuation of $15.5 billion, the government stake is about 1%; CFS's valuation has not been disclosed, so its stake is unknown.",
+   "why": "This is a signal that the US government is again supporting the fusion industry at large scale, and it illustrates a new industrial-policy model of \"subsidies for equity\". It also shows that one of fusion's bottlenecks is power electronics and the supply chain, not physics alone.",
+   "src": "TechCrunch"
+  },
+  {
+   "region": "United States",
+   "tag": "RWA / market infrastructure",
+   "title": "DTCC Tokenization Service (DTS) officially goes live: 20 participant firms have signed up, connecting to Canton and a private Besu network",
+   "what": "On 28 October, The Depository Trust Company (DTC), part of DTCC, officially launched the DTCC Tokenization Service (DTS). The service can mint tokenised \"digital twins\" of securities held at DTC, convert between traditional and tokenised form, and deliver them to a wallet chosen by the user; tokens retain the ownership, investor protections and economic rights of the original security. DTC holds more than $114 trillion of assets. Twenty DTC participant firms have already signed up, including JPMorgan Chase, Bank of America, Citi, Morgan Stanley, Fidelity, State Street, UBS, Barclays and BNP Paribas. The service is now connected to the Canton Network and DTCC's private Besu network, with additional blockchains to be added in 2027. It rests on an SEC no-action letter of December 2025 and can tokenise Russell 1000 constituents, major-index ETFs and US Treasuries.",
+   "why": "Last week's brief reported DTCC's launch plan; this week it was formally delivered. The world's largest securities-back-office institution is turning tokenisation into a standard service, with Swiss institutions such as UBS taking part — a sign that RWAs are moving from pilots to mainstream infrastructure.",
+   "src": "DTCC official press release"
+  },
+  {
+   "region": "Hong Kong, China",
+   "tag": "RWA / regulation",
+   "title": "The Hong Kong SFC approves the world's first tokenised public funds for secondary trading on a licensed virtual-asset trading platform",
+   "what": "On 26 October the Securities and Futures Commission of Hong Kong (SFC) announced approval for the world's first tokenised public funds to trade in the secondary market on its licensed virtual-asset trading platforms (VATPs). The first batch is two SFC-authorised tokenised money-market funds, tradable 24/7 from that day. The SFC launched a pilot framework in April 2026, setting requirements for trading-channel operations, fair pricing, liquidity provision and disclosure. The SFC said that tokenised funds could in future be combined with tokenised-deposit capabilities developed with the Hong Kong Monetary Authority under the Ensemble project, for more efficient settlement.",
+   "why": "This is the first time a regulator has approved secondary circulation of tokenised public funds on a supervised platform, addressing the long-standing RWA problem of being \"easy to issue, hard to trade\". Hong Kong is ahead in combining tokenised assets with tokenised money.",
+   "src": "Hong Kong SFC press release"
+  }
+ ]
+}
